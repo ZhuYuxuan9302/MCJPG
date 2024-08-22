@@ -194,6 +194,13 @@ features:
     details: 版本：Java 1.7-1.21.1</br>养老、生电或是PVP，选一个罢！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=WDvfrnga6ufC1WWCw_VAM1ey2vjaDAKd&authKey=Ni4183L4UVNGnmY2j6IpUrOiae2TVQv4ArbAh%2FuQqTqfgdDmOV7TnFnmugQj6YT6&noverify=0&group_code=213216892
     linkText: 点击进入QQ群蕉♂流
+
+  - icon:
+      src: /server_icons/Craft233.png
+    title: Craft233
+    details: 版本：Java 1.20-1.21.1</br>Craft233，一个休闲养老摸鱼系的Minecraft小服务器，欢迎加入我们，同我们一起成长！
+    link: https://www.craft233.top
+    linkText: 前往官网
 ---
 
 <style>
