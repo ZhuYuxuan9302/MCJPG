@@ -16,4 +16,5 @@ export const nav: DefaultTheme.Config['nav'] = [
                 { text: "笨蛋开服指南", link: "https://yizhan.wiki/NitWikit/" },
                 { text: "风梨影视", link: "https://v.flweb.cn/" }
               ]
+  }
 ]
