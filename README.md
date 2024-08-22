@@ -1,88 +1,49 @@
-# vitepress-nav-template
+# 服务器集体宣传组织
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/maomao1996/picture/main/vitepress-nav-template/home.webp" alt="home" />
-</p>
-<p align="center"> 基于 <b>VitePress</b> 的个人前端导航页面模板 </p>
-<p align='center'><a href="/guide.md">基础教程</a> | <a href="https://notes.fe-mm.com/">作者博客</a></p>
+这里是Minecraft服务器集体宣传组织 (MCJPG)！
+一个致力于我的世界服务器宣传和技术交流的新兴组织。
 
----
+[加入集宣社区](https://qm.qq.com/q/IYXWBvyHS0)
 
-## 预览地址
+## 提交服务器
 
-- <https://fe-nav.netlify.app/nav/>
-- <https://maomao1996.github.io/vitepress-nav-template/nav/>
+在提交服务器之前，请确定你的服务器满足以下要求：
 
-## 功能
+- 服务器能够正常运行，且不会在短时间内关闭。
+- 服务器已经加入Minecraft服务器集体宣传组织。
 
-- 新增 `layout-class` 方便更好的自定义样式
-- 默认中文
-- 自带前端导航模块
-- 支持访客统计
-- 支持 [giscus 评论](https://giscus.app/zh-CN)
-- 支持日夜颜色模式自适应切换
-- 支持 Github Pages 直接部署上线
-  - 1. 开启 github actions
-  - 2. 配置 Pages 为 `gh-pages` 分支
-  - 3. 访问地址为 `https://<username>.github.io/<repository>/`
-- 支持 [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
-- 支持查看 vue 示例组件源码（使用 [vite-plugin-markdown-preview](https://github.com/jaskang/vite-plugin-markdown-preview)）
+如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 
-### 开启访客统计
+1. fork 本仓库, 并 clone 到本地。
+2. 修改 `docs/index.md` 的features字段（请严格参照原先代码的缩进格式），添加
 
-需在 `docs/.vitepress/config.ts` 中配置 `themeConfig.visitor`
-
-```ts
-export default defineConfig({
-  themeConfig: {
-    /* 访客统计 */
-    visitor: {
-      /** 统计 id（单独页面的统计会作为前缀使用）*/
-      badgeId: 'maomao1996.vitepress-nav-template',
-    },
-  },
-})
+``` index.md
+  - icon:
+      src: /server_icons/example.jpg
+    title: example
+    details: 版本：JAVA/JAVA互通/基岩 | example</br>example描述
+    link: https://example.com（服务器官网或者是入群链接）
+    linkText: example（链接名字，如“加入我们awa”）
 ```
 
-### 开启 giscus 评论
+>其中icon:可以修改为单个字符，也能在夜间模式和白天模式切换
 
-需在 `docs/.vitepress/config.ts` 中配置 `themeConfig.comment`
+例如
 
-```ts
-export default defineConfig({
-  themeConfig: {
-    /**
-     * giscus 评论配置
-     *  请根据 https://giscus.app/zh-CN 生成内容填写
-     */
-    comment: {
-      /** github 仓库地址 */
-      repo: '',
-      /** giscus 仓库 ID */
-      repoId: '',
-      /** Discussion 分类 */
-      category: '',
-      /** giscus 分类 ID */
-      categoryId: '',
-    },
-  },
-})
+``` index.md
+  - icon:
+      dark: /dark-feature-icon.svg
+      light: /light-feature-icon.svg
 ```
 
-#### 在指定页面关闭评论
-
-需在指定页面的 `markdown` 文件中添加如下 `frontmatter` 配置
-
-```md
----
-comment: false
----
-
-# 功能测试页
+``` index.md
+  - icon:
+      src: /cool-feature-icon.svg
 ```
 
-docs: 更新 README
+``` index.md
+  - icon: 🛠️
+```
 
-## 说明
-
-前端导航模块由 [茂茂 | maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>
+3. (可选)如果你需要显示服务器图标，请在 `docs/public/server_icons/` 目录下添加图标
+4. push 到你的仓库，然后提交 pull request。
