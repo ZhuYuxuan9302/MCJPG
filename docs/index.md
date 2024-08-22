@@ -12,6 +12,7 @@ hero:
   actions:
     - text: 加入社区群组
       link: https://go.flweb.cn/qunmcwp
+
 features:
   - icon:
       src: /server_icons/MC生电服.jpg
@@ -25,7 +26,7 @@ features:
     title: MCODW 服务器
     details: 版本：JAVA互通 | 1.20.4</br>leaves生电+粘液
     link: https://mcyouxi.asia/
-    linkText: 实现共产，奔赴未来！
+    linkText: 实现共产，奔赴未来
   - icon:
       src: /server_icons/Unknown.png
     title: RedStarMC
