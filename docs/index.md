@@ -208,6 +208,13 @@ features:
     details: · 版本：Java 1.20.X-1.21.X (基岩版兼容)</br>理论上支持1.7.x-1.21.x(</br>如你所见这是一个Minecraft服务器</br>玩法以生存+轻RPG为主</br>·无论你是正版(无需密码自动登录)玩家还是离线玩家</br>·有更加强力的怪物，奇奇怪怪的机械（区别于粘液科技），而且目前正在陆续修改原版生存玩法！<br>如果感兴趣的话→QQ群：978652794
     link: https://server.lonleaf.com
     linkText: 前往官网
+
+  - icon:
+      src: /server_icons/TACS_茶水晶服务器.png
+    title: 🍵TACS/茶水晶服务器🍵
+    details:  版本: Java 1.20.6</br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们</br>服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器
+    link: https://www.tac-server.top/
+    linkText: 进服喝茶🍵
 ---
 
 <style>
