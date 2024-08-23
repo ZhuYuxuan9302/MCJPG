@@ -202,7 +202,7 @@ features:
     link: https://www.craft233.top
     linkText: 前往官网
 
-   - icon:
+  - icon:
       src: /server_icons/lonleaf.png
     title: 🌿无叶之境🌿
     details: · 版本：Java 1.20.X-1.21.X (基岩版兼容)</br>理论上支持1.7.x-1.21.x(</br>如你所见这是一个Minecraft服务器</br>玩法以生存+轻RPG为主</br>·无论你是正版(无需密码自动登录)玩家还是离线玩家</br>·有更加强力的怪物，奇奇怪怪的机械（区别于粘液科技），而且目前正在陆续修改原版生存玩法！<br>如果感兴趣的话→QQ群：978652794
