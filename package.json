@@ -1,15 +1,15 @@
 {
-  "name": "my-vue-app",
-  "private": true,
-  "version": "0.0.0",
+  "name": "MCJPG",
   "type": "module",
-  "workspaces": [
-    "./packages/*"
-  ],
+  "version": "1.0.0",
+  "description": "基于 VitePress 打造前端导航网站",
+  "private": true,
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --port=8732",
     "build": "vitepress build docs",
-    "preview": "vitepress serve docs"
+    "preview": "vitepress preview docs --port 8730",
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@mdit/plugin-img-size": "^0.13.0",
