@@ -29,6 +29,13 @@ features:
     linkText: 加入面包人大队！
     
   - icon:
+      src: /server_icons/SpaceQuest.jpg
+    title: 星际探索服务器
+    details: 版本:Java 1.18.2+</br>无需正版，无需模组，插件生存，操作便携，可进入太空或其它星球探索，新服开荒，旨在为玩家提供更好的游戏体验</br>欢迎你的加入！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=970204197
+    linkText: 加入服务器，开始探索之旅！    
+
+  - icon:
       src: /server_icons/MCODW.png
     title: MCODW 服务器
     details: 版本：JAVA互通 | 1.20.4</br>leaves生电+粘液
