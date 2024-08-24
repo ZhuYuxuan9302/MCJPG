@@ -34,6 +34,12 @@ const Server = [
     title: '审核/宣传员',
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
+  {
+    avatar: '/teammate/北🐟.jpg',
+    name: '北🐟',
+    title: '论坛主',
+    desc: '社区论坛负责人，TuTuPixel服务器腐竹',
+},
 ]
 </script>
 
