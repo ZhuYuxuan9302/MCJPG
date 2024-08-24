@@ -1,5 +1,5 @@
 {
-  "name": "vitepress-nav-template",
+  "name": "MCJPG",
   "type": "module",
   "version": "1.0.0",
   "description": "基于 VitePress 打造个人前端导航网站",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs --port 8730",
+    "preview": "vitepress preview docs",
     "prepare": "husky install",
     "format": "prettier --write ."
   },
@@ -39,12 +39,7 @@
     "tailwindcss": "^3.4.1",
     "vite-plugin-markdown-preview": "^1.1.1",
     "vitepress": "^1.0.1",
-    "vitepress-markdown-timeline": "^1.2.1",
-    "vitepress-plugin-back-to-top": "^1.0.1",
-    "vitepress-plugin-music": "^0.0.9",
-    "vitepress-theme-vuetom": "workspace:*",
     "vue": "^3.4.21"
-
   },
   "prettier": "@femm/prettier",
   "lint-staged": {
