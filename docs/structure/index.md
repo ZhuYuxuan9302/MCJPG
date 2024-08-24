@@ -14,7 +14,7 @@ const Server = [
     avatar: '/teammate/2/SuiFeng.jpg',
     name: '随风潜入夜',
     title: '技术支持',
-    desc: '为MCJPG的网站编写，服务器插件维护做出了巨大贡献 | MC生电服腐竹',
+    desc: '为MCJPG的官网编写，服务器插件维护做出了巨大贡献 | MC生电服腐竹',
   },
   {
     avatar: '/teammate/2/Ленинград.jpg',
@@ -26,7 +26,7 @@ const Server = [
     avatar: 'https://api.flweb.cn/logos/my/fireguo.png',
     name: 'FireGuo',
     title: '技术支持',
-    desc: '基础的技术问题解决（雾），MCWP服务器腐竹，风梨团队创始人（）',
+    desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
 {
     avatar: '/teammate/2/WERTYUS11.jpg',
