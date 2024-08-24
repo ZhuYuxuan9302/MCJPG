@@ -38,6 +38,8 @@
     "sass": "^1.69.4",
     "tailwindcss": "^3.4.1",
     "vite-plugin-markdown-preview": "^1.1.1",
+    "vitepress-plugin-back-to-top": "^1.0.1",
+    "vitepress-plugin-music": "^0.0.9",
     "vitepress": "^1.0.1",
     "vue": "^3.4.21"
   },
