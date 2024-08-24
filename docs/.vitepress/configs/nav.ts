@@ -4,7 +4,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '成员服', link: '/' },
   { text: '组织规则', link: '/rules/' },
   {
-    text: '组织架构',
+    text: '我们的团队',
     link: '/structure/',
   },
   { text: '社区论坛', link:'https://bbs.mcjpg.org/'},
