@@ -5,7 +5,7 @@ import MarkdownPreview from 'vite-plugin-markdown-preview'
 import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
-  outDir: '../dist',
+  outDir: './dist',
 
   lang: 'zh-CN',
   title: 'MCJPG组织网站',
