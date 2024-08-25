@@ -14,6 +14,6 @@ jobs:
         env:
           RTH_API_KEY: ${{ secrets.RTH_API_KEY }}
         with:
-          site: "MCJPG组织官网"  # 修改 example 为您的网站名称
+          site: "mcjpg.org"  # 修改 example 为您的网站名称
           build: "viteprees build docs"  # 修改 build 为您的构建命令
           outdir: "docs"  # 修改 dist 为您的构建输出目录
