@@ -1,13 +1,14 @@
 import { h, watch } from 'vue'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-
 import { createMediumZoomProvider } from './composables/useMediumZoom'
-
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
-
 import './styles/index.scss'
+import vitepressMusic from 'vitepress-plugin-music'
+import 'vitepress-plugin-music/lib/css/index.css'
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+import 'vitepress-plugin-back-to-top/dist/style.css'
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -29,7 +30,10 @@ export default {
     createMediumZoomProvider(app, router)
 
     app.provide('DEV', process.env.NODE_ENV === 'development')
-
+    vitepressMusic(playlist)
+    vitepressBackToTop({
+      threshold:300
+    })
     app.component('MNavLinks', MNavLinks)
 
     if (typeof window !== 'undefined') {
@@ -76,3 +80,11 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle = undefined
   }
 }
+
+const playlist = [
+  {
+    name: 'maimai DX',
+    author: 'MCJPG',
+    file: '/music/maimai DX.mp3',
+  },
+]
