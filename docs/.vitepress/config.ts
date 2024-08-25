@@ -5,7 +5,7 @@ import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
   outDir: './dist',
-  base:'/'
+  base:'/',
   lang: 'zh-CN',
   title: 'MCJPG组织网站',
   description: 'Minecraft服务器集体宣传组织 (MSJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
