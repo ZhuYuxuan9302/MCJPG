@@ -16,4 +16,4 @@ jobs:
         with:
           site: "mcjpg.org"  # 修改 example 为您的网站名称
           build: "docs:build"  # 修改 build 为您的构建命令
-          outdir: "/docs"  # 修改 dist 为您的构建输出目录
+          outdir: "dist"  # 修改 dist 为您的构建输出目录
