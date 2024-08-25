@@ -1,4 +1,3 @@
-import { basename } from 'node:path'
 import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 
