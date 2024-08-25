@@ -47,5 +47,3 @@
 
 3. (可选)如果你需要显示服务器图标，请在 `docs/public/server_icons/` 目录下添加图标
 4. push 到你的仓库，然后提交 pull request。
-
-本网页代码修改自:https://github.com/maomao1996/vitepress-nav-template
