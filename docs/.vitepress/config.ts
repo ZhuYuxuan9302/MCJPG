@@ -13,7 +13,7 @@ export default defineConfig({
   head,
 
   lastUpdated: true,
-  cleanUrls: true,
+  cleanUrls: false,
 
   /* markdown 配置 */
   markdown: {
