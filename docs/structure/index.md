@@ -52,7 +52,7 @@ const Server = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>组织架构</template>
+    <template #title>我们的团队</template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="Server" />
 
