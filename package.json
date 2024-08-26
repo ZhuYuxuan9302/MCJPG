@@ -1,4 +1,5 @@
 {
+  "name": "MCJPG",
   "type": "module",
   "version": "1.0.0",
   "description": "基于 VitePress 打造前端导航网站",
