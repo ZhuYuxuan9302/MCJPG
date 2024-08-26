@@ -84,8 +84,13 @@ function updateHomePageStyle(value: boolean) {
 
 const playlist = [
   {
-    name: 'maimai DX',
-    author: 'MCJPG',
+    name: 'Higher',
+    author: 'Tobu',
     file: '/music/maimai DX.mp3',
   },
+  {
+    name: 'maimai DX',
+    author: 'SEGA',
+    file: '/music/maimai DX.mp3',
+  }
 ]
