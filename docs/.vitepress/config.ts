@@ -67,10 +67,11 @@ export default defineConfig({
     /*** 自定义配置 ***/
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
+      repo: 'ZhuYuxuan9302/MCJPG',
+      repoId: 'R_kgDOMmsvSA',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      categoryId: 'DIC_kwDOMmsvSM4Ch7NT',
+      
     },
   },
 

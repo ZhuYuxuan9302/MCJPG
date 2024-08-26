@@ -59,3 +59,13 @@
   如果您有GitHub账号，可以直接按照网站仓库的说明提交pull，帮助我们更新服务器列表
 
 我们的GitHub页面：https://github.com/MineJPGcraft/MCJPG
+
+帮助我们添加服务器的贡献者们：
+
+<a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+</a>
+
+---------
+
+>对以上参与者致以敬意！

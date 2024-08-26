@@ -9,6 +9,7 @@ import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
 import 'vitepress-plugin-back-to-top/dist/style.css'
+import confetti from "./components/confetti.vue"
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -28,7 +29,7 @@ export default {
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
-
+    app.component('confetti' , confetti)
     app.provide('DEV', process.env.NODE_ENV === 'development')
     vitepressMusic(playlist)
     vitepressBackToTop({

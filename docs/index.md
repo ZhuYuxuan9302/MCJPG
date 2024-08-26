@@ -276,3 +276,4 @@ export default {
   }
 }
 </script>
+<confetti />
