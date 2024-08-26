@@ -1,0 +1,64 @@
+{
+  "hash": "261eecaa",
+  "configHash": "0948ada5",
+  "lockfileHash": "4832c9f9",
+  "browserHash": "6bffa3c6",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "34669796",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "2ad23b69",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "4c912741",
+      "needsInterop": false
+    },
+    "vitepress-plugin-music": {
+      "src": "../../../../node_modules/vitepress-plugin-music/lib/vitepress-plugin-music.js",
+      "file": "vitepress-plugin-music.js",
+      "fileHash": "081a4076",
+      "needsInterop": false
+    },
+    "vitepress-plugin-back-to-top": {
+      "src": "../../../../node_modules/vitepress-plugin-back-to-top/dist/vitepress-plugin-back-to-top.js",
+      "file": "vitepress-plugin-back-to-top.js",
+      "fileHash": "a8366264",
+      "needsInterop": false
+    },
+    "medium-zoom": {
+      "src": "../../../../node_modules/medium-zoom/dist/medium-zoom.esm.js",
+      "file": "medium-zoom.js",
+      "fileHash": "fdaa8044",
+      "needsInterop": false
+    },
+    "@giscus/vue": {
+      "src": "../../../../node_modules/@giscus/vue/dist/index.js",
+      "file": "@giscus_vue.js",
+      "fileHash": "88a9107e",
+      "needsInterop": false
+    },
+    "@mdit-vue/shared": {
+      "src": "../../../../node_modules/@mdit-vue/shared/dist/index.mjs",
+      "file": "@mdit-vue_shared.js",
+      "fileHash": "a492d143",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "giscus-BNK3dBIH-YISHHA3T": {
+      "file": "giscus-BNK3dBIH-YISHHA3T.js"
+    },
+    "chunk-PAUCAATC": {
+      "file": "chunk-PAUCAATC.js"
+    }
+  }
+}
