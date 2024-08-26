@@ -86,7 +86,7 @@ const playlist = [
   {
     name: 'Higher',
     author: 'Tobu',
-    file: '/music/maimai DX.mp3',
+    file: '/music/Higher.mp3',
   },
   {
     name: 'maimai DX',
