@@ -12,7 +12,7 @@ export default defineConfig({
 
   lang: 'zh-CN',
   title: 'MCJPG组织网站',
-  description: 'Minecraft服务器集体宣传组织 (MSJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
+  description: 'Minecraft服务器集体宣传组织 (MCJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
   head,
 
   lastUpdated: true,
