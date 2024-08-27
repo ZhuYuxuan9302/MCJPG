@@ -14,7 +14,7 @@ hero:
       link: https://go.flweb.cn/qunmcwp
     - theme: sponsor
       text: 社区MC导航
-      link: /nav
+      link: /nav/
 
 features:
   - icon:
