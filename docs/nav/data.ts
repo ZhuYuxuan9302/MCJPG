@@ -89,7 +89,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://bbs.mcjpg.org/',
       },
       {
-        icon: 'https://toolb.cn/favicon/www.minecraftforum.net',
+        icon: 'https://media.minecraftforum.net/avatars/0/1/635356669593325566.png',
         title: 'Minecraft Forum',
         desc: '国外比较有名的非官方Minecraft论坛',
         link: 'https://www.minecraftforum.net/',
