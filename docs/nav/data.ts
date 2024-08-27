@@ -370,10 +370,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://mcstatus.io/',
       },
       {
+        icon: 'https://mclo.gs/img/favicon.ico',
+        title: 'mclo.gs',
+        desc: 'MC服务器日志分析',
+        link: 'https://mclo.gs/',
+      },
+      {
         icon: 'https://redenmc.com/reden_256.png',
         title: 'Reden',
         desc: '世吞等投影文件在线生成',
         link: 'https://redenmc.com/',
+      },
+      {
+        icon: 'https://rebane2001.com/mapartcraft/images/favicon.ico',
+        title: 'MapartCraft',
+        desc: 'MC像素画生成器,支持投影',
+        link: 'https://rebane2001.com/mapartcraft/zh-Hans',
       },
       {
         icon: 'https://www.minecraftpfp.com/PFP/I_Like_Cats__.png',
@@ -546,6 +558,29 @@ export const NAV_DATA: NavData[] = [
         title: 'FEATHER CLIENT',
         desc: '热门PVP客户端',
         link: 'https://feathermc.com/',
+      },
+    ],
+  },
+  {
+    title: '实用软件',
+    items: [
+      {
+        icon: '',
+        title: 'MC网页版',
+        desc: '网页版MC,版本JE1.8.8',
+        link: 'https://eaglercraft.ru/',
+      },
+      {
+        icon: 'https://mccteam.github.io/icons/favicon-32x32.png',
+        title: 'MCC',
+        desc: 'MC命令行客户端',
+        link: 'https://mccteam.github.io/l10n/zh-Hans/',
+      },
+      {
+        icon: '/icons/MCA.png',
+        title: 'MCA Selector',
+        desc: 'MC区块选择器,方便编辑区块,支持中文',
+        link: 'https://github.com/Querz/mcaselector',
       },
     ],
   },
