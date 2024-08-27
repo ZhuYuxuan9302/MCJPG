@@ -12,6 +12,9 @@ hero:
   actions:
     - text: 加入社区群组
       link: https://go.flweb.cn/qunmcwp
+    - theme: sponsor
+      text: 社区MC导航
+      link: /nav
 
 features:
   - icon:
