@@ -21,6 +21,10 @@ export default defineConfig({
   /* markdown 配置 */
   markdown: {
     lineNumbers: true,
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    }
   },
 
   /* 主题配置 */
@@ -63,13 +67,6 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
-
-    markdown: {
-      image: {
-        // 默认禁用图片懒加载
-        lazyLoading: true
-      }
-    }
 
     /*** 自定义配置 ***/
 
