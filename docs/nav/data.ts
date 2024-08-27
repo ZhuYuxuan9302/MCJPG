@@ -146,7 +146,13 @@ export const NAV_DATA: NavData[] = [
         title: 'Minecraft 插件百科',
         desc: '一个中文MC插件百科网站',
         link: 'https://mineplugin.org/',
-      }
+      },
+      {
+        icon: 'https://yizhan.wiki/NitWikit/img/book.png',
+        title: '笨蛋 MC 开服教程',
+        desc: 'MC开服教程',
+        link: 'https://yizhan.wiki/NitWikit/',
+      },
     ],
   },
   {
