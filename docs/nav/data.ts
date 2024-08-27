@@ -225,7 +225,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://spongepowered.org/favicon.ico',
         title: 'Sponge Ore',
         desc: '一个Sponge服务端插件的下载站',
-        link: 'https://hangar.papermc.io/',
+        link: 'https://ore.spongepowered.org/',
       },
       {
         icon: 'https://mcpedl.com/favicon.ico',
