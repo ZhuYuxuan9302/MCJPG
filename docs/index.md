@@ -229,6 +229,13 @@ features:
     details: 版本:Java 1.20.4</br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们</br>服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器
     link: https://www.tac-server.top/
     linkText: 进服喝茶🍵
+
+  - icon:
+      src: /server_icons/Paradox.png
+    title: Paradox Server
+    details: 版本：JAVA互通 1.20.4 - 1.8.9 | 生电 / 生存</br>一个Fabric的生电服，群700450401
+    link: host.namespace-serivce.com
+    linkText: 服务器群 700450401
 ---
 
 <style>
