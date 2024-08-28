@@ -21,7 +21,8 @@ export const nav: DefaultTheme.Config['nav'] = [
               items: [
                 { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
                 { text: "笨蛋开服指南", link: "https://yizhan.wiki/NitWikit/" },
-                { text: "风梨影视", link: "https://v.flweb.cn/" }
+                { text: "风梨影视", link: "https://v.flweb.cn/" },
+                { text: "御坂秋生の小窝", link: "https://www.akio.top/" },
               ]
   }
 ]
