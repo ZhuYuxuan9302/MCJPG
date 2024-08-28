@@ -132,7 +132,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/nav/百科/中文 Minecraft Wiki.ico',
         title: '中文 Minecraft Wiki',
         desc: 'Minecraft最著名的、最权威的非官方百科网站',
-        link: 'https://minecraft.wiki/',
+        link: 'https://zh.minecraft.wiki/',
       },
       {
         //icon: 'https://www.digminecraft.com/favicon.ico',
