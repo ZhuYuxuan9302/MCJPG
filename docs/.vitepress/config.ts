@@ -30,7 +30,7 @@ export default defineConfig({
   /* 主题配置 */
   themeConfig: {
     i18nRouting: false,
-
+    siteTitle: 'MCJPG组织',
     logo: '/logo.png',
 
     nav,
