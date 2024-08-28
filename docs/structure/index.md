@@ -9,12 +9,12 @@ import {
   VPTeamMembers,
   VPTeamPageSection
 } from 'vitepress/theme'
-const Server = [
+const code = [
     {
     avatar: '/teammate/SuiFeng.jpg',
     name: '随风潜入夜',
     title: '技术支持',
-    desc: '为MCJPG的官网编写，服务器插件维护做出了巨大贡献 | MC生电服腐竹',
+    desc: '为MCJPG的官网编写，社区导航维护做出了巨大贡献 | MC生电服腐竹',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {
@@ -35,25 +35,80 @@ const Server = [
     title: '技术支持',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
-{
-    avatar: '/teammate/WERTYUS11.jpg',
-    name: 'WERTYUS11',
-    title: '审核/宣传员',
-    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
-  },
   {
     avatar: '/teammate/北🐟.jpg',
     name: '北🐟',
     title: '论坛主',
-    desc: '社区论坛负责人，TuTuPixel服务器腐竹',
+    desc: '社区论坛和图床负责人，TuTuPixel服务器腐竹',
 },
+]
+
+const audits = [
+  {
+    avatar: '/teammate/Xiaosan.jpg',
+    name: 'Xiaosan',
+    title: '宣传',
+    desc: '曙光生电服务器腐竹，唯一开学后有很多时间的人',
+  },
+  {
+    avatar: '/teammate/WERTYUS11.jpg',
+    name: 'WERTYUS11',
+    title: '审核兼宣传',
+    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
+  }
+]
+
+const publicise = [
+  {
+    avatar: '/teammate/二氧化钛.jpg',
+    name: '二氧化钛',
+    title: '剪辑',
+    desc: 'MCIC服主',
+  },
+  {
+    avatar: '/teammate/WERTYUS11.jpg',
+    name: 'WERTYUS11',
+    title: '审核兼宣传',
+    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
+  }
 ]
 </script>
 
 <VPTeamPage>
+
   <VPTeamPageTitle>
     <template #title>我们的团队</template>
+    <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件改善服务器生态系统</template>
   </VPTeamPageTitle>
-  <VPTeamMembers size="medium" :members="Server" />
+  <VPTeamPageSection>
+    <template #title>开发者</template>
+    <template #lead>MCJPG 开发者帮助编写代码、审核成员服请求并保持项目的活力。通过贡献新社区服务和帮助完善旧服务，他们使 MCJPG 得以运行</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="code" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>审核员</template>
+    <template #lead>MCJPG 审核员通过审核新加入的成员服，以确保健康的生命力注入组织</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="audits" />
+    </template>
+  </VPTeamPageSection>
+  <VPTeamPageSection>
+    <template #title>宣传员</template>
+    <template #lead>MCJPG 宣传员通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="publicise" />
+    </template>
+  </VPTeamPageSection>
 
 </VPTeamPage>
+
+
+<center>帮助我们添加服务器的贡献者们：</center>
+
+<center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+</a></center>
+
+<center>对以上参与者致以敬意！</center>

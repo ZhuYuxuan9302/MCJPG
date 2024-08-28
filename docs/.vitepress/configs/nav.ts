@@ -4,7 +4,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '成员服', link: '/' },
   { text: '组织规则', link: '/rules/' },
   {
-    text: '我们的团队',
+    text: '团队',
     link: '/structure/',
   },
   { text: "MC导航", link: '/nav/' },
