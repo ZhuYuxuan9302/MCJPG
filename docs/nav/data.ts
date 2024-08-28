@@ -304,10 +304,10 @@ export const NAV_DATA: NavData[] = [
       },
       {
         //icon: 'https://littleskin.cn/favicon.png',
-        icon: '/icons/nav/资源站/',
+        icon: '/icons/nav/资源站/LittleSkin.png',
         title: 'LittleSkin',
         desc: '国内老牌MC皮肤站',
-        link: 'https://littleskin.cn/LittleSkin.png',
+        link: 'https://littleskin.cn/',
       },
       {
         icon: '',
@@ -655,14 +655,14 @@ export const NAV_DATA: NavData[] = [
       },
       {
         //icon: 'https://mccteam.github.io/icons/favicon-32x32.png',
-        icon: '/icons/nav/启动器和客户端/MCC.png',
+        icon: '/icons/nav/实用软件/MCC.png',
         title: 'MCC',
         desc: 'MC命令行客户端',
         link: 'https://mccteam.github.io/l10n/zh-Hans/',
       },
       {
         //icon: '/icons/MCA.png',
-        icon: '/icons/nav/启动器和客户端/MCA Selector.png',
+        icon: '/icons/nav/实用软件/MCA Selector.png',
         title: 'MCA Selector',
         desc: 'MC区块选择器,方便编辑区块,支持中文',
         link: 'https://github.com/Querz/mcaselector',
