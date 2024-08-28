@@ -230,7 +230,7 @@ features:
       src: /server_icons/TACS_茶水晶服务器.png
     title: 🍵TACS/茶水晶服务器🍵
     details: 版本:Java 1.20.4</br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们</br>服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器
-    link: https://www.tac-server.top/
+    link: https://www.tacserver.top
     linkText: 进服喝茶🍵
 
   - icon:
