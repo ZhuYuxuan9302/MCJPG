@@ -1,6 +1,7 @@
 ---
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
+description: MC导航网,由MCJPG组织提供,我们致力于为大家提供更好用的MC导航
 ---
 
 <script setup>

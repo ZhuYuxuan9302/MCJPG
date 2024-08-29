@@ -1,3 +1,7 @@
+---
+title: 规章制度
+description: MCJPG组织规章制度
+---
 # MCJPG服务器联合体规章制度
 
 1. JPG服务器联合体是由 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ 阿狗君同志 等服务器服主为了共同发展而联合起来的有组织的整体。
