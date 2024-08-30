@@ -246,6 +246,14 @@ features:
     details: 版本：JAVA1.20+ | 主打小游戏玩法</br>fabric&插件服（简单语音常驻）</br>群306982550
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=hcaCBlydTUaq-XcllNWAlsmf-mLNTxAq&authKey=jqapzPA7agmQ0AYxAFk5i03QH%2BSnLTuD4hWPPfs9OdyHi2IA9nr3VjFBn9aXiA26&noverify=0&group_code=306982550
     linkText: 欢迎礼貌的大家入群游玩
+
+  - icon:
+      dark: /server_icons/BluecraftLogo-L.png
+      light: /server_icons/BluecraftLogo-B.png
+    title: Bluecraft-蔚蓝工艺
+    details: 版本：1.20.1 QQ账号验证（无需MC正版）<br>生存冒险\科技\魔法\枪械\YSM都在这里等你来玩<br><font color="#00FFFF">与你相遇,便是奇迹！</font><br>QQ群：555822991
+    link: https://www.bluecraft.top
+    linkText: 开启蔚蓝之旅！
 ---
 
 <style>
