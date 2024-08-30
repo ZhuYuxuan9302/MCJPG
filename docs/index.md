@@ -248,8 +248,8 @@ features:
     linkText: 欢迎礼貌的大家入群游玩
 
   - icon:
-      dark: /server_icons/BluecraftLogo-B.png
-      light: /server_icons/BluecraftLogo-L.png
+      dark: /server_icons/BluecraftLogo-L.png
+      light: /server_icons/BluecraftLogo-B.png
     title: Bluecraft-蔚蓝工艺
     details: 版本：1.20.1 QQ账号验证（无需MC正版）<br>生存冒险\科技\魔法\枪械\YSM都在这里等你来玩<br><font color="#00FFFF">与你相遇,便是奇迹！</font><br>QQ群：555822991
     link: https://www.bluecraft.top
