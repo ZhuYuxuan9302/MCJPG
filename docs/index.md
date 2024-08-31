@@ -39,12 +39,6 @@ features:
     linkText: 加入服务器，开始探索之旅！    
 
   - icon:
-      src: /server_icons/MCODW.png
-    title: MCODW 服务器
-    details: 版本：JAVA互通 | 1.20.4</br>leaves生电+粘液
-    link: https://mcyouxi.asia/
-    linkText: 实现共产，奔赴未来
-  - icon:
       src: /server_icons/Unknown.png
     title: RedStarMC
     details: 版本：JAVA 1.7-1.21</br>粘液科技  与  插件生存
