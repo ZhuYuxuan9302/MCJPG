@@ -1,13 +1,15 @@
 import { h, watch } from 'vue'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-
 import { createMediumZoomProvider } from './composables/useMediumZoom'
-
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
-
 import './styles/index.scss'
+import vitepressMusic from 'vitepress-plugin-music'
+import 'vitepress-plugin-music/lib/css/index.css'
+import vitepressBackToTop from 'vitepress-plugin-back-to-top'
+import 'vitepress-plugin-back-to-top/dist/style.css'
+import confetti from "./components/confetti.vue"
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -27,9 +29,12 @@ export default {
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
-
+    app.component('confetti' , confetti)
     app.provide('DEV', process.env.NODE_ENV === 'development')
-
+    vitepressMusic(playlist)
+    vitepressBackToTop({
+      threshold:300
+    })
     app.component('MNavLinks', MNavLinks)
 
     if (typeof window !== 'undefined') {
@@ -76,3 +81,16 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle = undefined
   }
 }
+
+const playlist = [
+  {
+    name: 'Higher',
+    author: 'Tobu',
+    file: '/music/Higher.mp3',
+  },
+  {
+    name: 'maimai DX',
+    author: 'SEGA',
+    file: '/music/maimai DX.mp3',
+  }
+]

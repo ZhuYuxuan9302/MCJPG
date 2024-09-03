@@ -5,13 +5,16 @@ layoutClass: 'm-home-layout'
 hero:
   name: MCJPG
   text: 集体宣传组织
-  tagline: 一个致力于Minecraft技术交流和服务器宣传的新兴组织</br>无论你是玩家还是服主，这里都是优秀的交流/宣发社区
+  tagline: 一个致力于Minecraft技术交流和服务器宣传的组织</br>无论你是玩家还是服主，这里都是优秀的交流社区
   image:
     src: /logo.png
     alt: MCJPG组织
   actions:
     - text: 加入社区群组
       link: https://go.flweb.cn/qunmcwp
+    - theme: sponsor
+      text: 社区MC导航
+      link: /nav/
 
 features:
   - icon:
@@ -29,11 +32,12 @@ features:
     linkText: 加入面包人大队！
     
   - icon:
-      src: /server_icons/MCODW.png
-    title: MCODW 服务器
-    details: 版本：JAVA互通 | 1.20.4</br>leaves生电+粘液
-    link: https://mcyouxi.asia/
-    linkText: 实现共产，奔赴未来
+      src: /server_icons/SpaceQuest.jpg
+    title: 星际探索服务器
+    details: 版本:Java 1.18.2+</br>无需正版，无需模组，插件生存，操作便携，可进入太空或其它星球探索，新服开荒，旨在为玩家提供更好的游戏体验</br>欢迎你的加入！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=970204197
+    linkText: 加入服务器，开始探索之旅！    
+
   - icon:
       src: /server_icons/Unknown.png
     title: RedStarMC
@@ -135,7 +139,7 @@ features:
   - icon:
       src: /server_icons/自由之风.png
     title: FreeWind
-    details: 版本1.7-1.21 </br>生电 互通 粘液科技 休闲 养老 非周目制</br>探索未知，创造无限---欢迎来到自由之风服务器，一个充满创新与冒险的虚拟世界。在这里，您可以：</br> 自由建造：利用无限的资源，建造您心中的理想家园或宏伟城堡。</br>科技实验：体验最前沿的粘液科技，让您的创造更加高效和智能。</br>冒险探索：深入未知的领域，寻找隐藏的宝藏，挑战强大的Boss。</br>加入我们，释放您的创造力，与玩家一起，共同打造一个独一无二的游戏世界。自由之风，等待您的加入!</br>服务器地址103.85.86.51:11486
+    details: 版本1.7-1.21 </br>生电 互通 粘液科技 休闲 养老 非周目制</br>探索未知，创造无限---欢迎来到自由之风服务器，一个充满创新与冒险的虚拟世界。在这里，您可以：</br> 自由建造：利用无限的资源，建造您心中的理想家园或宏伟城堡。</br>科技实验：体验最前沿的粘液科技，让您的创造更加高效和智能。</br>冒险探索：深入未知的领域，寻找隐藏的宝藏，挑战强大的Boss。</br>加入我们，释放您的创造力，与玩家一起，共同打造一个独一无二的游戏世界。自由之风，等待您的加入!</br>服务器地址freewind.mcjpg.org:30003
     link: https://qm.qq.com/q/q51dtS4Kty
     linkText: 期待您的加入 
 
@@ -177,7 +181,7 @@ features:
   - icon:
       src: /server_icons/方块风云国战服.jpg
     title: 方块风云国战服
-    details: 版本BE1.21.2 类商业服 </br>这个星球上，有的地方“朱门酒肉臭，路有冻死骨”，有的地方“受命于天，既寿永昌”，有的地方“把生命献给人民解放的事业”，有的地方“以阶级斗争为纲”......但这些地方的人们都有一个共同的梦想:富强。</br>危机四伏的世界里，如何脱颖而出，成为世界之巅？</br>诚邀广大国际版玩家加入《方块风云2》我的世界基岩版1.21.2国战模拟服务器的大家庭。</br>听歌｜货币｜签到｜装备品质｜精英怪｜菜单｜反作弊｜头衔｜国战｜世界地图｜...
+    details: 版本BE1.21.0~1.21.2 类商业服 </br>这个星球上，有的地方“朱门酒肉臭，路有冻死骨”，有的地方“受命于天，既寿永昌”，有的地方“把生命献给人民解放的事业”，有的地方“以阶级斗争为纲”......但这些地方的人们都有一个共同的梦想:富强。</br>危机四伏的世界里，如何脱颖而出，成为世界之巅？</br>诚邀广大国际版玩家加入《方块风云2》我的世界基岩版1.21.2国战模拟服务器的大家庭。</br>听歌｜货币｜签到｜装备品质｜精英怪｜菜单｜反作弊｜头衔｜国战｜世界地图｜...
     link: http://bdmc.framer.website
     linkText: 前往官网
 
@@ -215,6 +219,35 @@ features:
     details: · 版本：Java 1.20.X-1.21.X (基岩版兼容)</br>理论上支持1.7.x-1.21.x(</br>如你所见这是一个Minecraft服务器</br>玩法以生存+轻RPG为主</br>·无论你是正版(无需密码自动登录)玩家还是离线玩家</br>·有更加强力的怪物，奇奇怪怪的机械（区别于粘液科技），而且目前正在陆续修改原版生存玩法！<br>如果感兴趣的话→QQ群：978652794
     link: https://server.lonleaf.com
     linkText: 前往官网
+
+  - icon:
+      src: /server_icons/TACS_茶水晶服务器.png
+    title: 🍵TACS/茶水晶服务器🍵
+    details: 版本:Java 1.20.4</br>不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们</br>服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器
+    link: https://www.tacserver.top
+    linkText: 进服喝茶🍵
+
+  - icon:
+      src: /server_icons/Paradox.png
+    title: Paradox Server
+    details: 版本：JAVA互通 1.20.4 - 1.8.9 | 生电 / 生存</br>一个Fabric的生电服，群700450401
+    link: host.namespace-serivce.com
+    linkText: 服务器群 700450401
+
+  - icon:
+      src: /server_icons/小游戏时间.png
+    title: 小游戏时间
+    details: 版本：JAVA1.20+ | 主打小游戏玩法</br>fabric&插件服（简单语音常驻）</br>群306982550
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=hcaCBlydTUaq-XcllNWAlsmf-mLNTxAq&authKey=jqapzPA7agmQ0AYxAFk5i03QH%2BSnLTuD4hWPPfs9OdyHi2IA9nr3VjFBn9aXiA26&noverify=0&group_code=306982550
+    linkText: 欢迎礼貌的大家入群游玩
+
+  - icon:
+      dark: /server_icons/BluecraftLogo-L.png
+      light: /server_icons/BluecraftLogo-B.png
+    title: Bluecraft-蔚蓝工艺
+    details: 版本：1.20.1 QQ账号验证（无需MC正版）<br>生存冒险\科技\魔法\枪械\YSM都在这里等你来玩<br><font color="#00FFFF">与你相遇,便是奇迹！</font><br>QQ群：555822991
+    link: https://www.bluecraft.top
+    linkText: 开启蔚蓝之旅！
 ---
 
 <style>
@@ -262,3 +295,4 @@ export default {
   }
 }
 </script>
+<confetti />

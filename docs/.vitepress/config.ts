@@ -12,7 +12,7 @@ export default defineConfig({
 
   lang: 'zh-CN',
   title: 'MCJPG组织网站',
-  description: 'Minecraft服务器集体宣传组织 (MSJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
+  description: 'Minecraft服务器集体宣传组织 (MCJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
   head,
 
   lastUpdated: true,
@@ -21,12 +21,16 @@ export default defineConfig({
   /* markdown 配置 */
   markdown: {
     lineNumbers: true,
+    image: {
+      // 默认禁用图片懒加载
+      lazyLoading: true
+    }
   },
 
   /* 主题配置 */
   themeConfig: {
     i18nRouting: false,
-
+    siteTitle: 'MCJPG组织',
     logo: '/logo.png',
 
     nav,
@@ -67,10 +71,11 @@ export default defineConfig({
     /*** 自定义配置 ***/
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
+      repo: 'ZhuYuxuan9302/MCJPG',
+      repoId: 'R_kgDOMmsvSA',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      categoryId: 'DIC_kwDOMmsvSM4Ch7NT',
+      
     },
   },
 

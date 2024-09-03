@@ -1,6 +1,10 @@
-# JPG服务器联合体规章制度
+---
+title: 规章制度
+description: MCJPG组织规章制度
+---
+# MCJPG服务器联合体规章制度
 
-1. JPG服务器联合体是由 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ 阿狗君同志 等服务器服主为了共同发展而联合起来的有组织的整体。
+1. JPG服务器联合体是由 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ 等服务器服主为了共同发展而联合起来的有组织的整体。
 2. 本组织旨在对各个有需求的服务器提供相对应的扶持，宣传以及建议，提出的建议并不具有专业性，仅供参考。
 3. JPG服务器联合体保留对本免责声明的最终解释权。如果您对此有异议，请及时向本组织“创始人”私信反馈。
 4. 加入组织，即视为同意免责声明
@@ -59,3 +63,13 @@
   如果您有GitHub账号，可以直接按照网站仓库的说明提交pull，帮助我们更新服务器列表
 
 我们的GitHub页面：https://github.com/MineJPGcraft/MCJPG
+
+帮助我们添加服务器的贡献者们：
+
+<a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+</a>
+
+---------
+
+>对以上参与者致以敬意！
