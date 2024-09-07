@@ -60,7 +60,7 @@ features:
     linkText: 加入MCIC!
   
   - icon:
-      src: /server_icons/曙光生电.jpg
+      src: /server_icons/曙光生电.png
     title: 曙光生电
     details: 版本：JE1.21.1 兼容BE和JE低版本 </br>新生电服开荒中
     link: https://sg.mxdw.fun
