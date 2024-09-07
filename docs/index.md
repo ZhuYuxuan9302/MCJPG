@@ -63,7 +63,7 @@ features:
       src: /server_icons/曙光生电.jpg
     title: 曙光生电
     details: 版本：JE1.21.1 兼容BE和JE低版本 </br>新生电服开荒中
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-zK1L63kZnjdFeZU2u7kBOGMhQgK7yfX&authKey=rMQ92V8gLBzHBPCAl%2FqILp58qZhdsL5mrHfyjMK%2Foc1EzVjWI8u8W1EfQPUpISzC&noverify=0&group_code=975992476
+    link: https://sg.mxdw.fun
     linkText: 开始你的世界，创造你的可能，加入我们！
 
   - icon:
