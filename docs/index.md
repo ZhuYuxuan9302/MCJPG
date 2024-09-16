@@ -248,6 +248,13 @@ features:
     details: 版本：1.20.1 QQ账号验证（无需MC正版）<br>生存冒险\科技\魔法\枪械\YSM都在这里等你来玩<br><font color="#00FFFF">与你相遇,便是奇迹！</font><br>QQ群：555822991
     link: https://www.bluecraft.top
     linkText: 开启蔚蓝之旅！
+
+  - icon:
+      src: /server_icons/RHTserver.jpg
+    title: RHTserver
+    details: 版本：1.20.1 半生电服务器<br>服务器加载carpet等生电mod，纯原版端也可进入<br>游玩服务器无需正版账号<br>服务器采取审核制
+    link: https://www.bilibili.com/video/BV1miebe6E2w
+    linkText: 前往视频链接
 ---
 
 <style>
