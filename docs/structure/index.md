@@ -38,7 +38,7 @@ const code = [
   },
 ]
 
-const audits = [
+const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
@@ -79,7 +79,7 @@ const publicise = [
 
   <VPTeamPageTitle>
     <template #title>我们的团队</template>
-    <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件改善服务器生态系统</template>
+    <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件和更完善的宣传改善服务器生态</template>
   </VPTeamPageTitle>
   <VPTeamPageSection>
     <template #title>开发部</template>
@@ -90,9 +90,9 @@ const publicise = [
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>社区部</template>
-    <template #lead>MCJPG 社区部门通过审核新加入的成员服，以确保健康的生命力注入组织</template>
+    <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，以确保 MCJPG 拥有健康向上的生命力</template>
     <template #members>
-      <VPTeamMembers size="small" :members="audits" />
+      <VPTeamMembers size="small" :members="community" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
