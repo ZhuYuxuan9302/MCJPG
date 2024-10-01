@@ -39,7 +39,7 @@ export default defineConfig({
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
-      label: '目录',
+      label: '页面导航',
     },
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/MineJPGcraft/MCJPG' }],
