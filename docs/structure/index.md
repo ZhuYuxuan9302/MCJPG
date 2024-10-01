@@ -14,8 +14,8 @@ const code = [
     {
     avatar: '/teammate/SuiFeng.jpg',
     name: '随风潜入夜',
-    title: '技术支持',
-    desc: '为MCJPG的官网编写，社区导航维护做出了巨大贡献 | MC生电服腐竹',
+    title: '网络开发',
+    desc: 'MCJPG官网和社区导航维护 | MC生电服腐竹',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {
@@ -30,18 +30,12 @@ const code = [
     title: '网站作者',
     desc: '为MCJPG网站提供了源码级的技术支持',
   },
-{
+  {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
     title: '技术支持',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
-  {
-    avatar: '/teammate/北🐟.jpg',
-    name: '北🐟',
-    title: '论坛主',
-    desc: '社区论坛和图床负责人，TuTuPixel服务器腐竹',
-},
 ]
 
 const audits = [
@@ -50,6 +44,12 @@ const audits = [
     name: 'Xiaosan',
     title: '宣传',
     desc: '曙光生电服务器腐竹，唯一开学后有很多时间的人',
+  },
+  {
+    avatar: '/teammate/北🐟.jpg',
+    name: '深',
+    title: '论坛主',
+    desc: '社区论坛负责人，TuTuPixel服务器腐竹',
   },
   {
     avatar: '/teammate/WERTYUS11.jpg',
@@ -82,22 +82,22 @@ const publicise = [
     <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件改善服务器生态系统</template>
   </VPTeamPageTitle>
   <VPTeamPageSection>
-    <template #title>开发者</template>
+    <template #title>开发部</template>
     <template #lead>MCJPG 开发者帮助编写代码、审核成员服请求并保持项目的活力。通过贡献新社区服务和帮助完善旧服务，他们使 MCJPG 得以运行</template>
     <template #members>
       <VPTeamMembers size="small" :members="code" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>审核员</template>
-    <template #lead>MCJPG 审核员通过审核新加入的成员服，以确保健康的生命力注入组织</template>
+    <template #title>社区部</template>
+    <template #lead>MCJPG 社区部门通过审核新加入的成员服，以确保健康的生命力注入组织</template>
     <template #members>
       <VPTeamMembers size="small" :members="audits" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>宣传员</template>
-    <template #lead>MCJPG 宣传员通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
+    <template #title>宣传部</template>
+    <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
     <template #members>
       <VPTeamMembers size="small" :members="publicise" />
     </template>
