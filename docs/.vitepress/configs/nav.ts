@@ -20,8 +20,8 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: "友情链接",
               items: [
                 { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
-                { text: "笨蛋开服指南", link: "https://yizhan.wiki/NitWikit/" },
-                { text: "风梨影视", link: "https://v.flweb.cn/" },
+                { text: "MSCPO", link: "https://mscpo.netlify.app/" },
+                { text: "风梨社区", link: "https://www.flweb.cn/" },
               ]
   }
 ]
