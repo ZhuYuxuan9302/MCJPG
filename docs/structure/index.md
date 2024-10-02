@@ -64,8 +64,8 @@ const community = [
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
-    avatar: '/teammate/叫我董老实-元气TaksMgr.jpg',
-    name: '叫我董老实-元气TaksMgr',
+    avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
+    name: '叫我董老实-元气TaskMgr',
     title: '见习社区管理',
     desc: 'RBS生电服务器（暂未成为成员服）服主，国庆期间暂任见习社区管理。负责社区管理。啥都不会但啥都不精通（）',
     links: [
