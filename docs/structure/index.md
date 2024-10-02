@@ -25,12 +25,6 @@ const code = [
     ]
   },
   {
-    avatar: '/teammate/Ленинград.jpg',
-    name: 'Ленинград',
-    title: '网站作者',
-    desc: '为MCJPG网站提供了源码级的技术支持',
-  },
-  {
     avatar: '/teammate/alazeprt.jpg',
     name: 'alazeprt',
     title: '后端技术开发',
@@ -98,6 +92,16 @@ const publicise = [
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 ]
+
+const guset = [
+  {
+    avatar: '/teammate/Ленинград.jpg',
+    name: 'Ленинград',
+    title: '技术支持',
+    desc: '原MSCPO副会长,在MCJPG组织创建初期提供了宝贵的意见与支持',
+  }
+]
+
 </script>
 
 <VPTeamPage>
@@ -125,6 +129,13 @@ const publicise = [
     <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
     <template #members>
       <VPTeamMembers size="small" :members="publicise" />
+    </template>
+  </VPTeamPageSection>
+   <VPTeamPageSection>
+    <template #title>特别鸣谢</template>
+    <template #lead>他们虽然不直接参与 MCJPG 的活动,但也为组织作出了贡献,MCJPG 的建设离不开他们的支持</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="guset" />
     </template>
   </VPTeamPageSection>
 
