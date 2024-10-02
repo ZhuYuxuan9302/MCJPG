@@ -31,6 +31,12 @@ const code = [
     desc: '为MCJPG网站提供了源码级的技术支持',
   },
   {
+    avatar: '/teammate/alazeprt.jpg',
+    name: 'alazeprt',
+    title: '后端技术开发',
+    desc: '星际穿越服务器腐竹 | MCJPG网站状态监测后端开发',
+  },
+  {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
     title: '技术支持',
