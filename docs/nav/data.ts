@@ -146,7 +146,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/nav/百科/MC模组百科.ico',
         title: 'MC模组百科',
         desc: '国内很著名的MC模组百科网站',
-        link: 'https://nextjs.org',
+        link: 'https://www.mcmod.cn/',
       },
       {
         //icon: '',

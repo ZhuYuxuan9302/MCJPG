@@ -255,6 +255,13 @@ features:
     details: 版本：1.20.1 半生电服务器<br>服务器加载carpet等生电mod，纯原版端也可进入<br>游玩服务器无需正版账号<br>服务器采取审核制
     link: https://www.bilibili.com/video/BV1miebe6E2w
     linkText: 前往视频链接
+
+  - icon:
+      src: /server_icons/星月夜.jpg
+    title: 星月夜 Fantasystars
+    details: 版本:1.19.x——1.21.1（基岩可进） 可外置登录<br>称号系统/粘液科技/个人菜单/抽奖/箱子商店/手机互通/显示掉落物品/签到/圈地/拍卖行/每日委托
+    link: https://qm.qq.com/q/NxdejmE50A
+    linkText: 进星月夜官方QQ群聊
 ---
 
 <style>

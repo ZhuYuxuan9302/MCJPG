@@ -7,6 +7,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '团队',
     link: '/structure/',
   },
+  { text: "组织报刊", link: '/press/' },
   { text: "MC导航", link: '/nav/' },
   {
     text: "社区服务",
