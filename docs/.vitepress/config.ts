@@ -42,11 +42,11 @@ export default defineConfig({
       label: '页面导航',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/MineJPGcraft/MCJPG' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/MineJPGcraft/' }],
 
     footer: {
       message: 'MCJPG服务器宣传组织',
-      copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">我们的仓库</a>',
+      copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">网站的仓库</a>',
     },
 
     lastUpdated: {
@@ -58,8 +58,8 @@ export default defineConfig({
     },
 
     docFooter: {
-      prev: '上一篇',
-      next: '下一篇',
+      prev: '上一页',
+      next: '下一页',
     },
 
     returnToTopLabel: '回到顶部',
