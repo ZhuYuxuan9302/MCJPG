@@ -259,7 +259,7 @@ features:
   - icon:
       src: /server_icons/星月夜.jpg
     title: 星月夜 Fantasystars
-    details: 版本:1.19.x——1.21.1（基岩可进） 可外置登录<br>称号系统/粘液科技/个人菜单/抽奖/箱子商店/手机互通/显示掉落物品/签到/圈地/拍卖行/每日委托
+    details: 版本:1.19.x——1.21.1（基岩可进） 可外置登录<br>称号系统/粘液科技/个人菜单/抽奖/箱子商店/手机互通/显示掉落物品/签到/圈地/拍卖行/每日委托/血月
     link: https://qm.qq.com/q/NxdejmE50A
     linkText: 进星月夜官方QQ群聊
 ---
