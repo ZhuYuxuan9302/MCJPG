@@ -11,10 +11,13 @@ hero:
     alt: MCJPG组织
   actions:
     - text: 加入社区群组
-      link: https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_8EgbwVTHXVutDu5D6nmHJZzyT7tkGQa&authKey=L%2Fu%2BWQdODZkzAtv7YqnbnXj5cdnEV9Acjb9Mt0t3ciOUPup2ibbjm8zWIa6ox5nt&noverify=0&group_code=962179358
+      link: https://qm.qq.com/q/bAZle5ABzy
     - theme: sponsor
       text: 社区MC导航
       link: /nav/
+    - theme: sponsor
+      text: 组织报刊
+      link: /press/
 
 features:
   - icon:
