@@ -12,7 +12,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: "社区服务",
               items: [
-                { text: "MCJPG论坛", link: "https://bbs.mcjpg.org/" },
+                { text: "MCJPG社区", link: "https://com.mcjpg.org/" },
                 { text: "社区图床", link: "https://image.mcjpg.org/" },
                 { text: "各服务状态监测", link: "https://status.mcjpg.org/" }
               ]

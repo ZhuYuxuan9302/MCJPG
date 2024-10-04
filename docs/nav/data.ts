@@ -23,9 +23,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo.png',
-        title: '论坛',
-        desc: 'MCJPG社区交流论坛',
-        link: 'https://bbs.mcjpg.org/',
+        title: '社区',
+        desc: 'MCJPG交流社区',
+        link: 'https://com.mcjpg.org/',
       },
       {
         icon: '/logo.png',
@@ -88,12 +88,6 @@ export const NAV_DATA: NavData[] = [
   {
     title: '非官方论坛',
     items: [
-      {
-        icon: '/logo.png',
-        title: 'MCJPG论坛',
-        desc: 'MCJPG社区交流论坛',
-        link: 'https://bbs.mcjpg.org/',
-      },
       {
         //icon: 'https://media.minecraftforum.net/avatars/0/1/635356669593325566.png',
         icon: '/icons/nav/非官方论坛/Minecraft Forum.webp',

@@ -19,9 +19,9 @@ import { NAV_DATA } from './data'
 ## 帮助我们添加链接
 
 ::: tip 如何修改导航？
-[docs/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 Yaml 格式编辑即可。
+[docs/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 JSON 格式编辑即可。
 
-TIP: [什么是 Yaml？](https://www.runoob.com/w3cnote/yaml-intro.html)
+TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
 :::
 
 ::: tip 图标放在哪里？如何引用？
