@@ -7,7 +7,7 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: 'MCJPG',
+    title: 'MCJPG相关网站',
     items: [
       {
         icon: '/logo.png',
@@ -359,7 +359,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.minecraft-schematics.com/',
       },
       {
-        icon: '',
+        icon: '/icons/nav/资源站/Minecraft_Sounds.webp',
         title: 'Minecraft Sounds',
         desc: '一个国内MC音效下载网站',
         link: 'https://o.xbottle.top/mcsounds/',
@@ -374,6 +374,12 @@ export const NAV_DATA: NavData[] = [
         title: 'MCJPG组织',
         desc: 'MCJPG组织官网',
         link: 'https://mcjpg.org',
+      },
+      {
+        icon: '/icons/nav/服务器门户/MSCPO.webp',
+        title: 'MSCPO',
+        desc: '一个服务器集体宣传组织',
+        link: 'https://mscpo.netlify.app/',
       },
       {
         //icon: 'https://toolb.cn/favicon/minecraftservers.org',
@@ -677,9 +683,9 @@ export const NAV_DATA: NavData[] = [
     title: '实用软件',
     items: [
       {
-        icon: '',
-        title: 'MC网页版',
-        desc: '网页版MC,版本JE1.8.8',
+        icon: '/icons/nav/实用软件/EaglerCraft.webp',
+        title: 'EaglerCraftX',
+        desc: '网页版MC 版本JE1.8.8',
         link: 'https://eaglercraft.ru/',
       },
       {

@@ -36,6 +36,11 @@ export default defineConfig({
     nav,
     sidebar,
 
+    editLink: {
+      pattern: 'https://github.com/MineJPGcraft/MCJPG/edit/main/docs/:path',
+      text: '编辑此页面'
+    },
+
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
@@ -46,7 +51,7 @@ export default defineConfig({
 
     footer: {
       message: 'MCJPG服务器宣传组织',
-      copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">网站的仓库</a>',
+      copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">网站的仓库</a>'
     },
 
     lastUpdated: {
@@ -68,13 +73,33 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
 
+    search: {
+      provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "搜索文章",
+            buttonAriaLabel: "搜索文章",
+          },
+          modal: {
+            noResultsText: "无法找到相关结果",
+            resetButtonTitle: "清除查询条件",
+            footer: {
+              selectText: "选择",
+              navigateText: "切换",
+            },
+          },
+        },
+      },
+    },
+
     /*** 自定义配置 ***/
 
     comment: {
-      repo: 'ZhuYuxuan9302/MCJPG',
-      repoId: 'R_kgDOMmsvSA',
+      repo: 'MineJPGcraft/MCJPG',
+      repoId: 'R_kgDOMmxeOw',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOMmsvSM4Ch7NT',
+      categoryId: 'DIC_kwDOMmxeO84CjDGB',
       
     },
   },
