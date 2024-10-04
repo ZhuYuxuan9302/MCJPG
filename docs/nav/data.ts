@@ -116,6 +116,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://klpbbs.com/',
       },
       {
+        //icon: 'https://www.himcbbs.com/favicon.ico',
+        icon: '/icons/nav/非官方论坛/HiMCBBS.png',
+        title: 'HiMCBBS',
+        desc: '国内的我的世界中文论坛，主营Java版',
+        link: 'https://www.himcbbs.com/',
+      },
+      {
         //icon: 'https://www.bangbang93.com/favicon.ico',
         icon: '/icons/nav/非官方论坛/Bangbang93论坛.ico',
         title: 'Bangbang93论坛',
