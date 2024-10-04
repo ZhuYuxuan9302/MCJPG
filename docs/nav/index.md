@@ -27,7 +27,7 @@ TIP: [什么是 Yaml？](https://www.runoob.com/w3cnote/yaml-intro.html)
 
 图标位于 [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) 下已经进行分类，按照分类添加即可。
 
-``` yaml{2}
+``` json{1}
     # 这是一个例子，亦可参照其格式进行编辑
     {
         icon: '/icons/nav/百科/中文 Minecraft Wiki.ico',
