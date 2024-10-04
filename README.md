@@ -3,7 +3,7 @@
 这里是Minecraft服务器集体宣传组织 (MCJPG)！
 一个致力于我的世界服务器宣传和技术交流的新兴组织。
 
-[加入集宣社区](https://qm.qq.com/q/IYXWBvyHS0)
+[加入MCJPG社区群组](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_8EgbwVTHXVutDu5D6nmHJZzyT7tkGQa&authKey=L%2Fu%2BWQdODZkzAtv7YqnbnXj5cdnEV9Acjb9Mt0t3ciOUPup2ibbjm8zWIa6ox5nt&noverify=0&group_code=962179358)
 
 ## 提交服务器
 
