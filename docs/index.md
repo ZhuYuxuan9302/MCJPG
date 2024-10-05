@@ -21,6 +21,13 @@ hero:
 
 features:
   - icon:
+      src: /server_icons/mcrw.png
+    title: MCRW
+    details: 版本：基岩版 1.21.02（Java版进可以装个ViaFabricPlus） | 半生电服务器</br>服务器群：971422762</br>服务器装载的插件有USF无名氏插件、飞行插件、领地插件等</br>飞行开启方式：输入/fly即可</br>服务器配置低，人多的时候尽量不要过度跑图（</br>服务器升级CPU了服主会及时通知的！
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6KRND0sSxtuSyKXvMLPJRk2jcw30tlee&authKey=6Qbcuj%2BiemjLVwKS2wczNUg0cAffX8C%2BK%2BDb%2FdcUWEsfnLmUkZaf8N%2FukjYMkyc%2B&noverify=0&group_code=971422762
+    linkText: 加入MCRW！
+    
+  - icon:
       src: /server_icons/BugCraft.png
     title: BugCraft
     details: 这是一个 Java 和基岩互通生存服务器，兼容 Java 1.13 以上，基岩版 1.20.6 以上。</br>无需正版登录和审核，您可以直接加入游玩。
