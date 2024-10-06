@@ -5,10 +5,10 @@ import { createMediumZoomProvider } from './composables/useMediumZoom'
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import './styles/index.scss'
+import './styles/blur.scss'
 import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
-import vitepressBackToTop from 'vitepress-plugin-back-to-top'
-import 'vitepress-plugin-back-to-top/dist/style.css'
+import backtotop from "./components/backtotop.vue"
 import confetti from "./components/confetti.vue"
 
 let homePageStyle: HTMLStyleElement | undefined
@@ -25,16 +25,15 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(MLayout, props)
+    return h(DefaultTheme.Layout, props, {
+      'doc-footer-before': () => h(backtotop), // 插入 'doc-footer-before' 插槽
+    })
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
     app.component('confetti' , confetti)
     app.provide('DEV', process.env.NODE_ENV === 'development')
     vitepressMusic(playlist)
-    vitepressBackToTop({
-      threshold:300
-    })
     app.component('MNavLinks', MNavLinks)
 
     if (typeof window !== 'undefined') {

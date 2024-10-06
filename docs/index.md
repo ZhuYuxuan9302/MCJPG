@@ -4,7 +4,7 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: MCJPG
-  text: 集体宣传组织
+  text: 服务器交流组织
   tagline: 一个致力于Minecraft技术交流和服务器宣传的组织</br>无论你是玩家还是服主，这里都是优秀的交流社区
   image:
     src: /logo.png
@@ -21,7 +21,7 @@ hero:
 
 features:
   - icon:
-      src: /server_icons/mcrw.png
+      src: /server_icons/MCRW.png
     title: MCRW
     details: 版本：基岩版 1.21.02（Java版进可以装个ViaFabricPlus） | 半生电服务器</br>服务器群：971422762</br>服务器装载的插件有USF无名氏插件、飞行插件、领地插件等</br>飞行开启方式：输入/fly即可</br>服务器配置低，人多的时候尽量不要过度跑图（</br>服务器升级CPU了服主会及时通知的！
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=6KRND0sSxtuSyKXvMLPJRk2jcw30tlee&authKey=6Qbcuj%2BiemjLVwKS2wczNUg0cAffX8C%2BK%2BDb%2FdcUWEsfnLmUkZaf8N%2FukjYMkyc%2B&noverify=0&group_code=971422762

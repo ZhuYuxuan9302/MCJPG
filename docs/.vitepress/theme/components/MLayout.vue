@@ -7,7 +7,7 @@ import Giscus from '@giscus/vue'
 import { usePageId } from '../composables'
 
 import MNavVisitor from './MNavVisitor.vue'
-import MDocFooter from './MDocFooter.vue'
+//import MDocFooter from './MDocFooter.vue' 这玩意害得我有侧边栏的页面页脚出问题，以后加这个注入再放回去
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
@@ -91,9 +91,6 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       </div>
     </template>
 
-    <template #doc-after>
-      <MDocFooter />
-    </template>
   </Layout>
 </template>
 

@@ -101,3 +101,8 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/* var.css */ 
+.vp-doc a {
+  text-decoration: none;
+}
