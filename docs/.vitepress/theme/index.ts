@@ -8,7 +8,6 @@ import './styles/index.scss'
 import './styles/blur.scss'
 import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
-import backtotop from "./components/backtotop.vue"
 import confetti from "./components/confetti.vue"
 
 let homePageStyle: HTMLStyleElement | undefined
@@ -25,9 +24,7 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props, {
-      'doc-footer-before': () => h(backtotop), // 插入 'doc-footer-before' 插槽
-    })
+    return h(MLayout, props)
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
     createMediumZoomProvider(app, router)
