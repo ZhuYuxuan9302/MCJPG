@@ -123,6 +123,13 @@ export const NAV_DATA: NavData[] = [
         desc: '十分著名的下载源国内镜像站——BMCLAPI',
         link: 'https://www.bangbang93.com',
       },
+      {
+        //icon: 'https://mcobs.fun/static/MCOBS1.png',
+        icon: '/icons/nav/非官方论坛/mcobs.png',
+        title: '黑曜石论坛',
+        desc: '一个国内新兴的论坛，主营java版',
+        link: 'https://www.mcobs.fun/',
+      },
     ],
   },
   {
