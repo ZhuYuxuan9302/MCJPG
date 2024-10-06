@@ -137,16 +137,6 @@ export default defineConfig({
         },
       },
     },
-
-    /*** 自定义配置 ***/
-
-    comment: {
-      repo: 'MineJPGcraft/MCJPG',
-      repoId: 'R_kgDOMmxeOw',
-      category: 'Announcements',
-      categoryId: 'DIC_kwDOMmxeO84CjDGB',
-      
-    },
   },
 
   vite: {

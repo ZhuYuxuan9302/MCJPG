@@ -42,5 +42,8 @@
     "patchedDependencies": {
       "vite-plugin-markdown-preview@1.1.1": "patches/vite-plugin-markdown-preview@1.1.1.patch"
     }
+  },
+  "dependencies": {
+    "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }

@@ -1,5 +1,5 @@
 import { h, watch } from 'vue'
-import { useData, EnhanceAppContext } from 'vitepress'
+import { useData, EnhanceAppContext, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { createMediumZoomProvider } from './composables/useMediumZoom'
 import MLayout from './components/MLayout.vue'
@@ -10,11 +10,39 @@ import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
+import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 
 let homePageStyle: HTMLStyleElement | undefined
 
 export default {
   extends: DefaultTheme,
+
+  setup() {
+    // Get frontmatter and route
+    const { frontmatter } = useData();
+    const route = useRoute();
+        
+    // giscus配置
+    giscusTalk({
+      repo: 'MineJPGcraft/MCJPG',
+      repoId: 'R_kgDOMmxeOw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOMmxeO84CjDGB',
+      mapping: 'pathname',
+      inputPosition: 'bottom',
+      lang: 'zh-CN',
+      }, 
+      {
+        frontmatter, route
+      },
+      //默认值为true，表示已启用，此参数可以忽略；
+      //如果为false，则表示未启用
+      //您可以使用“comment:true”序言在页面上单独启用它
+      true
+    );
+
+  },
+
   Layout: () => {
     const props: Record<string, any> = {}
     // 获取 frontmatter
