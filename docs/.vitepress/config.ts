@@ -30,6 +30,14 @@ export default defineConfig({
       // 默认禁用图片懒加载
       lazyLoading: true
     },
+    // 组件插入h1标题下
+    config: (md) => {
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+          let htmlResult = slf.renderToken(tokens, idx, options);
+          if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
+          return htmlResult;
+      }
+    },
   },
 
   /* 主题配置 */

@@ -9,6 +9,7 @@ import './styles/blur.scss'
 import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"
+import ArticleMetadata from "./components/ArticleMetadata.vue"
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -32,6 +33,7 @@ export default {
     app.provide('DEV', process.env.NODE_ENV === 'development')
     vitepressMusic(playlist)
     app.component('MNavLinks', MNavLinks)
+    app.component('ArticleMetadata' , ArticleMetadata)
 
     if (typeof window !== 'undefined') {
       watch(
