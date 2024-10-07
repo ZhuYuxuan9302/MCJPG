@@ -1,7 +1,7 @@
-# 服务器集体宣传组织
+# MCJPG 服务器交流组织
 
-这里是Minecraft服务器集体宣传组织 (MCJPG)！
-一个致力于我的世界服务器宣传和技术交流的新兴组织。
+这里是Minecraft服务器集体交流组织 (MCJPG)！
+一个致力于我的世界服务器技术交流和宣传的新兴组织。
 
 [加入MCJPG社区群组](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_8EgbwVTHXVutDu5D6nmHJZzyT7tkGQa&authKey=L%2Fu%2BWQdODZkzAtv7YqnbnXj5cdnEV9Acjb9Mt0t3ciOUPup2ibbjm8zWIa6ox5nt&noverify=0&group_code=962179358)
 
@@ -10,7 +10,7 @@
 在提交服务器之前，请确定你的服务器满足以下要求：
 
 - 服务器能够正常运行，且不会在短时间内关闭。
-- 服务器已经加入Minecraft服务器集体宣传组织。
+- 服务器已经加入 **MCJPG** 组织。
 
 如果你的服务器满足以上要求，请按照以下步骤提交服务器：
 
@@ -45,5 +45,5 @@
   - icon: 🛠️
 ```
 
-3. (可选)如果你需要显示服务器图标，请在 `docs/public/server_icons/` 目录下添加图标
+3. 如果你需要显示服务器图标，请在 `docs/public/server_icons/` 目录下添加图标
 4. push 到你的仓库，然后提交 pull request。
