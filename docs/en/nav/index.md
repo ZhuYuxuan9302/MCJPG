@@ -1,8 +1,8 @@
 ---
-title: MC导航
+title: MC Nav
 layoutClass: m-nav-layout
 outline: [2, 3, 4]
-description: MC导航网,由MCJPG组织提供,我们致力于为大家提供更好用的Minecraft导航
+description: MC navigation network, provided by the MCJPG Organization, we are committed to providing better use of Minecraft navigation!
 ---
 
 <script setup>
@@ -10,27 +10,27 @@ import { NAV_DATA } from './data'
 </script>
 <style src="./index.scss"></style>
 
-# Minecraft导航
+# Minecraft Nav
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
 <br />
 
-## 帮助我们添加链接
+## Help us add links
 
-::: tip 如何修改导航？
-[docs/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/nav/data.ts) 是导航的数据库，遵循 JSON 格式编辑即可。  
-如果您是站长，麻烦添加 [MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 到您的站点相应位置，[MCJPG组织](https://mcjpg.org/ "MCJPG组织官网") 感激不尽
+::: tip How to modify the navigation?
+[docs/en/nav/data.ts](https://github.com/MineJPGcraft/MCJPG/blob/main/docs/en/nav/data.ts) is the database for navigation, just follow the JSON format for editing.  
+If you are a webmaster, please add [MCJPG Organization](https://mcjpg.org/ "MCJPG组织官网") to the appropriate location on your site，[MCJPG Organization](https://mcjpg.org/ "MCJPG Website") thanks a lot
 
-TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
+TIP: [What is JSON ?](https://www.runoob.com/json/json-tutorial.html)
 :::
 
-::: tip 图标放在哪里？如何引用？
+::: tip Where are the icons placed? How is it referenced?
 
-图标位于 [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) 下已经进行分类，按照分类添加即可。
+Icons are located in [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) 下已经进行分类，按照分类添加即可。
 
 ``` json{1}
-    # 这是一个例子，亦可参照其格式进行编辑
+    # Here's an example, which can also be edited in the same format
     {
         icon: '/icons/nav/百科/中文 Minecraft Wiki.ico',
         title: '中文 Minecraft Wiki',
@@ -40,7 +40,7 @@ TIP: [什么是 JSON？](https://www.runoob.com/json/json-tutorial.html)
 ```
 :::
 
-## 特别鸣谢
+## Special thanks
 
-感谢 [maomao1996](https://github.com/maomao1996/) 对于导航样式模块的开发  
-感谢 [磁铁开发部（MDD）](https://github.com/MSCMDD "磁铁开发部（MDD）") 对导航样式的二次开发以及内容错误的修正与导航的补充
+Thanks to [maomao1996](https://github.com/maomao1996/) for the development of the navigation style module  
+Thanks to [磁铁开发部（MDD）](https://github.com/MSCMDD "磁铁开发部（MDD）") for secondary development of navigation styles and content bug fixes and navigation additions
