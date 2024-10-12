@@ -61,15 +61,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 <template>
   <DefaultTheme.Layout>
-    <template #doc-footer-before>
+
+    <template #layout-bottom>
       <backtotop />
     </template>
-    <template #layout-top>
-      <notice />
-    </template>
-    <template #layout-bottom>
-      <bsz />
-    </template>
+
   </DefaultTheme.Layout>
 </template>
 
