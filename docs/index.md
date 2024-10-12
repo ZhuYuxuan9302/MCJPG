@@ -37,9 +37,9 @@ features:
   - icon:
       src: /server_icons/BugCraft.png
     title: BugCraft
-    details: 这是一个 Java 和基岩互通生存服务器，兼容 Java 1.13 以上，基岩版 1.20.6 以上。</br>无需正版登录和审核，您可以直接加入游玩。
-    link: https://bugcraft.org
-    linkText: BugCraft 的官方网站。
+    details: BugCraft 是一个 Java 和基岩互通生存服务器（基于 1.21.1），推荐 Java 版本 1.18.2 - 1.21.1，基岩版 1.21.30 。</br>无需正版登录，仅基本粘液科技插件。
+    link: https://bugcraft.org/docs/bugcraft/mcjpg
+    linkText: 查看完整说明
 
   - icon:
       src: /server_icons/WindyRiver.png
