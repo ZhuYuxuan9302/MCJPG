@@ -56,7 +56,7 @@ export default defineConfig({
         indexName: 'mcjpg',
         locales: {
           ...zhSearch,
-          ...enSearch,
+          // ...enSearch,
 
         },
       },

@@ -64,7 +64,7 @@ export const zh_CN = defineConfig({
 })
 
 export const search: DefaultTheme.AlgoliaSearchOptions['locales'] = {
-    zh: {
+    root: {
       placeholder: '搜索文档',
       translations: {
         button: {
