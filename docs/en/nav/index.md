@@ -6,9 +6,9 @@ description: MC导航网,由MCJPG组织提供,我们致力于为大家提供更�
 ---
 
 <script setup>
-import { NAV_DATA } from '.../nav/data'
+import { NAV_DATA } from '..../nav/data'
 </script>
-<style src="./index.scss"></style>
+<style src="..../index.scss"></style>
 
 # Minecraft导航
 
