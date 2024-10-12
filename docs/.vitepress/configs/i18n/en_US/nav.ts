@@ -1,7 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: 'Members', link: '/en/' },
+  { text: 'Home', link: '/en/' },
   { text: 'Rules', link: '/en/rules/' },
   {
     text: 'Team',
