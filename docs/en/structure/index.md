@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 我们的团队
-description: MCJPG组织团队成员列表
+title: Our Team
+description: List of MCJPG Organization Team Members
 ---
 <script setup>
 import {
@@ -14,7 +14,7 @@ const code = [
     {
     avatar: '/teammate/SuiFeng.jpg',
     name: '随风潜入夜',
-    title: '网络开发',
+    title: 'Web developmenter',
     desc: 'MCJPG官网和社区导航维护 | MC生电服腐竹',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
@@ -27,13 +27,13 @@ const code = [
   {
     avatar: '/teammate/alazeprt.jpg',
     name: 'alazeprt',
-    title: '后端技术开发',
+    title: 'Technology development',
     desc: '星际穿越服务器腐竹 | MCJPG网站状态监测后端开发',
   },
   {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
-    title: '技术支持',
+    title: 'Technical Support',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
 ]
@@ -42,25 +42,25 @@ const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
-    title: '宣传',
+    title: 'Publicizer',
     desc: '曙光生电服务器腐竹，唯一开学后有很多时间的人',
   },
   {
     avatar: '/teammate/北🐟.jpg',
     name: '深',
-    title: '论坛主',
-    desc: '社区论坛负责人，TuTuPixel服务器腐竹',
+    title: 'Community Admin',
+    desc: '社区平台负责人，TuTuPixel服务器腐竹',
   },
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: '审核兼宣传',
+    title: 'Auditor and Publicist',
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老实-元气TaskMgr',
-    title: '见习社区管理',
+    title: 'Community Admin',
     desc: 'RBS生电服务器（暂未成为成员服）服主，国庆期间暂任见习社区管理。负责社区管理。啥都不会但啥都不精通（）',
     links: [
       { icon: {
@@ -76,19 +76,19 @@ const publicise = [
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
-    title: '剪辑',
+    title: 'Editor',
     desc: 'MCIC服主',
   },
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: '审核兼宣传',
+    title: 'Auditor and Publicist',
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '封面设计兼剪辑',
+    title: 'Cover Designer and Editor',
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 ]
@@ -98,26 +98,26 @@ const publicise = [
 <VPTeamPage>
 
   <VPTeamPageTitle>
-    <template #title>我们的团队</template>
-    <template #lead>认识一下 MCJPG 背后的成员，这是一个 MC服务器 技术交流与宣传组织，致力于通过更快、更安全的软件和更完善的宣传改善服务器生态</template>
+    <template #title>Our team</template>
+    <template #lead>Meet the members behind MCJPG, an MC server technical communication and advocacy organization dedicated to improving the server ecosystem through faster, safer software and better advocacy.</template>
   </VPTeamPageTitle>
   <VPTeamPageSection>
-    <template #title>开发部</template>
-    <template #lead>MCJPG 开发者帮助编写代码、审核成员服请求并保持项目的活力。通过贡献新社区服务和帮助完善旧服务，他们使 MCJPG 得以运行</template>
+    <template #title>Development Department</template>
+    <template #lead>MCJPG developers help write code, review member service requests, and keep the project alive. They keep MCJPG running by contributing new community services and helping to improve old ones!</template>
     <template #members>
       <VPTeamMembers size="small" :members="code" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>社区部</template>
-    <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，以确保 MCJPG 拥有健康向上的生命力</template>
+    <template #title>Community Department</template>
+    <template #lead>MCJPG Community Department maintains the order of the community by reviewing new memberships and ensuring that MCJPG remains a healthy and vibrant community.</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>宣传部</template>
-    <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
+    <template #title>Propaganda Department</template>
+    <template #lead>MCJPG Publicity Department is working to get the word out about our actions by publicizing the organization and the members' uniforms.</template>
     <template #members>
       <VPTeamMembers size="small" :members="publicise" />
     </template>
@@ -126,10 +126,10 @@ const publicise = [
 </VPTeamPage>
 
 
-<center>帮助我们添加服务器的贡献者们：</center>
+<center>Contributors who helped us add servers：</center>
 
 <center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
 </a></center>
 
-<center>对以上参与者致以敬意！</center>
+<center>Tribute to the above participants!</center>
