@@ -27,7 +27,7 @@ TIP: [What is JSON ?](https://www.runoob.com/json/json-tutorial.html)
 
 ::: tip Where are the icons placed? How is it referenced?
 
-Icons are located in [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) 下已经进行分类，按照分类添加即可。
+Icons are located in [docs/public/icons/nav/](https://github.com/MineJPGcraft/MCJPG/tree/main/docs/public/icons/nav/) They are already categorized, just add them by category.
 
 ``` json{1}
     # Here's an example, which can also be edited in the same format
