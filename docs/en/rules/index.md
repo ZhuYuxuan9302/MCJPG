@@ -6,7 +6,7 @@ editLink: false
 ---
 # MCJPG Organization Rules and Regulations
 
-1. The **MCJPG** organization is a coordinated entity formed by server hosts such as 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ among others, for mutual development.
+1. The **MCJPG** organization is a coordinated entity formed by server hosts such as 随风潜入夜 FireGuo 二氧化钛 Weasd-QAQ among others, for mutual development.
 2. This organization aims to provide support, promotion, and suggestions to servers in need. The suggestions are not professional and are for reference only.
 3. The **MCJPG** Server Exchange Organization reserves the right of final interpretation of this disclaimer. If you have any objections, please send feedback to the management team privately.
 4. Joining the organization is deemed as agreeing to the disclaimer.
