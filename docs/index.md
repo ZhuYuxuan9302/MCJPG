@@ -27,8 +27,8 @@ features:
     link: https://qm.qq.com/q/S2cX3H6LWq
     linkText: 点此加入QQ群
    
-- icon:
-      src: /server_icons/SiO2 SMP.png
+ - icon:
+     src: /server_icons/SiO2 SMP.png
     title: 二氧化硅生存服务器
     details: 版本：JAVA 1.21.X（BE互通）</br>本服主打高版本原版生存，支持生电</br>无/tpa,/home,箱子锁,商店插件</br>同时本服没有死亡不掉落，仅有死亡墓碑</br></br>离线可进，有白名单</br>IP进群获取</br>QQ群：902147486
     link: https://mcsio2.cn
