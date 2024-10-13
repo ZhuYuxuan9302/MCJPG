@@ -57,7 +57,7 @@ export default defineConfig({
 
   /* 主题配置 */
   themeConfig: {
-    i18nRouting: false,
+    i18nRouting: true,
     logo: '/logo.png',
     
     socialLinks,
