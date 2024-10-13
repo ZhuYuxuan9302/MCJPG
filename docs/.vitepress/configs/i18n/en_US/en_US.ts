@@ -21,7 +21,7 @@ export const en_US = defineConfig({
       
         footer: {
             message: 'MCJPG Server Exchange Organization',
-            copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">Repository for website</a>'
+            copyright: 'Copyright © 2024-present <a href="https://mcjpg.org/en/">MCJPG</a>— —<a href="https://github.com/MineJPGcraft/MCJPG">Repository for website</a>'
           },
       
         lastUpdated: {
