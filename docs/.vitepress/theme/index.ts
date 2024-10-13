@@ -32,8 +32,8 @@ export default {
       inputPosition: 'bottom',
       lang: 'zh-CN',
       locales: {
-        'root': 'zh-CN',
-        'en': 'en'
+        'zh-Hans': 'zh-CN',
+        'en_US': 'en'
       },
       }, 
       {
@@ -114,13 +114,13 @@ function updateHomePageStyle(value: boolean) {
 
 const playlist = [
   {
-    name: 'Higher',
-    author: 'Tobu',
-    file: '/music/Higher.mp3',
+    name: 'Otherside',
+    author: 'Mojang',
+    file: '/music/otherside.mp3',
   },
   {
     name: 'maimai DX',
     author: 'SEGA',
-    file: '/music/maimai DX.mp3',
+    file: '/music/maimai-DX-prism.mp3',
   }
 ]

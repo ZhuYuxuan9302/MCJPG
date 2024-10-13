@@ -1,4 +1,4 @@
-import type { NavLink } from '../.vitepress/theme/types'
+import type { NavLink } from '.../.vitepress/theme/types'
 
 type NavData = {
   title: string
@@ -7,7 +7,7 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: 'MCJPG相关网站',
+    title: 'MCJPG related websites',
     items: [
       {
         icon: '/logo.png',
@@ -42,7 +42,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: 'MC官方网站',
+    title: 'Official Website',
     items: [
       {
         //icon: 'https://www.minecraft.net/content/dam/minecraftnet/franchise/logos/Homepage_Download-Launcher_Creeper-Logo_500x500.png',
@@ -86,7 +86,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '非官方论坛',
+    title: 'Unofficial BBS',
     items: [
       {
         //icon: 'https://media.minecraftforum.net/avatars/0/1/635356669593325566.png',
@@ -133,7 +133,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '百科',
+    title: 'Wiki',
     items: [
       {
         //icon: 'https://zh.minecraft.wiki/favicon.ico',
@@ -186,7 +186,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '基岩版开发文档',
+    title: 'Bedrock DEV Docs',
     items: [
       {
         //icon: 'https://wiki.mcbe-dev.net/w/images/f/f0/Wiki.svg',
@@ -217,7 +217,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '资源站',
+    title: 'Resource Website',
     items: [
       {
         //icon: 'https://mcversions.net/favicon.ico',
@@ -368,7 +368,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '服务器门户',
+    title: 'Server Gateway',
     items: [
       {
         icon: '/logo.png',
@@ -420,7 +420,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '功能性网站',
+    title: 'Functional website',
     items: [
       {
         //icon: 'https://www.chunkbase.com/favicon.ico',
@@ -551,7 +551,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '模组和光影加载器',
+    title: 'Mod and Shadow Loader',
     items: [
       {
         //icon: 'https://forums.minecraftforge.net/favicon.ico',
@@ -605,7 +605,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '启动器和客户端',
+    title: 'Luncher and Client',
     items: [
       {
         //icon: 'https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/Launcher_Icon.png',
@@ -681,7 +681,7 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '实用软件',
+    title: 'Practical Software',
     items: [
       {
         icon: '/icons/nav/实用软件/EaglerCraft.webp',

@@ -1,31 +1,39 @@
 ---
 layout: doc
-title: 2024国庆特辑
-description: MCJPG组织发行报刊的简介
+title: 2024 National Day Special Edition
+description: MCJPG 2024 National Day Special Edition
 prev: false
 ---
-# 2024国庆特辑
-## 概要
-截至2024年国庆节， **MCJPG** 组织创建已有了第二个月  
-在这个组织从无到有的两个月中，有不少人为之作出了贡献，这个组织也愈发壮大  
-截止撰文，已有**40**个服务器加入了 **MCJPG** 组织 ，[社区群组](https://go.flweb.cn/qunmcwp "社区群组") 也达到了**120**人  
-负责人也从最开始的 随风潜入夜 等5位创始服主增至目前的 技术部4人 宣传部3人 社区部4人  
-## 我们的行动
-在对外开放的同时，我们也致力于为玩家和服主提供更好的服务，其中，我们搭建了 [社区交流中心](https://com.mcjpg.org/ "社区交流中心") [社区图床](https://https://image.mcjpg.org/ "社区图床") 以及 [服务器状态检测](https://status.mcjpg.org/ "服务器状态检测")  
-他们都帮助大家能够更方便的投入MC的开发游玩中  
-### 对于玩家
-我们搭建了易于查看的 [官网](/ "官网") 以帮助各位玩家查询心仪的服务器  
-同时，我们还在官网开设了 [MC导航](/nav/ "MC导航") 方便玩家和服主们使用，其页面在Bing上的排名高达第三，Google排名也非常靠前
-### 对于服主
-我们提供了可完全自定义的 xxx@mcjpg.org 的邮箱用于交流  
-同时为每一位有需要的服主发放了基于 xxx.mcjpg.org 的域名用于连接服务器与开设官网
-以及我们在社区和服主交流群的机器人也对接了 [状态监测](https://status.mcjpg.org "状态监测") ，可以实时通过机器人推送查看服务器状态（~~虽然有的时候真的很吵~~）
-### 宣传活动
-截至撰文，我们已经在Bilibili发布了两个宣传视频，分别是 [社区宣传视频](https://www.bilibili.com/video/BV1pH4GehErc/ "社区宣传视频") 和 [组织宣传视频](https://www.bilibili.com/video/BV11geceREMb/ "组织宣传视频") ，他们都取得了不错的播放
-## 但是不止于此......
-如大家所见，**MCJPG** 仍然是一个有待完善的组织，我们欢迎各位玩家和服主提出宝贵的建议  
-对于有能力的朋友，可以来 [加入我们](https://docs.qq.com/form/page/DZWhlcXZnZWZVUmhR#/result "加入我们") ，即便你是玩家，也可以加入 [社区群组](https://go.flweb.cn/qunmcwp "社区群组") 交流
-## 总结
-回顾过去的两个月，**MCJPG** 取得了令人瞩目的成绩。但我们深知，未来的路还很长。我们将继续努力，不断壮大组织规模，提升技术水平，加强宣传推广，优化审核机制，为广大玩家和服主提供更加优质的服务。
-## 最后
-**祝大家国庆快乐！**
+# 2024 National Day Special Edition
+
+## Overview
+As of the 2024 National Day, the **MCJPG** organization has been established for the second month.  
+During these two months of the organization’s existence, many people have contributed, and the organization has grown stronger.  
+At the time of writing, **40** servers have joined the **MCJPG** organization, and the [community group](https://go.flweb.cn/qunmcwp "Community Group") has reached **120** members.  
+The number of leaders has increased from the initial 5 founding server owners including 随风潜入夜, to currently comprising 4 members in the technical department, 3 in the publicity department, and 4 in the community department.  
+
+## Our Actions
+While opening up to the public, we are also committed to providing better services to players and server owners. We have established the [Community Exchange Center](https://com.mcjpg.org/ "Community Exchange Center"), the [Community Image Hosting](https://image.mcjpg.org/ "Community Image Hosting"), and the [Server Status Monitoring](https://status.mcjpg.org/ "Server Status Monitoring").  
+These platforms help everyone to engage more conveniently in developing and playing Minecraft.  
+
+### For Players
+We have built an easy-to-navigate [official website](/ "Official Website") to help players find their preferred servers.  
+Additionally, we have launched [MC Navigation](/nav/ "MC Navigation") on the website to facilitate use by players and server owners. This page ranks as high as third on Bing and is also well-ranked on Google.  
+
+### For Server Owners
+We offer fully customizable xxx@mcjpg.org emails for communication.  
+We also provide each server owner in need with a xxx.mcjpg.org domain to connect to their servers and establish their websites.  
+Furthermore, our bots in the community and server owner groups are integrated with [status monitoring](https://status.mcjpg.org "Status Monitoring"), allowing real-time server status checks through bot notifications (though sometimes it can be quite noisy).
+
+### Promotional Activities
+As of writing, we have published two promotional videos on Bilibili, namely the [Community Promotional Video](https://www.bilibili.com/video/BV1pH4GehErc/ "Community Promotional Video") and the [Organization Promotional Video](https://www.bilibili.com/video/BV11geceREMb/ "Organization Promotional Video"). Both have achieved good viewership.
+
+## But That’s Not All...
+As you can see, **MCJPG** is still an organization in need of improvement. We welcome valuable suggestions from all players and server owners.  
+For friends with capabilities, you can come and [join us](https://docs.qq.com/form/page/DZWhlcXZnZWZVUmhR#/result "Join Us"). Even if you are a player, you can join the [community group](https://go.flweb.cn/qunmcwp "Community Group") to exchange ideas.
+
+## Summary
+Looking back over the past two months, **MCJPG** has achieved remarkable accomplishments. However, we know that there is a long way to go. We will continue to strive to expand our organization, improve technical levels, strengthen promotion, optimize the review mechanism, and provide better services to players and server owners.
+
+## Lastly
+**Happy National Day to everyone!**

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 2024国庆特辑
-description: MCJPG组织发行报刊的简介
+description: MCJPG 2024国庆特辑
 prev: false
 ---
 # 2024国庆特辑

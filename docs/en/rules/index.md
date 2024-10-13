@@ -1,72 +1,69 @@
 ---
-title: 规章制度
-description: MCJPG组织规章制度
+title: Rules
+description: MCJPG Organization Rules
 next: false
 editLink: false
 ---
-# MCJPG 组织规章制度
+# MCJPG Organization Rules and Regulations
 
-1. **MCJPG** 组织是由 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ 等服务器服主为了共同发展而联合起来的有组织的整体。
-2. 本组织旨在对各个有需求的服务器提供相对应的扶持，宣传以及建议，提出的建议并不具有专业性，仅供参考。
-3. **MCJPG** 服务器交流组织保留对本免责声明的最终解释权。如果您对此有异议，请及时向本组织管理组私信反馈。
-4. 加入组织，即视为同意免责声明
+1. The **MCJPG** organization is a coordinated entity formed by server hosts such as 随风潜入夜 Fireguo 二氧化钛 Weasd-QAQ among others, for mutual development.
+2. This organization aims to provide support, promotion, and suggestions to servers in need. The suggestions are not professional and are for reference only.
+3. The **MCJPG** Server Exchange Organization reserves the right of final interpretation of this disclaimer. If you have any objections, please send feedback to the management team privately.
+4. Joining the organization is deemed as agreeing to the disclaimer.
 
-## 免责声明
-1. 本组织旨在对各个有需求的服务器提供相对应的扶持，建议，宣传行动及技术支持。
-2. 本组织提出的建议并不是专业性建议为个人看法，仅供参考。在造成不良后果时本组织不承担任何责任。
-3. 在组织举行众筹活动时，各服服主可以自行决定是否参与，除特殊情况外，此类活动不具有强制性。
-4. 本组织不强迫各服务器服主加入及退出，加入组织者视为自愿加入，退出者视为自愿退出*。本组织收集的各服地址，端口等材料仅作为审核，添加状态监测及提供给适合的玩家游玩所用，不会有其他目的，（对于向玩家提供地址端口，本组织仅起到传达作用）*在退出组织时，除特殊情况外（违反《规则》），视为自愿退出
-5. 退出MCJPG后组织将删除我方免费为各服务器提供的”someserver.mcjpg.org”域名，造成的后果由退出者自行承担
-6. **MCJPG** 服务器交流组织保留对本免责声明的最终解释权及随时进行编辑的权利（具体内容以最新版为主）。如果您对此有异议，请及时向本组织管理层私信反馈。  
-**加入组织者，视为已经阅读完毕并同意此免责声明**
+## Disclaimer
+1. The organization aims to support, suggest, promote, and provide technical support to servers in need.
+2. The suggestions provided by the organization are not professional opinions, only personal views for reference. The organization does not bear any responsibility for any adverse consequences.
+3. During crowdfunding events held by the organization, server hosts can choose whether to participate. These activities are generally not mandatory, except in special cases.
+4. The organization does not force server hosts to join or leave. Joining is considered voluntary, and leaving is also deemed voluntary.* The organizationally collected server addresses, ports, etc., are solely for review, status monitoring, and recommending suitable players, with no other purposes. (The organization merely acts as a conduit in providing addresses and ports to players.)* Upon leaving, unless in special situations (violation of the "Rules"), it is considered voluntary.
+5. After exiting MCJPG, the organization will delete the "someserver.mcjpg.org" domain provided freely to servers, and any resulting consequences must be assumed by the leaver.
+6. The **MCJPG** Server Exchange Organization reserves the right of final interpretation and the right to edit this disclaimer at any time (specific content based on the latest version). If you have any objections, please send feedback to the management privately.  
+**Joining the organization implies that you have read and agree to this disclaimer.**
 
-## 加入组织
+## Joining the Organization
 
-### 参与组织活动
+### Participating in Organizational Activities
 
-1. 进入组织者，需要接受社区群组内审核员的审查，如不同意审查，即视作放弃加入组织
-2. 进入组织后，应遵守该规章制度并积极履行相对应的义务，违反规定者，将面临不同程度的处罚，严重者逐出组织，永不允许进群
-3. 成功加入服主群即视服务器为成员服
+1. New members must undergo a review by community group auditors. Disagreeing with the inspection implies forfeiting joining.
+2. After joining, one must adhere to these rules and obligations. Violators will face various degrees of punishment, severe cases resulting in expulsion and permanent ban.
+3. Successfully joining the server owner's group designates the server as a member server.
 
-### 宣传条例
+### Promotion Regulations
 
-1. 成员服必须在MCJPG宣传网页中注明集宣组织，具有正确的指向链接https://mcjpg.org/ （若无宣传网页请忽略）
-2. 为了集宣组织良性发展，我们需要收集足够的信息，发现并解决存在的问题。因此各个成员服退出集宣组织时需要提出至少三个退出集宣组织的原因，否则会受到集宣组织所有成员服和准成员服的谴责（此条需较为灵活，视情况而定）
-3. 集宣组织允许并支持各服务器以集宣组织名义开展活动，集宣组织允许并支持各服务器自由的自主的组织活动（活动包括但不限于宣传活动，评比活动等）
-4. 【服务商宣传】*免责声明：本宣传公告旨在提供有关服务商宣传的一般信息，不构成任何形式专业建议，仅供参考。本组织为各成员提供更有效果的服务器解决方案，但不对任何因使用或依赖这些信息而产生的直接或间接损失承担责任。且本组织管理没有与任何服务商签订任何的利益分配协议。MCJPG宣传组织保留对本免责声明的最终解释权。
-如果您对此有异议，请及时向本组织负责人私信反馈。
+1. Member servers must state their affiliation with the MCJPG organization on promotional webpages, with a correct link to https://mcjpg.org/ (ignore if there is no promotional webpage).
+2. For the healthy development of the organization, enough information must be collected to identify and resolve issues. Therefore, member servers exiting the organization must provide at least three reasons; otherwise, they may face condemnation from current and prospective member servers (application of this rule may be flexible based on circumstances).
+3. The organization allows and supports servers conducting activities in its name and independently organizing activities (including but not limited to promotional events, competitions).
+4. **Service Provider Promotion** *Disclaimer: This promotional notice aims to provide general information regarding service provider promotion and does not constitute professional advice of any kind; it is for reference only. The organization offers more effective server solutions to its members but accepts no liability for any direct or indirect arising from the use or reliance on this information. Furthermore, the management does not have any benefit-sharing agreement with service providers. MCJPG Promotional Organization reserves the final right of interpretation of this disclaimer. If you have objections, please send feedback to the organization's leader privately.
 
+## How to Add Your Server Display Position on the Organization's Website?
 
+### Provide necessary information about the server, including:
 
-## 如何在组织官网中添加自己的服务器展示位置？
+1. Server Name
+2. Server Icon (optional)
+3. Server Information
+4. Server Description
+5. Server Version
+6. Promotion Link (can be a joining link for QQ groups, server promotional website link, or promotional video link)
 
-###  提供服务器的必要信息，包括：
-
-  1. 服务器名称
-  2. 服务器图标（可选）
-  3. 服务器信息
-  4. 服务器描述
-  5. 服务器版本
-  6. 宣传链接（可以是QQ群的入群链接、服务器的宣传网站链接，或者宣传视频的链接）
-
-###  向负责人发送包含上述服务器必要信息的申请
+### Send an application containing the necessary information to the leader
 
 ``` txt
-服务器名称：
-服务器图标：
-服务器信息：
-服务器描述：
-服务器版本：
-宣传链接：
+Server Name:
+Server Icon:
+Server Information:
+Server Description:
+Server Version:
+Promotion Link:
 ```
 
-### 等待审核结果
+### Await review results
 
-  如果您有GitHub账号，可以直接按照网站仓库的说明提交pull，帮助我们更新服务器列表
+If you have a GitHub account, you can directly submit a pull request according to the website repository guidelines to help us update the server list.
 
-我们的GitHub页面：https://github.com/MineJPGcraft/MCJPG
+Our GitHub page: https://github.com/MineJPGcraft/MCJPG
 
-帮助我们添加服务器的贡献者们：
+Contributors who help us add servers:
 
 <a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
@@ -74,4 +71,4 @@ editLink: false
 
 ---------
 
->对以上参与者致以敬意！
+> Tribute to the participants above!
