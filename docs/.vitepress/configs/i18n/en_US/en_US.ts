@@ -5,22 +5,6 @@ export const en_US = defineConfig({
     title: 'MCJPG Organization Website',
     description: 'Minecraft Server Communication Organization (MCJPG) - an organization dedicated to Minecraft technical communication and server promotion.',
 
-    markdown: {
-        lineNumbers: true,
-        image: {
-          // 默认禁用图片懒加载
-          lazyLoading: true
-        },
-        // 组件插入h1标题下
-        config: (md) => {
-          md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
-              let htmlResult = slf.renderToken(tokens, idx, options);
-              if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
-              return htmlResult;
-          }
-        },
-      },
-
     themeConfig: {
         siteTitle: 'MCJPG Organization',
         nav,

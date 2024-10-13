@@ -5,22 +5,6 @@ export const zh_CN = defineConfig({
     title: 'MCJPG组织网站',
     description: 'Minecraft服务器交流组织 (MCJPG)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
 
-    markdown: {
-        lineNumbers: true,
-        image: {
-          // 默认禁用图片懒加载
-          lazyLoading: true
-        },
-        // 组件插入h1标题下
-        config: (md) => {
-          md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
-              let htmlResult = slf.renderToken(tokens, idx, options);
-              if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
-              return htmlResult;
-          }
-        },
-      },
-
     themeConfig: {
         siteTitle: 'MCJPG组织',
         nav,

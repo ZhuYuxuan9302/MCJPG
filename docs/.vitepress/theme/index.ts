@@ -31,6 +31,10 @@ export default {
       mapping: 'pathname',
       inputPosition: 'bottom',
       lang: 'zh-CN',
+      locales: {
+        'root': 'zh-CN',
+        'en': 'en'
+      },
       }, 
       {
         frontmatter, route
