@@ -80,7 +80,7 @@ export default defineConfig({
         locales: {
           ...zhSearch,
           // ...enSearch,
-          lzhSearch,
+          ...lzhSearch,
 
         },
       },
