@@ -4,25 +4,25 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: MCJPG
-  text: 服务器交流组织
-  tagline: 一个致力于Minecraft技术交流和服务器宣传的组织</br>无论你是玩家还是服主，这里都是优秀的交流社区
+  text: 伺服器宣傳組織
+  tagline: 此乃礦藝技藝交流和伺服器宣傳组织</br>無論君乃戲者亦或伺服器之主，此處均為風水寶地
   image:
     src: /logo.png
-    alt: MCJPG组织
+    alt: MCJPG組織
   actions:
-    - text: 加入社区群组
+    - text: 進組織群組
       link: https://qm.qq.com/q/bAZle5ABzy
     - theme: sponsor
-      text: 社区MC导航
+      text: 社區礦藝索引
       link: /lch/nav/
     - theme: sponsor
-      text: 组织专栏
+      text: 組織專欄
       link: /lch/press/
 
 ---
 
 <style>
-/*爱的魔力转圈圈*/
+/*愛之魔力轉圈*/
 .m-home-layout .image-src:hover {
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
