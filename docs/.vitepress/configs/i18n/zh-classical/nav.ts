@@ -1,28 +1,28 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '成员服', link: '/lch/' },
-  { text: '组织规则', link: '/lch/rules/' },
+  { text: '成員伺服器', link: '/lch/' },
+  { text: '組織規則', link: '/lch/rules/' },
   {
-    text: '团队',
+    text: '團隊',
     link: '/structure/',
   },
-  { text: "组织专栏", link: '/lch/press/' },
-  { text: "MC导航", link: '/lch/nav/' },
+  { text: "組織專欄", link: '/lch/press/' },
+  { text: "礦藝索引", link: '/lch/nav/' },
   {
-    text: "社区服务",
+    text: "社區服務",
               items: [
-                { text: "MCJPG社区", link: "https://com.mcjpg.org/" },
-                { text: "社区图床", link: "https://image.mcjpg.org/" },
-                { text: "各服务状态监测", link: "https://status.mcjpg.org/" }
+                { text: "MCJPG社區", link: "https://com.mcjpg.org/" },
+                { text: "社區圖床", link: "https://image.mcjpg.org/" },
+                { text: "各服務狀態監測", link: "https://status.mcjpg.org/" }
               ]
   },
   {
-    text: "友情链接",
+    text: "友情鏈接",
               items: [
-                { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
+                { text: "隨風的個人網站", link: "https://zhuyuxuan.link/" },
                 { text: "MSCPO", link: "https://mscpo.netlify.app/" },
-                { text: "风梨社区", link: "https://www.flweb.cn/" },
+                { text: "鳳梨社區", link: "https://www.flweb.cn/" },
               ]
   }
 ]
