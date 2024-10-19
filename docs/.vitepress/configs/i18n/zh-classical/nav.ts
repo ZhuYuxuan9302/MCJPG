@@ -5,7 +5,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   { text: '組織規則', link: '/lch/rules/' },
   {
     text: '團隊',
-    link: '/structure/',
+    link: '/lch/structure/',
   },
   { text: "組織專欄", link: '/lch/press/' },
   { text: "礦藝索引", link: '/lch/nav/' },
