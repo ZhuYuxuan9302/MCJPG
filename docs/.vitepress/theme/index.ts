@@ -5,7 +5,6 @@ import { createMediumZoomProvider } from './composables/useMediumZoom'
 import MLayout from './components/MLayout.vue'
 import MNavLinks from './components/MNavLinks.vue'
 import './styles/index.scss'
-import './styles/blur.scss'
 import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"

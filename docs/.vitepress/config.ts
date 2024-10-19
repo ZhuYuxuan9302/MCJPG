@@ -3,8 +3,10 @@ import { defineConfig } from 'vitepress'
 import MarkdownPreview from 'vite-plugin-markdown-preview'
 import { zh_CN } from './configs/zh_CN'
 import { en_US } from './configs/i18n/en_US/en_US'
+import { lch } from './configs/i18n/zh-classical/zh_classical'
 import { search as zhSearch } from './configs/zh_CN'
 // import { search as enSearch } from './configs/i18n/en_US/en_US'
+import { search as lzhSearch } from './configs/i18n/zh-classical/zh_classical'
 import { head , socialLinks } from './configs'
 
 const APP_BASE_PATH = basename(process.env.GITHUB_REPOSITORY || '')
@@ -25,7 +27,12 @@ export default defineConfig({
       label: 'English',
       lang: 'en_US',
       ...en_US
-    }
+    },
+    lch: {
+      label: '文言',
+      lang: 'zh-classical',
+      ...lch
+    },
   },
 
   head,
@@ -73,6 +80,7 @@ export default defineConfig({
         locales: {
           ...zhSearch,
           // ...enSearch,
+          lzhSearch,
 
         },
       },
