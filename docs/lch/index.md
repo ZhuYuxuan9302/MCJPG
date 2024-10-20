@@ -19,6 +19,14 @@ hero:
       text: 組織專欄
       link: /lch/press/
 
+features:
+  - icon:
+      src: /logo.png
+    title: 警之
+    details: 往白界，可阅诸人服表
+    link: /
+    linkText: 往之
+
 ---
 
 <style>

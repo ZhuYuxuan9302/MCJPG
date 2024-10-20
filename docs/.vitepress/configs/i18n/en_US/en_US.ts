@@ -43,7 +43,12 @@ export const en_US = defineConfig({
         lightModeSwitchTitle: 'Switch to light mode',
         darkModeSwitchTitle: 'Switch to dark mode',
 
-        
+        notFound: {
+          code:'404',
+          title:'PAGE NOT FOUND',
+          quote:"There's nothing here, look elsewhere, and if you're really bored you can go to the community group and chat!",
+          linkText:'Take me home',
+        },
     }
 })
 

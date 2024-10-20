@@ -43,7 +43,12 @@ export const zh_CN = defineConfig({
         lightModeSwitchTitle: '切换到浅色模式',
         darkModeSwitchTitle: '切换到深色模式',
 
-        
+        notFound: {
+          code:'404',
+          title:'不存在的页面',
+          quote:'这里什么都没有，去别处看看吧，实在无聊可以去社区群组聊聊天',
+          linkText:'返回首页',
+        },
     }
 })
 

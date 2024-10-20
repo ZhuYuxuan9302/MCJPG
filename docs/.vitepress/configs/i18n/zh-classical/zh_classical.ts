@@ -43,7 +43,12 @@ export const lch = defineConfig({
         lightModeSwitchTitle: '陽',
         darkModeSwitchTitle: '陰',
 
-        
+        notFound: {
+          code:'404',
+          title:'不在卷末',
+          quote:'于此何都无之，他往观之，实亦无聊可以往社之闲',
+          linkText:'回卷首',
+        },
     }
 })
 
