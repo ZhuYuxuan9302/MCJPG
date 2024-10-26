@@ -286,6 +286,20 @@ features:
     details: 版本:1.19.x——1.21.1（基岩可进） 可外置登录<br>称号系统/粘液科技/个人菜单/抽奖/箱子商店/手机互通/显示掉落物品/签到/圈地/拍卖行/每日委托/血月
     link: https://qm.qq.com/q/NxdejmE50A
     linkText: 进星月夜官方QQ群聊
+
+  - icon:
+      src: /server_icons/Oceannetwork.png
+    title: Oceannetwork
+    details: 版本:JE1.8x-1.21.x | BE(仅生存):最新<br>这是一个长期开放的原版纯净高版本生存服务器<br>保留了原汁原味的体验,仅有基础玩法经济等插件<br>我们保证不做影响平衡、破坏公平或偏袒其他玩家<br>无需担心服内出现OP滥用权限恶意破坏等恶劣行为
+    link: https://oceannetwork.top
+    linkText: 服务器官网
+
+  - icon:
+      src: /server_icons/寂梦神域
+    title: 寂梦神域.png
+    details: 版本:理论1.12.2-1.19.2（核心版本：1.19.2）<br>服务器基本玩法：四季生存，载具，家具，自然灾难，（小游戏），抽奖，宠物，精灵球，星露谷物语，更多玩法将会持续更新！（由于学业和人数问题，小游戏暂不开放）<br>特色：自定义内容丰富，玩家可完全自定义图片内容，生存不再枯燥。<br>目前服务器开放：生存世界，资源世界
+    link: https://qm.qq.com/q/q90fy2E39C
+    linkText: 欢迎新老玩家进服体验！
 ---
 
 <style>
