@@ -295,8 +295,8 @@ features:
     linkText: 服务器官网
 
   - icon:
-      src: /server_icons/寂梦神域
-    title: 寂梦神域.png
+      src: /server_icons/寂梦神域.png
+    title: 寂梦神域
     details: 版本:理论1.12.2-1.19.2（核心版本：1.19.2）<br>服务器基本玩法：四季生存，载具，家具，自然灾难，（小游戏），抽奖，宠物，精灵球，星露谷物语，更多玩法将会持续更新！（由于学业和人数问题，小游戏暂不开放）<br>特色：自定义内容丰富，玩家可完全自定义图片内容，生存不再枯燥。<br>目前服务器开放：生存世界，资源世界
     link: https://qm.qq.com/q/q90fy2E39C
     linkText: 欢迎新老玩家进服体验！
