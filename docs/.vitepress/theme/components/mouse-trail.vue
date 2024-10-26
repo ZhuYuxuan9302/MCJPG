@@ -7,7 +7,7 @@
  function initMouseTrail() {
     // 配置参数
     const config = {
-        maxTrailLength: 3,  // 轨迹的最大长度
+        maxTrailLength: 5,  // 轨迹的最大长度
         lineWidth: 3,        // 线条的宽度
         startColor: [255, 0, 0], // 起始颜色（红色）
         endColor: [148,0,211],   // 结束颜色（紫色）
