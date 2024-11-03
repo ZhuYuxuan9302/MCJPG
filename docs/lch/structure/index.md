@@ -36,6 +36,12 @@ const code = [
     title: '技術支持',
     desc: '基礎技術問題解決，風梨團隊創始人，狀態監測與機器人項目負責人',
   },
+  {
+    avatar: '/teammate/Ygbs.png',
+    name: 'Ygbs',
+    title: '后端技术开发',
+    desc: 'BugCraft 伺服器之主，無所事事焉',
+  },
 ]
 
 const community = [
