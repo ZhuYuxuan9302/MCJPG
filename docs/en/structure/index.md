@@ -36,6 +36,12 @@ const code = [
     title: 'Technical Support',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
+  {
+    avatar: '/teammate/Ygbs.png',
+    name: 'Ygbs',
+    title: '后端技术开发',
+    desc: 'BugCraft 腐竹，目前还没做什么事情',
+  },
 ]
 
 const community = [
