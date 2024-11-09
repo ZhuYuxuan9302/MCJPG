@@ -52,12 +52,6 @@ const community = [
     desc: '曙光生电服务器腐竹，唯一开学后有很多时间的人',
   },
   {
-    avatar: '/teammate/北🐟.jpg',
-    name: '深',
-    title: '社区管理',
-    desc: '社区平台负责人，TuTuPixel服务器腐竹',
-  },
-  {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
     title: '审核兼宣传',

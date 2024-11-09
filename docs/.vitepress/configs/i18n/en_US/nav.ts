@@ -12,9 +12,9 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: "Services",
               items: [
-                { text: "MCJPG Community", link: "https://com.mcjpg.org/" },
                 { text: "Community Img hub", link: "https://image.mcjpg.org/" },
-                { text: "Service status", link: "https://status.mcjpg.org/" }
+                { text: "Service status", link: "https://status.mcjpg.org/" },
+                { text: "Service status(Backup)", link: "https://bstatus.mcjpg.org/" },
               ]
   },
   {

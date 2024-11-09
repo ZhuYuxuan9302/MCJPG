@@ -52,12 +52,6 @@ const community = [
     desc: '曙光生電伺服器之主，惟此一人，開學之後閒暇甚多者也。',
   },
   {
-    avatar: '/teammate/北🐟.jpg',
-    name: '深',
-    title: '社區管理者',
-    desc: '社區平台管理者，TuTuPixel伺服器之主',
-  },
-  {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
     title: '審核兼宣傳',
