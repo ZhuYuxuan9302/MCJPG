@@ -290,7 +290,8 @@ features:
   - icon:
       src: /server_icons/Oceannetwork.png
     title: Ocean Network
-    details: 版本:JE1.8x-1.21.x | BE(仅生存):最新<br>这是一个长期开放的原版纯净高版本生存服务器<br>保留了原汁原味的体验,仅有基础玩法经济等插件<br>我们保证不做影响平衡、破坏公平或偏袒其他玩家<br>无需担心服内出现OP滥用权限恶意破坏等恶劣行为
+    details: 版本：JE1.8x-1.21.x | BE:最新
+<br>这是一个长期开放的原版纯净高版本生存服务器<br>保留了原汁原味的体验,仅有基础玩法经济等插件<br>我们保证不做影响平衡、破坏公平或偏袒其他玩家<br>无需担心服内出现OP滥用权限恶意破坏等恶劣行为
     link: https://oceannetwork.top
     linkText: 服务器官网
 
