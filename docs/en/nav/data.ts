@@ -29,6 +29,12 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo.png',
+        title: 'Markdown 编辑器',
+        desc: 'MCJPG部署的在线Markdown编辑器',
+        link: 'https://editor.mcjpg.org/',
+      },
+      {
+        icon: '/logo.png',
         title: '状态监测',
         desc: 'MCJPG各服务状态监测',
         link: 'https://status.mcjpg.org/',
