@@ -11,7 +11,15 @@ export const sidebar = {
             items: [
                 {text: '2024 National Day Special', link: '2024国庆特辑/'},
             ]
-            }
+          },
+          {
+            text: 'Monthly magazine',
+            base: '/en/press/月刊/',
+            collapsed: false,
+            items: [
+                {text: '2024-November Periodical', link: '2024-11月刊/'},
+            ]
+          },
         ]
       }
     ]

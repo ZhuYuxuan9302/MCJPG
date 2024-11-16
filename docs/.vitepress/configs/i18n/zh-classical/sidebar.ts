@@ -11,7 +11,15 @@ export const sidebar = {
             items: [
                 {text: '2024國慶特輯', link: '2024国庆特辑/'},
             ]
-            }
+          },
+          {
+            text: '月刊',
+            base: '/lch/press/月刊/',
+            collapsed: false,
+            items: [
+                {text: '2024-11月刊', link: '2024-11月刊/'},
+            ]
+          },
         ]
       }
     ]
