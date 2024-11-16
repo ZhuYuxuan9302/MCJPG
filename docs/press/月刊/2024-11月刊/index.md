@@ -39,8 +39,7 @@ prev: false
 在过去的一个月，**MCJPG** 完善了其开发部门开发的**ServerListSync**模组  
 这个模组提供了游戏内多人游戏服务器列表的云同步功能
 此模组已在**MCJPG** 定制整合包内提供  
-发布地址:  
-[Modrinth](https://modrinth.com/mod/serverlistsync)  
+发布地址：[Modrinth](https://modrinth.com/mod/serverlistsync)  
 详情请见 [Github仓库](https://github.com/MineJPGcraft/ServerListSync)
 
 ### MCJPG 定制整合包
