@@ -17,7 +17,7 @@ export const sidebar = {
             base: '/en/press/月刊/',
             collapsed: false,
             items: [
-                {text: '2024-November Periodical', link: '2024-11月刊/'},
+                {text: '2024-November', link: '2024-11月刊/'},
             ]
           },
         ]
