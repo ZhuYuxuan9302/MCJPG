@@ -7,7 +7,7 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: 'MCJPG related websites',
+    title: 'MCJPG websites',
     items: [
       {
         icon: '/logo.png',
@@ -23,12 +23,6 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo.png',
-        title: '社区',
-        desc: 'MCJPG交流社区',
-        link: 'https://com.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
         title: '图床',
         desc: 'MCJPG自建图床,支持5MB以下媒体分享',
         link: 'https://image.mcjpg.org/',
@@ -38,6 +32,12 @@ export const NAV_DATA: NavData[] = [
         title: '状态监测',
         desc: 'MCJPG各服务状态监测',
         link: 'https://status.mcjpg.org/',
+      },
+      {
+        icon: '/logo.png',
+        title: '状态监测(备用)',
+        desc: 'MCJPG各服务状态监测',
+        link: 'https://bstatus.mcjpg.org/',
       },
     ],
   },
