@@ -45,12 +45,12 @@ prev: false
 ### MCJPG 定制整合包
 
 经过一个多月的改进，整合包终于正式发布，目前仅在[社区群组](https://qm.qq.com/q/bAZle5ABzy)内提供，会在不久后发布于Modrinth  
-此整合包包含了大量生电，优化，辅助模组，真正做到了开箱即用，同时也包含了上文的**ServerListSync**模组  
+此整合包包含了大量生电，优化，辅助模组，真正做到了开箱即用，同时也包含了上文的 **ServerListSync** 模组  
 整合包适合所有高版本的玩家，欢迎体验
 
 ## 联动
 
-经过讨论，**MCJPG**组织 正式与[桃花源联谊组织](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_f6OAfAbCuyIbiny20DsPSd33-Zx-hRU&authKey=6kJlwUInU9ZPwU2SureaIgMLq%2FMMHWB0FsBbai5qdoch8uk%2BxPBp4cMOg2evXWXy&noverify=0&group_code=415027991)达成合作关系  
+经过讨论，**MCJPG**组织 正式与 [桃花源联谊组织](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_f6OAfAbCuyIbiny20DsPSd33-Zx-hRU&authKey=6kJlwUInU9ZPwU2SureaIgMLq%2FMMHWB0FsBbai5qdoch8uk%2BxPBp4cMOg2evXWXy&noverify=0&group_code=415027991) 达成合作关系  
 在接下来的日子，我们将共同发展，为国内**MC**社区建设贡献一份力量
 
 ## 最后
