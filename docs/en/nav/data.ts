@@ -436,6 +436,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.chunkbase.com/',
       },
       {
+        //icon: 'http://mcid.lingningyu.cn/webIcon_mcid.png',
+        icon: '/icons/nav/功能性网站/MCID.png',
+        title: 'MCID',
+        desc: '物品ID查询网站',
+        link: 'http://mcid.lingningyu.cn/',
+      },
+      {
         //icon: 'https://minecraft.tools/favicon.ico',
         icon: '/icons/nav/功能性网站/Minecraft Tools.ico',
         title: 'Minecraft Tools',
