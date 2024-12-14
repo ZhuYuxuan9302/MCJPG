@@ -51,8 +51,7 @@ The modpack is suitable for all players on high versions, and we welcome you to 
 ## Collaboration
 
 After discussions, **MCJPG Organization** has officially established a partnership with the [Peach Blossom Source Association](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_f6OAfAbCuyIbiny20DsPSd33-Zx-hRU&authKey=6kJlwUInU9ZPwU2SureaIgMLq%2FMMHWB0FsBbai5qdoch8uk%2BxPBp4cMOg2evXWXy&noverify=0&group_code=415027991).  
-In the days to come, we will work together to contribute to the development of the domestic **Minecrafrt
-** community.
+In the days to come, we will work together to contribute to the development of the domestic **Minecrafrt** community.
 
 ## Conclusion
 
