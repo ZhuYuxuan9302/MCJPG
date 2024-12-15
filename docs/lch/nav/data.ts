@@ -35,6 +35,12 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo.png',
+        title: 'AI 对话',
+        desc: 'MCJPG的在线AI聊天网站',
+        link: 'https://chat.mcjpg.org/',
+      },
+      {
+        icon: '/logo.png',
         title: '状态监测',
         desc: 'MCJPG各服务状态监测',
         link: 'https://status.mcjpg.org/',
@@ -134,7 +140,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/nav/非官方论坛/mcobs.png',
         title: '黑曜石论坛',
         desc: '一个国内新兴的论坛，主营java版',
-        link: 'https://www.mcobs.fun/',
+        link: 'https://mcobs.cn/',
       },
     ],
   },
