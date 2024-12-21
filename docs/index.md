@@ -300,6 +300,13 @@ features:
     details: 版本：JE1.20.4<br>一个普通的生电服，有白名单和语音通话
     link: https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=e-ZW5B7qKoAzPlVHHOWUSlayWuwjkMe4&authKey=sXEs4UUkSnc39sresb2zDDVIbV89SIadGDnn85QBW41TDOsbl7hZXpdPXf1qyvBs&noverify=0&group_code=939672717
     linkText: 加入审核群
+
+  - icon:
+      src: /server_icons/千禧年世界.png
+    title: 千禧年世界
+    details: JE1.12.2-1.21.x<br>主打生存，但是也有小游戏玩法 我们一直在!<br>由千禧年云独自运营独自开发
+    link: https://xn--rhqy9ju9kn4wh5e.xn--fiqs8s/
+    linkText: 访问我们的官网!
 ---
 
 <style>
