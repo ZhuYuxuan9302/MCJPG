@@ -100,8 +100,8 @@ features:
   - icon:
       src: /server_icons/NBB.png
     title: NBB原版生存生电服务器-无规则
-    details: 版本JE1.21 兼容BE</br>死亡标记</br>反作弊</br>IP地址NBB.aimc.cc</br>备用/国外218.93.208.200:25933(同基岩版)</br>服务器每周天公开存档</br>如果您在服务器获得了成就想要获取存档进行备份可联系群主</br>轻量化传送插件不花里胡哨！</br>命令：</br>/tpa <玩家名></br>请求传送到其他玩家</br>/tpaccept</br>同意传送请求</br>/tpdeny</br>拒绝传送请求
-    link: https://qm.qq.com/q/gjHUTLvPnc
+    details: 版本JE1.21</br>死亡标记</br>反作弊</br>IP地址NBB.aimc.cc</br>备用/国外218.93.208.200:25933(同基岩版)</br>服务器每周天公开存档</br>如果您在服务器获得了成就想要获取存档进行备份可联系群主</br>轻量化传送插件不花里胡哨！</br>命令：</br>/tpa <玩家名></br>请求传送到其他玩家</br>/tpaccept</br>同意传送请求</br>/tpdeny</br>拒绝传送请求
+    link: https://qm.qq.com/q/KCHg3BnnG2
     linkText: 开始你的世界，防止失联，加入我们！
     
   - icon:
