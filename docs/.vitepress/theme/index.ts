@@ -10,6 +10,8 @@ import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+import { NProgress } from 'nprogress-v2/dist/index.js'
+import 'nprogress-v2/dist/index.css'
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -76,6 +78,14 @@ export default {
           ),
         { immediate: true },
       )
+    }
+    if (typeof window !== 'undefined') {
+      router.onBeforeRouteChange = () => {
+        NProgress.start()
+      }
+      router.onAfterRouteChanged = () => {
+        NProgress.done()
+      }
     }
   },
 }

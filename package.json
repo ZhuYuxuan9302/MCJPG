@@ -43,6 +43,7 @@
     }
   },
   "dependencies": {
+    "nprogress-v2": "^1.0.4",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
