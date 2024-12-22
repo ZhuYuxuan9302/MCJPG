@@ -12,6 +12,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: "社区服务",
               items: [
+                { text: "AI对话", link: "https://chat.mcjpg.org/" },
                 { text: "MCJPG 社区图床", link: "https://image.mcjpg.org/" },
                 { text: "Markdown 编辑器", link: "https://editor.mcjpg.org/" },
                 { text: "状态监测", link: "https://status.mcjpg.org/" },
