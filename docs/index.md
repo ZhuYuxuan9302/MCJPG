@@ -304,7 +304,7 @@ features:
   - icon:
       src: /server_icons/千禧年世界.png
     title: 千禧年世界
-    details: JE1.12.2-1.21.x<br>主打生存，但是也有小游戏玩法 我们一直在!<br>由千禧年云独自运营独自开发
+    details: JE1.12.2-1.21.x<br>千禧年世界服务器＆MilleniumWorld<br>历经一年半，打造一个不错(?的小型群组服务器<br>服务器有生存服，小游戏，生电服(后续可能会增加玩法)<br>快来加入我们吧！
     link: https://xn--rhqy9ju9kn4wh5e.xn--fiqs8s/
     linkText: 访问我们的官网!
 ---
