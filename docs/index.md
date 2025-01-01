@@ -305,7 +305,7 @@ features:
       src: /server_icons/千禧年世界.png
     title: 千禧年世界
     details: JE1.12.2-1.21.x<br>主打生存，但是也有小游戏玩法 我们一直在!<br>由千禧年云独自运营独自开发
-    link: https://xn--rhqy9ju9kn4wh5e.xn--fiqs8s/
+    link: https://qxn.world/
     linkText: 访问我们的官网!
 ---
 

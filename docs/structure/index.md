@@ -68,8 +68,13 @@ const community = [
         },
          link: 'https://space.bilibili.com/1655020702' }
     ]
-
-  }
+  },
+  {
+    avatar: '/teammate/1410happy.jpg',
+    name: '1410happy1',
+    title: '社区管理',
+    desc: '望海公社腐竹 MCJPG的见习社区管理',
+  },
 ]
 
 const publicise = [
