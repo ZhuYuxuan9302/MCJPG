@@ -307,6 +307,13 @@ features:
     details: JE1.12.2-1.21.x<br>千禧年世界服务器＆MilleniumWorld<br>历经一年半，打造一个不错(?的小型群组服务器<br>服务器有生存服，小游戏，生电服(后续可能会增加玩法)<br>快来加入我们吧！
     link: https://qxn.world
     linkText: 访问我们的官网!
+
+  - icon:
+      src: /server_icons/Meka Servival.jpg
+    title: Meka Servival
+    details: JE1.20,支持1.8-1.21.4<br>在Meka Servival，每个方块都有故事
+    link: https://qm.qq.com/q/6Y3ABVnJ5e
+    linkText: 欢迎加入QQ群:981957765
 ---
 
 <style>
