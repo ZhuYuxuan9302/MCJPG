@@ -87,7 +87,7 @@ features:
       src: /server_icons/MCIC.jpg
     title: MCIC
     details: 版本：JAVA | 1.16.x-1.20.2</br>*Unknown**无线电静默*成分复杂的服务器
-    link: https://qm.qq.com/q/6DsL9DkN3O
+    link: https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-IlME68JyiIobA7kc0K1ZtYq4bYuyrUj&authKey=AfOWKLmhMS666hgDeOW0Su3Oecq7WAfzOgDHhH8Zkpi5Anq9qWiQm6Vq7C9mcCcY&noverify=0&group_code=821501867
     linkText: 加入MCIC!
   
   - icon:
