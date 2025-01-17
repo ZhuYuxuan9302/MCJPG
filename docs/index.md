@@ -314,6 +314,13 @@ features:
     details: JE1.20,支持1.8-1.21.4<br>在Meka Servival，每个方块都有故事
     link: https://qm.qq.com/q/6Y3ABVnJ5e
     linkText: 欢迎加入QQ群:981957765
+  
+  - icon:
+      src: /server_icons/流茵.jpg
+    title: 流茵
+    details: 版本:JE1.21<br>流茵是1.21的生电服务器，服务器名称意为"似水流年，芳草如茵"。<br>即是我们希望用一点又一点的时间将服务器逐渐建设起来，用双手创造一个又一个奇迹，最终这里将成为一个美好又充满希望的服务器
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=VDx8Ym89PpjDKonuJdyRLwDcnasz9BDz&authKey=qFyhYfLpfA7um4LUGgihsBpcgnliwEMlo%2FPZbmkmlPDUvP4Sh%2FXjNNUekVP8WmnA&noverify=0&group_code=644609396
+    linkText: 加入QQ群
 ---
 
 <style>
