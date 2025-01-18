@@ -392,7 +392,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/nav/服务器门户/MSCPO.webp',
         title: 'MSCPO',
         desc: '一个服务器集体宣传组织',
-        link: 'https://mscpo.netlify.app/',
+        link: 'https://mscpo.top/',
       },
       {
         //icon: 'https://toolb.cn/favicon/minecraftservers.org',
