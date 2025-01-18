@@ -321,6 +321,13 @@ features:
     details: 版本:JE1.21<br>流茵是1.21的生电服务器，服务器名称意为"似水流年，芳草如茵"。<br>即是我们希望用一点又一点的时间将服务器逐渐建设起来，用双手创造一个又一个奇迹，最终这里将成为一个美好又充满希望的服务器
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=VDx8Ym89PpjDKonuJdyRLwDcnasz9BDz&authKey=qFyhYfLpfA7um4LUGgihsBpcgnliwEMlo%2FPZbmkmlPDUvP4Sh%2FXjNNUekVP8WmnA&noverify=0&group_code=644609396
     linkText: 加入QQ群
+
+  - icon:
+      src: /server_icons/Minefusion.png
+    title: 方联生电 - Minefusion
+    details: 版本1.18-1.21.4<br>方联全名"方块联合" 意思是希望玩家们团结起来，联合起来建设世界，加入我们来创造您的世界<br>方联生电生存服务器丨tp指令丨圈地系统丨称号系统丨养老甄选丨不限制刷怪丨无须正版丨
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YoHoA4wuyxysHNYgCMWhjWSXaHo-CODv&authKey=e0aIyi0ufiuhWnpXB9xPvZnbkAIqGDB%2F9yDQHaf5D5PL91aD9SohC8n%2FHBwXzPHa&noverify=0&group_code=524746034
+    linkText: 开始你的世界，创造你的可能，加入我们！
 ---
 
 <style>
