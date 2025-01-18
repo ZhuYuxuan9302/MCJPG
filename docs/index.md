@@ -325,10 +325,9 @@ features:
   - icon:
       src: /server_icons/Minefusion.png
     title: 方联生电 - Minefusion
-    details: 版本1.18-1.21.4<br>方联全名"方块联合" 意思是希望玩家们团结起来，联合起来建设世界，加入我们来创造您的世界<br>
-方联生电生存服务器丨tp指令丨圈地系统丨称号系统丨养老甄选丨不限制刷怪丨无须正版丨
+    details: 版本1.18-1.21.4<br>方联全名"方块联合" 意思是希望玩家们团结起来，联合起来建设世界，加入我们来创造您的世界<br>方联生电生存服务器丨tp指令丨圈地系统丨称号系统丨养老甄选丨不限制刷怪丨无须正版丨
     link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YoHoA4wuyxysHNYgCMWhjWSXaHo-CODv&authKey=e0aIyi0ufiuhWnpXB9xPvZnbkAIqGDB%2F9yDQHaf5D5PL91aD9SohC8n%2FHBwXzPHa&noverify=0&group_code=524746034
-    linkText: 开始您的世界，创造您的可能，加入我们！
+    linkText: 开始你的世界，创造你的可能，加入我们！
 ---
 
 <style>
