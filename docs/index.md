@@ -20,12 +20,6 @@ hero:
       link: /press/
 
 features:
-  - icon:
-      src: /server_icons/mss.jpg
-    title: MSS
-    details: 版本：JE1.21.1 BE1.21.x </br>本服务器添加了粘液科技以解决原版生存过于休闲的问题(bushi)</br>添加了各种娱乐插件以丰富玩家互动</br>
-    link: https://qm.qq.com/q/S2cX3H6LWq
-    linkText: 点此加入QQ群
    
   - icon:
       src: /server_icons/SiO2 SMP.png
@@ -61,13 +55,6 @@ features:
     details: 版本:原生1.21.1 兼容JE1.9~1.21.1和最新BE </br>游戏内语音聊天 随意喷涂 趣味的生电 便捷的菜单操作 不限制传送 </br>独家优化的整合包 </br>无需正版
     link: https://qm.qq.com/q/QhfzwbV82Y
     linkText: 加入面包人大队！
-    
-  - icon:
-      src: /server_icons/SpaceQuest.jpg
-    title: 星际探索服务器
-    details: 版本:Java 1.18.2+</br>无需正版，无需模组，插件生存，操作便携，可进入太空或其它星球探索，新服开荒，旨在为玩家提供更好的游戏体验</br>欢迎你的加入！
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DPc0fRh1VfewC9_FSGMzpvQZMyBYUxoc&authKey=rZYDhf%2FtmBN40pe1LG%2BtKEVlsiQGgGpNvY9hB36W4vZw4Q4u%2Fw%2BSyt6ieDk%2FoaA7&noverify=0&group_code=970204197
-    linkText: 加入服务器，开始探索之旅！    
 
   - icon:
       src: /server_icons/Unknown.png
@@ -98,10 +85,10 @@ features:
     linkText: 开始你的世界，创造你的可能，加入我们！
 
   - icon:
-      src: /server_icons/NBB.png
-    title: NBB原版生存生电服务器-无规则
-    details: 版本JE1.21</br>死亡标记</br>反作弊</br>IP地址NBB.aimc.cc</br>备用/国外218.93.208.200:25933(同基岩版)</br>服务器每周天公开存档</br>如果您在服务器获得了成就想要获取存档进行备份可联系群主</br>轻量化传送插件不花里胡哨！</br>命令：</br>/tpa <玩家名></br>请求传送到其他玩家</br>/tpaccept</br>同意传送请求</br>/tpdeny</br>拒绝传送请求
-    link: https://qm.qq.com/q/KCHg3BnnG2
+      src: /server_icons/2B2T.png
+    title: 2B2T.LTD原版生存服务器
+    details: 版本JE1.21.4</br>死亡标记</br>反作弊</br>支持非正版玩家</br>支持离线玩家使用皮肤</br>支持坐下躺下趴下
+    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZUlCu0t20rtzXQ-VFq4rGnu-NPfqC05c&authKey=ET6TmNsod93ySdq861YNZytyu5XKom0FskLAvYhFRe%2B5ZRx%2F3%2BOLjuVISVKRgkjV&noverify=0&group_code=940028915
     linkText: 开始你的世界，防止失联，加入我们！
     
   - icon:
@@ -119,25 +106,11 @@ features:
     linkText: 愿美丽的繁星永远照耀着你
     
   - icon:
-      src: /server_icons/MCSC.png
-    title: MCSC
-    details: 1.20.4~1.21多版本支持的服务器联合体!</br>有地球服务器、史诗地形创造服务器、史诗地形生存服务器等等!</br>欢迎你的加入!可以玩家间传送!
-    link: https://qm.qq.com/q/v7FTqxD7NK
-    linkText: 加入MCSC!
-    
-  - icon:
       src: /server_icons/繁星游戏堡FGCserver.png
     title: 繁星游戏堡FGCserver
     details: 版本:1.21 不互通 正版白名单 需审核</br>由多位中学生共同建立的完美世界——一个生电服务器。</br>我们内置了游戏内语音以及生电模组。需要正版。</br>一审进群，二审进服。（题很简单的啦）
     link: https://www.bilibili.com/video/BV19pYReHEZ9
     linkText: 前往视频链接
-    
-  - icon:
-      src: /server_icons/Windy.jpg
-    title: Windy
-    details: 版本:JE1.8.9-1.21 兼容BE 生电服务器 正版服 无白名单 </br>有部分插件 比如传送 地图画 核心Leaves
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=D-M87RHXQrs3rTig3cmMsXKWyYHm9pES&authKey=eqhrG3fsx7RGpfp2RzjqzN%2FZ3r5a8%2Bh6WBHdZqanZrwah9Gji6a9FkpjuUuTwl%2Bt&noverify=0&group_code=758103687
-    linkText: 加入QQ群
     
   - icon:
       src: /server_icons/星梦桃源.png
@@ -175,13 +148,6 @@ features:
     linkText: 期待您的加入 
 
   - icon:
-      src: /server_icons/LiyuPlay.jpg
-    title: LiyuPlay
-    details: 版本1.20.2 不互通 离线可进</br>来LiyuPlay里体验在广袤世界探索生存的乐趣！</br>宁静祥和的午后垂钓，从零建立起自己的菜园，攻克自然生成的副本，用方块一点一点地改造这个世界……</br>在LiyuPlay里随心所欲。
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=5YYyjfhRjWJVUF8pQMyFIp06zX5KuzzA&authKey=wQgtTF9nqLQTT9fkDuuOVDsj9PjbpRaMrk%2B6Cj0x7PQXRsFncbWFZ2edZBNC%2BBew&noverify=0&group_code=830231906
-    linkText: 加入LiyuPlay
-
-  - icon:
       src: /server_icons/NPL.jpg
     title: NPL无界玩家
     details: 版本Java1.21</br>NPL是一个新生的生电服务器，在这里你可以进行体验到较为轻松的生存技术玩法。</br>我们致力于打造一个忠于原版的生电社区，玩家之间可以愉快交流。服务器基于fabric+mcdr进行搭建，目前有一套比较完善的后勤系统，游戏内无op杜绝一切作弊，加入我们体验原汁原味的生电玩法
@@ -201,13 +167,6 @@ features:
     details: 版本JE1.20.4 跨版本 兼容BE 反作弊 </br>本服为公益服，不只接受无条件赞助，任何玩家都是平等的，让玩家享受最公平的游戏环境
     link: http://gw.3114514.xyz/
     linkText: 前往官网
-
-  - icon:
-      src: /server_icons/ChaosAwaken_icon.png
-    title: ChaosAwaken混沌觉醒
-    details: 版本：JAVA1.16.5 | 1.16.5Foge</br>混沌觉醒是一款由知名模组矿石菌种1.12.2复更版本的开发者（非原作者）与制作团队共同制作的新模组! 本服务器以此MOD为核心，打造了多样,有趣,具有挑战性的冒险体验.
-    link: https://qm.qq.com/q/6eiaxd2DNm
-    linkText: 点击这里!你也可以拥有这样的冒险体验!
     
   - icon:
       src: /server_icons/方块风云国战服.jpg
@@ -224,25 +183,12 @@ features:
     linkText: 加入TS大家庭
 
   - icon:
-      src: /server_icons/花枝鹦鹉Server.png
-    title: 花枝鹦鹉Server
-    details: 版本JE1.20.1fabric 正版验证</br>主打机械动力的fabric模组服</br>内置生电常用mod和语音</br>可以来玩机械动力 养老 冒险和生存等
-    link: https://qm.qq.com/q/fDCJg7e5lm
-    linkText: 加入我们
-
-  - icon:
       src: /server_icons/Craft233.png
     title: Craft233
     details: 版本：Java 1.20-1.21.1</br>Craft233，一个休闲养老摸鱼系的Minecraft小服务器，欢迎加入我们，同我们一起成长！
     link: https://www.craft233.top
     linkText: 前往官网
 
-  - icon:
-      src: /server_icons/lonleaf.png
-    title: 苍叶之林
-    details: · 版本：Java 1.20.X 插件服</br>理论上支持1.7.x-1.21.x(</br>如你所见这是一个Minecraft服务器</br>玩法以生存+轻RPG为主</br>·正版玩家自动登录，无需注册！</br>·离线玩家密码系统,安全可靠！</br>·副本|冒险|生存养老|动物朋友|社交|探索|</br>目前正在陆续修改原版生存玩法！更新各种副本，生物，武器！</br>如果感兴趣的话→QQ群：978652794</>
-    link: https://lonleaf.top
-    linkText: 前往官网
 
   - icon:
       src: /server_icons/TACS_茶水晶服务器.svg
@@ -273,12 +219,6 @@ features:
     link: https://www.bilibili.com/video/BV1miebe6E2w
     linkText: 前往视频链接
 
-  - icon:
-      src: /server_icons/星月夜.jpg
-    title: 星月夜 Fantasystars
-    details: 版本:1.19.x——1.21.1（基岩可进） 可外置登录<br>称号系统/粘液科技/个人菜单/抽奖/箱子商店/手机互通/显示掉落物品/签到/圈地/拍卖行/每日委托/血月
-    link: https://qm.qq.com/q/NxdejmE50A
-    linkText: 进星月夜官方QQ群聊
 
   - icon:
       src: /server_icons/Oceannetwork.png
@@ -286,13 +226,6 @@ features:
     details: 版本：JE1.8x-1.21.x | BE:最新<br>这是一个长期开放的原版纯净高版本生存服务器<br>保留了原汁原味的体验,仅有基础玩法经济等插件<br>我们保证不做影响平衡、破坏公平或偏袒其他玩家<br>无需担心服内出现OP滥用权限恶意破坏等恶劣行为
     link: https://oceannetwork.top
     linkText: 服务器官网
-
-  - icon:
-      src: /server_icons/寂梦神域.png
-    title: 寂梦神域
-    details: 版本:理论1.12.2-1.19.2（核心版本：1.19.2）<br>服务器基本玩法：四季生存，载具，家具，自然灾难，（小游戏），抽奖，宠物，精灵球，星露谷物语，更多玩法将会持续更新！（由于学业和人数问题，小游戏暂不开放）<br>特色：自定义内容丰富，玩家可完全自定义图片内容，生存不再枯燥。<br>目前服务器开放：生存世界，资源世界
-    link: https://qm.qq.com/q/q90fy2E39C
-    linkText: 欢迎新老玩家进服体验！
   
   - icon:
       src: /server_icons/望海公社.png
@@ -323,11 +256,11 @@ features:
     linkText: 加入QQ群
 
   - icon:
-      src: /server_icons/Minefusion.png
-    title: 方联生电 - Minefusion
-    details: 版本1.18-1.21.4<br>方联全名"方块联合" 意思是希望玩家们团结起来，联合起来建设世界，加入我们来创造您的世界<br>方联生电生存服务器丨tp指令丨圈地系统丨称号系统丨养老甄选丨不限制刷怪丨无须正版丨
-    link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=YoHoA4wuyxysHNYgCMWhjWSXaHo-CODv&authKey=e0aIyi0ufiuhWnpXB9xPvZnbkAIqGDB%2F9yDQHaf5D5PL91aD9SohC8n%2FHBwXzPHa&noverify=0&group_code=524746034
-    linkText: 开始你的世界，创造你的可能，加入我们！
+      src: /server_icons/怡梦云.png
+    title: 怡梦云
+    details: 版本:JE1.20.4<br>集生电、建筑、冒险于一体的混乱的服务器，不定时会展开活动（死亡不掉落）
+    link: https://qm.qq.com/q/gDTuqu8nIY
+    linkText: 加入QQ群
 ---
 
 <style>

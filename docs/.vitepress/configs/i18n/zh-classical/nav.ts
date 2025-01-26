@@ -22,8 +22,8 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: "友情鏈接",
               items: [
-                { text: "隨風的個人網站", link: "https://zhuyuxuan.link/" },
                 { text: "MSCPO", link: "https://mscpo.top/" },
+                { text: "隨風的個人網站", link: "https://zhuyuxuan.link/" },
                 { text: "鳳梨社區", link: "https://www.flweb.cn/" },
               ]
   }
