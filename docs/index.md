@@ -164,7 +164,7 @@ features:
   - icon:
       src: /server_icons/破土豆服务器.jpg
     title: 破土豆服务器
-    details: 版本JE1.20.4 跨版本 兼容BE 反作弊 </br>本服为公益服，不只接受无条件赞助，任何玩家都是平等的，让玩家享受最公平的游戏环境
+    details: 版本JE1.20.4 跨版本 兼容BE 反作弊 </br>本服为公益服，不只接受无条件赞助，任何玩家都是平等的，让玩家享受最公平的游戏环境</br>群号：962534612
     link: http://gw.3114514.xyz/
     linkText: 前往官网
     
@@ -261,6 +261,13 @@ features:
     details: 版本:JE1.20.4<br>集生电、建筑、冒险于一体的混乱的服务器，不定时会展开活动（死亡不掉落）
     link: https://qm.qq.com/q/gDTuqu8nIY
     linkText: 加入QQ群
+
+  - icon:
+      src: /server_icons/星光StarShine.png
+    title: 星光StarShine
+    details: 版本:JE1.20.4<br>一个MC插件互通生存服务器<br>死亡不掉落:主世界✓下界✓末地×<br>主城含有一个物品不太全的商店，正在完善中<br>含有tpa gsit quickshop res等插件，目前主玩法为生存，自由探索，后续尝试打算改群组服尝试以添加一些小游戏，持续创新中！<br>起步阶段，来了你就是服务器元老<br>官网：www.8bc.top
+    link: https://www.8bc.top/
+    linkText: 访问官网
 ---
 
 <style>
