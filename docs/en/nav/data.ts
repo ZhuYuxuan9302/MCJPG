@@ -41,6 +41,12 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo.png',
+        title: '文件分发',
+        desc: 'MCJPG的文件分发服务',
+        link: 'https:/fds.mcjpg.org/',
+      },
+      {
+        icon: '/logo.png',
         title: '状态监测',
         desc: 'MCJPG各服务状态监测',
         link: 'https://status.mcjpg.org/',
