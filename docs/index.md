@@ -268,6 +268,13 @@ features:
     details: 版本:JE1.20.4<br>一个MC插件互通生存服务器<br>死亡不掉落:主世界✓下界✓末地×<br>主城含有一个物品不太全的商店，正在完善中<br>含有tpa gsit quickshop res等插件，目前主玩法为生存，自由探索，后续尝试打算改群组服尝试以添加一些小游戏，持续创新中！<br>起步阶段，来了你就是服务器元老<br>官网：www.8bc.top
     link: https://www.8bc.top/
     linkText: 访问官网
+
+  - icon:
+      src: /server_icons/TSM生存生电.png
+    title: TSM生存生电
+    details: 版本:1.20.X~1.21.X<br>|离线|白名单|公益|生存|生电<br>一个玩家和谐，玩法自由，游戏完善的高版本Fabric端生存生电服务器，详见宣传片
+    link: https://www.bilibili.com/video/BV1tRkiYcEXG/?share_source=copy_web&vd_source=5efb7eb559fb6731efdf1dd87ab54abc
+    linkText: 宣传片
 ---
 
 <style>
