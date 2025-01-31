@@ -3,30 +3,30 @@ layout: doc
 title: 2025 New Year Special
 description: MCJPG 2025 New Year Special
 ---
-# 2025新年特辑
+# 2025 New Year Special
 
-**各位新年好**，不知不觉，**MCJPG** 已经陪伴大家走过了半个年头  
-**MCJPG** 向大家拜年啦
+**Happy New Year, everyone!** Before we know it, **MCJPG** has been with you for half a year.  
+**MCJPG** sends New Year greetings to everyone.
 
-## 年终总结
+## Year-End Summary
 
-在过去的一年里，**MCJPG** 的各项工作逐渐完善，没完成的烂尾项目也全部收尾  
-这个年轻且充满活力的组织，终于迎来了规范化  
-在寒假期间，我们对现有各成员服就行了**复审**，提升了玩家们的游戏体验  
-对组织内部架构进行了改革，确保了决策的正确性  
+Over the past year, the various initiatives of **MCJPG** have gradually been improved, and all the unfinished projects have been completed.  
+This young and vibrant organization has finally embraced standardization.  
+During the winter break, we conducted a **re-evaluation** of existing member servers, enhancing the gaming experience for players.  
+We reformed the internal structure of the organization to ensure the correctness of decision-making.
 
-## 年度项目-AI Chat
+## Annual Project - AI Chat
 
-经过内部测试，基于LobeChat搭建的[MCJPG Chat](https://chat.mcjpg.org)正式发布  
-搭建了AI工具的多模态应用链条，利用AI解决了在开发环境中各类问题
+After internal testing, [MCJPG Chat](https://chat.mcjpg.org), built on LobeChat, is officially released.  
+We have established a multi-modal application chain of AI tools, using AI to solve various issues in the development environment.
 
-### 优势
+### Advantages
 
-采用稳定的上游官方API对接，能够确保我们的服务稳定提供  
-采用成熟的框架搭建，用户的数据安全十分甚至九分安全（我们自己都看不见）  
-免费提供了GPT-4o、Claude、Gemini 2.0 、DeepSeek R1等著名国内外商业大语言模型供用户使用，没有任何收费选项，完全由社区提供无条件捐助
+By adopting stable upstream official API integration, we ensure the stable provision of our services.  
+Built on a mature framework, user data security is tenfold or even ninefold assured (not even we can see it).  
+We offer famous domestic and international commercial large language models like GPT-4o, Claude, Gemini 2.0, and DeepSeek R1 for users to use free of charge, with no payment options, entirely supported by community unconditional donations.
 
-## 最后
+## Finally
 
-祝大家在新的一年里身体健康，事业进步，学业有成  
-在接下来的时间，我们将继续努力，不断壮大组织规模，提升技术水平，加强宣传推广，优化审核机制，为广大玩家和服主提供更加优质的服务。
+We wish everyone good health, career progress, and academic success in the new year.  
+In the coming time, we will continue to strive, expand the organization, improve technical levels, strengthen publicity and promotion, optimize review mechanisms, and provide better services to players and server owners.
