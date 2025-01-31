@@ -8,7 +8,7 @@
     "@femm/prettier": "^1.1.0",
     "@femm/tailwind-config": "^1.0.0",
     "@femm/verify-commit": "^1.0.1",
-    "@giscus/vue": "^3.0.0",
+    "@giscus/vue": "^3.1.1",
     "@mdit-vue/shared": "^2.1.3",
     "@types/node": "^22.7.7",
     "autoprefixer": "^10.4.20",
@@ -22,7 +22,7 @@
     "sass": "^1.80.3",
     "tailwindcss": "^3.4.14",
     "vite-plugin-markdown-preview": "^1.1.1",
-    "vitepress": "^1.5.0",
+    "vitepress": "^1.6.3",
     "vitepress-plugin-music": "^0.0.9",
     "vue": "^3.5.12"
   },
