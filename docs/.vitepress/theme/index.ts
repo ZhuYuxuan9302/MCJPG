@@ -10,6 +10,7 @@ import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+import ServerList from './components/ServerList.vue'
 import { NProgress } from 'nprogress-v2/dist/index.js'
 import 'nprogress-v2/dist/index.css'
 
@@ -67,6 +68,7 @@ export default {
     vitepressMusic(playlist)
     app.component('MNavLinks', MNavLinks)
     app.component('ArticleMetadata' , ArticleMetadata)
+    app.component('ServerList' , ServerList)
 
     if (typeof window !== 'undefined') {
       watch(
