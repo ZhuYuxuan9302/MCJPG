@@ -1,4 +1,4 @@
-import type { NavLink } from '../.vitepress/theme/types'
+import type { NavLink } from '.../.vitepress/theme/types'
 
 type NavData = {
   title: string
@@ -6,59 +6,6 @@ type NavData = {
 }
 
 export const NAV_DATA: NavData[] = [
-  {
-    title: 'MCJPG网站',
-    items: [
-      {
-        icon: '/logo.png',
-        title: 'MCJPG组织',
-        desc: 'MCJPG组织官网',
-        link: 'https://mcjpg.org',
-      },
-      {
-        icon: '/logo.png',
-        title: 'MC导航',
-        desc: '由MCJPG社区维护的MC导航站',
-        link: 'https://mcjpg.org/nav',
-      },
-      {
-        icon: '/logo.png',
-        title: '图床',
-        desc: 'MCJPG自建图床,支持5MB以下媒体分享',
-        link: 'https://image.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
-        title: 'Markdown 编辑器',
-        desc: 'MCJPG部署的在线Markdown编辑器',
-        link: 'https://editor.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
-        title: 'AI 对话',
-        desc: 'MCJPG的在线AI聊天网站',
-        link: 'https://chat.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
-        title: '文件分发',
-        desc: 'MCJPG的文件分发服务',
-        link: 'https:/fds.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
-        title: '状态监测',
-        desc: 'MCJPG各服务状态监测',
-        link: 'https://status.mcjpg.org/',
-      },
-      {
-        icon: '/logo.png',
-        title: '状态监测(备用)',
-        desc: 'MCJPG各服务状态监测',
-        link: 'https://bstatus.mcjpg.org/',
-      },
-    ],
-  },
   {
     title: 'MC官方网站',
     items: [
@@ -195,11 +142,11 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.mcpk.wiki/wiki/Main_Page/zh',
       },
       {
-        //icon: 'https://yizhan.wiki/NitWikit/img/book.png',
+        //icon: 'https://nitwikit.8aka.org/book.png',
         icon: '/icons/nav/百科/笨蛋 MC 开服教程.png',
         title: '笨蛋 MC 开服教程',
         desc: 'MC开服教程',
-        link: 'https://yizhan.wiki/NitWikit/',
+        link: 'https://nitwikit.8aka.org/',
       },
     ],
   },
