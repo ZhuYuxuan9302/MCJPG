@@ -7,87 +7,87 @@ type NavData = {
 
 export const NAV_DATA: NavData[] = [
   {
-    title: '官网',
+    title: '官網',
     items: [
       {
         icon: '/logo.png',
-        title: 'MCJPG官网',
-        desc: '我们的官网',
+        title: 'MCJPG官網',
+        desc: '吾輩之官網',
         link: 'https://mcjpg.org/',
       },
       {
         icon: '/logo.png',
-        title: '官网开发站点',
-        desc: '实时同步最新官网代码更新',
+        title: '官網開發站',
+        desc: '含最新之代碼更改',
         link: 'https://dev.mcjpg.org/',
       },
     ],
   },
   {
-    title: '实用工具',
+    title: '用具',
     items: [
       {
         icon: '/icons/project/casdoor.png',
-        title: 'MCJPG通行证',
-        desc: 'MCJPG统一的账户系统',
+        title: 'MCJPG令牌',
+        desc: 'MCJPG統一之身份管理系統',
         link: 'https://sso.mcjpg.org/login/mcjpgorg/',
       },
       {
         icon: '/icons/project/openai.svg',
-        title: 'AI 对话',
-        desc: '免费使用国内外先进AI大模型',
+        title: '智械交談',
+        desc: '免費與華夏及西洋之智械交談',
         link: 'https://chat.mcjpg.org/',
       },
       {
         icon: '/icons/project/alist.svg',
         title: 'FDS',
-        desc: '文件分发服务，快捷分享你的文件',
+        desc: '文件分發之系統，快捷高效',
         link: 'https://fds.mcjpg.org/',
       },
       {
         icon: '/icons/project/alist.svg',
         title: 'FDS Plus',
-        desc: '加速线路，服务与主线路一致',
+        desc: '速之網路而服務相同',
         link: 'https://proxy.mcjpg.org:45595/',
       },
       {
         icon: '/icons/project/imghub.png',
-        title: '社区图床',
-        desc: '快捷分享图片',
+        title: '圖床',
+        desc: '可速示畫與他人',
         link: 'https://image.mcjpg.org/',
       },
       {
         icon: '/icons/project/editor.svg',
-        title: 'MarkDown编辑器',
-        desc: '开源在线MarkDown编辑器',
+        title: 'Markdown輯者',
+        desc: '開放程式碼之Markdown輯者',
         link: 'https://editor.mcjpg.org/',
       },
     ],
   },
   {
-    title: 'MC模组',
+    title: 'MC模組',
     items: [
       {
         icon: '/icons/project/ServerListSync.png',
         title: 'ServerListSync',
-        desc: '在线同步游戏内多人游戏服务器列表的模组',
+        desc: '可速同步衆戲之列表',
         link: 'https://modrinth.com/mod/serverlistsync',
       },
     ],
   },
   {
-    title: '状态监测',
+    title: '狀態勘察',
     items: [
       {
         icon: '/icons/project/uptime.svg',
-        title: '状态监测',
-        desc: '实时监测各项目和成员服在线情况',
+        title: '狀態勘察',
+        desc: '實時勘察項目及成員伺服器之狀況',
         link: 'https://status.mcjpg.org/',
       },
       {
         icon: '/icons/project/bstack.webp',
-        title: '备用状态监测',
-        desc: '仅监控MCJPG项目',
+        title: '備用之狀態勘察',
+        desc: '僅MCJPG項目是也',
         link: 'https://bstatus.mcjpg.org/',
       },
     ],
