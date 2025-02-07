@@ -1,12 +1,17 @@
 export interface MinecraftServer {
-    id: string
-    name: string
-    type: string
-    version: string
-    icon: string
-    description: string
-    link: string
+  id: string
+  name: string
+  type: string
+  version: string
+  icon: string | {
+    src: string
+    alt?: string
+    width?: number
+    height?: number
   }
+  description: string
+  link: string
+}
   
   export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
   export const serverVersions = ['互通','基岩版','1.21.X','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
