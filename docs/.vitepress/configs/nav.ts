@@ -16,7 +16,7 @@ export const nav: DefaultTheme.Config['nav'] = [
                 { text: "MSCPO", link: "https://mscpo.top/" },
                 { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
                 { text: "风梨网", link: "https://www.flweb.cn/" },
-                { text: "BugCraft", link: "https://www.flweb.cn/" },
+                { text: "BugCraft", link: "https://bugcraft.org/" },
               ]
   }
 ]
