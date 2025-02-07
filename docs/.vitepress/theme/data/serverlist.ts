@@ -208,7 +208,7 @@ export interface MinecraftServer {
       version: '基岩版',
       icon: '/server_icons/方块风云国战服.jpg',
       description: '这个星球上，有的地方“朱门酒肉臭，路有冻死骨”，有的地方“受命于天，既寿永昌”，有的地方“把生命献给人民解放的事业”，有的地方“以阶级斗争为纲”......但这些地方的人们都有一个共同的梦想:富强。 危机四伏的世界里，如何脱颖而出，成为世界之巅？ 诚邀广大国际版玩家加入《方块风云2》我的世界基岩版国战模拟服务器的大家庭。 听歌｜货币｜签到｜装备品质｜精英怪｜菜单｜反作弊｜头衔｜国战｜世界地图｜...',
-      link: 'http://bdmc.framer.website'
+      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=iUbRw1cvX38Nmsee6JETCZzVGNSeDzC2&authKey=DIFPEi9ubzyma%2BeET59Du7cfc%2BSCnUZMlMxorEgH1MYtPwEkd1b%2BeKRBzSpij%2Fcp&noverify=0&group_code=979459083'
     },
     {
       id: '23',
@@ -216,7 +216,7 @@ export interface MinecraftServer {
       type: '生电',
       version: '1.21',
       icon: '/server_icons/Thome Server.jpg',
-      description: '一群热爱生电的人所创建的服务器，版本Java1.21，游戏内可以听music，腐竹是个超级面包人，群内提供整合包（持续更新）</br>有较为严格的规则，但是腐竹非常喜欢抽象。 目前不需要审核，严禁作弊（你赞助了我可以稍微放宽一些）。服内装有权限组mod，具体规则看腐竹心情定。',
+      description: '一群热爱生电的人所创建的服务器，版本Java1.21，游戏内可以听music，腐竹是个超级面包人，群内提供整合包（持续更新） 有较为严格的规则，但是腐竹非常喜欢抽象。 目前不需要审核，严禁作弊（你赞助了我可以稍微放宽一些）。服内装有权限组mod，具体规则看腐竹心情定。',
       link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=fmnIu20oFFCPREG0zz5guy-dM8r84XwI&authKey=afN7Q6f50w1MBFMZH8V8BaCBh9xLqdeBo6f7torNhv8TrVNTQet%2BOnJKbAF%2FPh%2BX&noverify=0&group_code=862770191'
     },
     {
@@ -232,10 +232,10 @@ export interface MinecraftServer {
       id: '25',
       name: '🍵TACS/茶水晶服务器🍵',
       type: '生电',
-      version: '1.21.4',
+      version: '1.21.3',
       icon: '/server_icons/TACS_茶水晶服务器.svg',
-      description: '需要正版 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为i5-13600KF+32G运存 审核通过后您方可加入服务器',
-      link: 'https://tacserver.cn'
+      description: '无须审核 支持正版/皮肤站登录 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为i5-13600KF+32G运存 加群后您方可加入服务器',
+      link: 'https://tacserver.cn/'
     },
     {
       id: '26',

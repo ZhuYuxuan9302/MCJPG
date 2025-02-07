@@ -60,7 +60,12 @@
   
   // 随机排序函数
   const shuffleServers = () => {
-    shuffledServers.value = [...servers].sort(() => Math.random() - 0.5)
+  const array = [...servers]
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]]
+  }
+  shuffledServers.value = array
   }
   
   // 初始化时随机排序
