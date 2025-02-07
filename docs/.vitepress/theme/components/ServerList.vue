@@ -3,24 +3,28 @@
   <div class="server-list">
     <!-- 搜索和筛选部分 -->
     <div class="filters">
-      <input
-        v-model="searchQuery"
-        type="text"
-        placeholder="搜索服务器..."
-        class="search-input"
-      />
-      <select v-model="selectedType" class="filter-select">
-        <option value="">所有类型</option>
-        <option v-for="type in serverTypes" :key="type" :value="type">
-          {{ type }}
-        </option>
-      </select>
-      <select v-model="selectedVersion" class="filter-select">
-        <option value="">所有版本</option>
-        <option v-for="version in serverVersions" :key="version" :value="version">
-          {{ version }}
-        </option>
-      </select>
+      <div class="search-wrapper">
+        <input
+          v-model="searchQuery"
+          type="text"
+          placeholder="搜索服务器..."
+          class="search-input"
+        />
+      </div>
+      <div class="select-wrapper">
+        <select v-model="selectedType" class="filter-select">
+          <option value="">所有类型</option>
+          <option v-for="type in serverTypes" :key="type" :value="type">
+            {{ type }}
+          </option>
+        </select>
+        <select v-model="selectedVersion" class="filter-select">
+          <option value="">所有版本</option>
+          <option v-for="version in serverVersions" :key="version" :value="version">
+            {{ version }}
+          </option>
+        </select>
+      </div>
     </div>
 
     <!-- 服务器卡片列表 -->
@@ -120,18 +124,39 @@ const filteredServers = computed(() => {
 
 .filters {
   display: flex;
+  flex-direction: column;
   gap: 12px;
   margin-bottom: 24px;
-  flex-wrap: wrap;
 }
 
-.search-input,
+.search-wrapper {
+  flex: 1;
+  min-width: 200px;
+}
+
+.select-wrapper {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 4px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+}
+
 .filter-select {
   padding: 8px 12px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 4px;
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
+  flex: 1;
+  min-width: 120px;
 }
 
 .server-grid {
@@ -220,5 +245,22 @@ const filteredServers = computed(() => {
   font-size: 0.9em;
   color: var(--vp-c-text-2);
   overflow-wrap: break-word;
+}
+
+/* 响应式布局 */
+@media (min-width: 640px) {
+  .filters {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .search-wrapper {
+    max-width: 450px;
+  }
+  
+  .select-wrapper {
+    flex: 1;
+    justify-content: flex-start;
+  }
 }
 </style>
