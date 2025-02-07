@@ -23,7 +23,8 @@ export const nav: DefaultTheme.Config['nav'] = [
               items: [
                 { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
                 { text: "MSCPO", link: "https://mscpo.netlify.app/" },
-                { text: "风梨社区", link: "https://bugcraft.org/" },
+                { text: "风梨社区", link: "https://www.flweb.cn/" },
+                { text: "BugCraft", link: "https://bugcraft.org/" },
               ]
   }
 ]
