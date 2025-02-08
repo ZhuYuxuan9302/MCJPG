@@ -114,7 +114,7 @@ export interface MinecraftServer {
       version: '1.21',
       icon: '/server_icons/mcdogserver.jpg',
       description: '兼容1.9~1.21 无需正版 玩家间互相传送 生电',
-      link: 'https://qm.qq.com/q/QePrFp3jeU'
+      link: 'https://www.mcdogserver.top'
     },
     {
       id: '12',
