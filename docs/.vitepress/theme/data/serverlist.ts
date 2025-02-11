@@ -350,4 +350,13 @@ export interface MinecraftServer {
       description: '版本1.21.4，1.20-1.21.4可进，离线可进16核心物理机，苍白花园1.20-1.21.4可进，java基岩互通服，支持离线，插件服，拥有武器强化，怪物强化，种族，公会，玩家头衔，玩家任务等多种玩法插件，服务器接入deepseek，可以在服务器里面与deepseek聊天，其他方面，我们有领地插件（无限制创建领地），coi，箱子锁，反作弊，和反矿透（非假矿，通过玩家挖矿行为反）',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_1e_hufFpMXIJFsDqsLXbaNEHPIqg3Sl&authKey=Jr3WJftfHhjTh2DKOZelXUELzbWq%2BeSO31kgje1Sz7yWQCuiT2gGGYrFv%2BTJkTxP&noverify=0&group_code=839218299'
     },
+    {
+      id: '38',
+      name: '圣苦力怕服务器',
+      type: '生存',
+      version: '1.21.1',
+      icon: '/server_icons/圣苦力怕服务器.png',
+      description: '欢迎来到Holy Creeper Empire圣苦力怕服务器（HCE），这是一个永久公益的生存冒险建筑服务器，如果您想要在社区结交新朋友，那就加入我们；如果您想要在MC建立城池、公会，那就加入我们；如果您热爱冒险，那就加入我们；如果您只想体验原汁原味的生存，那就加入我们！加入HCE，让我们一起在圣苦力怕的大陆上建造自己的世界吧！',
+      link: 'https://qm.qq.com/q/CBkmZTM16U'
+    },
   ]
