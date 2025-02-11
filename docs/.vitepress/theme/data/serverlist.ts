@@ -341,4 +341,13 @@ export interface MinecraftServer {
       description: '版本:1.20.X~1.21.X |离线|白名单|公益|生存|生电 一个玩家和谐，玩法自由，游戏完善的高版本Fabric端生存生电服务器，详见宣传片',
       link: 'https://www.bilibili.com/video/BV1tRkiYcEXG/?share_source=copy_web&vd_source=5efb7eb559fb6731efdf1dd87ab54abc'
     },
+    {
+      id: '37',
+      name: 'YUXD江心岛',
+      type: '生存',
+      version: '互通',
+      icon: '/server_icons/YUXD江心岛.png',
+      description: '版本1.21.4，1.20-1.21.4可进，离线可进16核心物理机，苍白花园1.20-1.21.4可进，java基岩互通服，支持离线，插件服，拥有武器强化，怪物强化，种族，公会，玩家头衔，玩家任务等多种玩法插件，服务器接入deepseek，可以在服务器里面与deepseek聊天，其他方面，我们有领地插件（无限制创建领地），coi，箱子锁，反作弊，和反矿透（非假矿，通过玩家挖矿行为反）',
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=_1e_hufFpMXIJFsDqsLXbaNEHPIqg3Sl&authKey=Jr3WJftfHhjTh2DKOZelXUELzbWq%2BeSO31kgje1Sz7yWQCuiT2gGGYrFv%2BTJkTxP&noverify=0&group_code=839218299'
+    },
   ]
