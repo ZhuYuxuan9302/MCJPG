@@ -371,7 +371,7 @@ export interface MinecraftServer {
     {
       id: '40',
       name: '星梦缘',
-      type: '生存',
+      type: '模组',
       version: '1.20.1',
       icon: '/server_icons/星梦缘.jpg',
       description: '女仆、枪械、国家的世界，需正版，整合包点链接下载。「星梦缘起，书写你的传奇」',
