@@ -359,4 +359,13 @@ export interface MinecraftServer {
       description: '欢迎来到Holy Creeper Empire圣苦力怕服务器（HCE），这是一个永久公益的生存冒险建筑服务器，如果您想要在社区结交新朋友，那就加入我们；如果您想要在MC建立城池、公会，那就加入我们；如果您热爱冒险，那就加入我们；如果您只想体验原汁原味的生存，那就加入我们！加入HCE，让我们一起在圣苦力怕的大陆上建造自己的世界吧！',
       link: 'https://qm.qq.com/q/CBkmZTM16U'
     },
+    {
+      id: '39',
+      name: '远途服务器',
+      type: '生存',
+      version: '1.21.1',
+      icon: '/server_icons/远途服务器.png',
+      description: '支持JE 1.21～1.21.1版本，进服需要正版账号和定制整合包（参见群文件）。服务器内生电机器较完备，支持生存、生电、建筑、冒险等玩法，加入了No Chat Reports模组保证聊天安全，管理员能够保持活跃，服务器能够定期备份，欢迎加入到我们的旅途中！',
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IiJFvtzm_ypIaPTUOsN2fOX7YOfLnMnu&authKey=jm4pCfb0fcGrp%2F4K0e3s9pXbnID9Sp7gAco2bOq0upxlFnWtNhbfCgPj9gHnkhZ5&noverify=0&group_code=921363139'
+    },
   ]
