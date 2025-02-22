@@ -254,15 +254,15 @@ onMounted(() => {
 
 .server-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
-  min-width: 350px;
 }
 
 .server-card {
+  width: 100%;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
   padding: 16px;
@@ -308,6 +308,7 @@ onMounted(() => {
 .server-info {
   flex: 1;
   min-width: 0;
+  width: 100%;
 }
 
 .server-name {
@@ -327,7 +328,6 @@ onMounted(() => {
   flex-wrap: nowrap;
   gap: 6px;
   min-height: 28px;
-  padding: 2px 0;
 }
 
 .tag {
@@ -413,19 +413,28 @@ onMounted(() => {
 }
 
 @media (max-width: 640px) {
-  .server-grid {
-    grid-template-columns: minmax(350px, 1fr);
-    padding: 0 16px;
-  }
-  
   .server-list {
     padding: 10px;
   }
+
+  .server-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 0;
+  }
   
   .server-card {
-    margin: 0 auto;
-    max-width: 100%;
-    min-width: 300px;
+    margin: 0;
+    min-width: unset;
+  }
+
+  .tags-container {
+    gap: 4px;
+  }
+
+  .tag {
+    padding: 4px 6px;
+    font-size: 0.8em;
   }
 }
 </style>
