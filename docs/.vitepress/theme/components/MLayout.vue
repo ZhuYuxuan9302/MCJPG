@@ -2,9 +2,9 @@
 import { useData, inBrowser } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
-import Giscus from '@giscus/vue'
+import MouseClick from "./MouseClick.vue";
+import MouseFollower from "./MouseFollower.vue";
 import backtotop from "./backtotop.vue"
-import mousetrial from "./mouse-trail.vue"
 import { usePageId } from '../composables'
 
 const { Layout } = DefaultTheme
@@ -65,7 +65,8 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
     <template #layout-bottom>
       <backtotop />
-      <mousetrial />
+      <MouseFollower />
+      <MouseClick />
     </template>
 
   </DefaultTheme.Layout>

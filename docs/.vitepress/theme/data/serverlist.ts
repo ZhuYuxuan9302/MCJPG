@@ -307,12 +307,12 @@ export interface MinecraftServer {
     },
     {
       id: '33',
-      name: '流茵',
-      type: '生电',
-      version: '1.21',
-      icon: '/server_icons/流茵.jpg',
-      description: '流茵是1.21的生电服务器，服务器名称意为"似水流年，芳草如茵"。 即是我们希望用一点又一点的时间将服务器逐渐建设起来，用双手创造一个又一个奇迹，最终这里将成为一个美好又充满希望的服务器',
-      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=VDx8Ym89PpjDKonuJdyRLwDcnasz9BDz&authKey=qFyhYfLpfA7um4LUGgihsBpcgnliwEMlo%2FPZbmkmlPDUvP4Sh%2FXjNNUekVP8WmnA&noverify=0&group_code=644609396'
+      name: '星梦缘',
+      type: '模组',
+      version: '1.20.1',
+      icon: '/server_icons/星梦缘.jpg',
+      description: '女仆、枪械、国家的世界，需正版，整合包点链接下载。「星梦缘起，书写你的传奇」',
+      link: 'https://www.fizmc.icu/'
     },
     {
       id: '34',
@@ -367,14 +367,5 @@ export interface MinecraftServer {
       icon: '/server_icons/远途服务器.png',
       description: '支持JE 1.21～1.21.1版本，进服需要正版账号和定制整合包（参见群文件）。服务器内生电机器较完备，支持生存、生电、建筑、冒险等玩法，加入了No Chat Reports模组保证聊天安全，管理员能够保持活跃，服务器能够定期备份，欢迎加入到我们的旅途中！',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IiJFvtzm_ypIaPTUOsN2fOX7YOfLnMnu&authKey=jm4pCfb0fcGrp%2F4K0e3s9pXbnID9Sp7gAco2bOq0upxlFnWtNhbfCgPj9gHnkhZ5&noverify=0&group_code=921363139'
-    },
-    {
-      id: '40',
-      name: '星梦缘',
-      type: '模组',
-      version: '1.20.1',
-      icon: '/server_icons/星梦缘.jpg',
-      description: '女仆、枪械、国家的世界，需正版，整合包点链接下载。「星梦缘起，书写你的传奇」',
-      link: 'https://www.fizmc.icu/'
     },
   ]
