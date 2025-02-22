@@ -89,7 +89,8 @@ export interface MinecraftServer {
       version: '1.21',
       icon: '/server_icons/MCIC.jpg',
       description: '版本：JE 1.16.x-1.20.2 *Unknown**无线电静默*成分复杂的服务器',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-IlME68JyiIobA7kc0K1ZtYq4bYuyrUj&authKey=AfOWKLmhMS666hgDeOW0Su3Oecq7WAfzOgDHhH8Zkpi5Anq9qWiQm6Vq7C9mcCcY&noverify=0&group_code=821501867'
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-IlME68JyiIobA7kc0K1ZtYq4bYuyrUj&authKey=AfOWKLmhMS666hgDeOW0Su3Oecq7WAfzOgDHhH8Zkpi5Anq9qWiQm6Vq7C9mcCcY&noverify=0&group_code=821501867',
+      ip: '9666.fun:10482'
     },
     {
       id: '9',
@@ -278,7 +279,8 @@ export interface MinecraftServer {
       version: '互通',
       icon: '/server_icons/Oceannetwork.png',
       description: '版本：JE1.8x-1.21.x | BE:最新 这是一个长期开放的原版纯净高版本生存服务器 保留了原汁原味的体验,仅有基础玩法经济等插件 我们保证不做影响平衡、破坏公平或偏袒其他玩家 无需担心服内出现OP滥用权限恶意破坏等恶劣行为',
-      link: 'https://oceannetwork.top'
+      link: 'https://oceannetwork.top',
+      ip: 'mc.oceannetwork.top'
     },
     {
       id: '30',
