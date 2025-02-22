@@ -120,6 +120,8 @@ const filteredServers = computed(() => {
 <style scoped>
 .server-list {
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .filters {
@@ -163,6 +165,9 @@ const filteredServers = computed(() => {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .server-card {
@@ -172,6 +177,7 @@ const filteredServers = computed(() => {
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
+  background: var(--vp-c-bg);
 }
 
 .server-card:hover {
@@ -261,6 +267,22 @@ const filteredServers = computed(() => {
   .select-wrapper {
     flex: 1;
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .server-grid {
+    grid-template-columns: minmax(280px, 1fr);
+    padding: 0 16px;
+  }
+  
+  .server-list {
+    padding: 10px;
+  }
+  
+  .server-card {
+    margin: 0 auto;
+    max-width: 100%;
   }
 }
 </style>
