@@ -326,16 +326,18 @@ onMounted(() => {
 .tags-container {
   display: flex;
   flex-wrap: nowrap;
-  gap: 6px;
-  min-height: 28px;
+  gap: 4px;
+  min-height: 22px;
+  align-items: center;
 }
 
 .tag {
-  padding: 4px 6px;
+  padding: 2px 6px;
   border-radius: 4px;
-  font-size: 0.85em;
+  font-size: 0.8em;
+  line-height: 1.2;
   white-space: nowrap;
-  height: fit-content;
+  height: auto;
   align-self: center;
 }
 
@@ -346,6 +348,7 @@ onMounted(() => {
 .server-tags {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  margin-bottom: 6px;
 }
 
 .type-tag {
