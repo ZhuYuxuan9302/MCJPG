@@ -50,6 +50,17 @@
             <div class="server-tags">
               <span class="tag type-tag">{{ server.type }}</span>
               <span class="tag version-tag">{{ server.version }}</span>
+              <template v-if="server.ip">
+                <span 
+                  class="tag status-tag" 
+                  :class="{ 'online': serverStatus[server.ip]?.online, 'offline': !serverStatus[server.ip]?.online }"
+                >
+                  {{ serverStatus[server.ip]?.online ? '在线' : '离线' }}
+                </span>
+                <span v-if="serverStatus[server.ip]?.online" class="tag players-tag">
+                  {{ serverStatus[server.ip]?.players.online }}/{{ serverStatus[server.ip]?.players.max }}
+                </span>
+              </template>
             </div>
             <p class="server-description">{{ server.description }}</p>
           </div>
@@ -60,7 +71,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { VPImage } from 'vitepress/theme'
 import { servers, serverTypes, serverVersions } from '../data/serverlist'
 
@@ -68,6 +79,10 @@ const searchQuery = ref('')
 const selectedType = ref('')
 const selectedVersion = ref('')
 const shuffledServers = ref([...servers])
+const serverStatus = ref({})
+
+// 轮询间隔（60秒）
+const POLL_INTERVAL = 60000
 
 // 处理图标数据的函数
 const processedIcon = (server) => {
@@ -90,6 +105,28 @@ const processedIcon = (server) => {
   }
 }
 
+// 检查服务器状态的函数
+const checkServerStatus = async (ip) => {
+  try {
+    const response = await fetch(`http://proxy.mcjpg.org:30944/status/3/${ip}`, {
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    const data = await response.json()
+    serverStatus.value[ip] = {
+      online: data.online,
+      players: data.players || { online: 0, max: 0 }
+    }
+  } catch (error) {
+    console.error(`检查服务器 ${ip} 状态时出错:`, error)
+    serverStatus.value[ip] = {
+      online: false,
+      players: { online: 0, max: 0 }
+    }
+  }
+}
+
 // 随机排序函数
 const shuffleServers = () => {
   const array = [...servers]
@@ -100,11 +137,6 @@ const shuffleServers = () => {
   shuffledServers.value = array
 }
 
-// 初始化时随机排序
-onMounted(() => {
-  shuffleServers()
-})
-
 // 过滤后的服务器列表
 const filteredServers = computed(() => {
   return shuffledServers.value.filter(server => {
@@ -113,6 +145,31 @@ const filteredServers = computed(() => {
     const matchesType = !selectedType.value || server.type === selectedType.value
     const matchesVersion = !selectedVersion.value || server.version === selectedVersion.value
     return matchesSearch && matchesType && matchesVersion
+  })
+})
+
+// 初始化和轮询
+onMounted(() => {
+  shuffleServers()
+  // 初始检查所有服务器状态
+  servers.forEach(server => {
+    if (server.ip) {
+      checkServerStatus(server.ip)
+    }
+  })
+  
+  // 设置定期检查
+  const pollInterval = setInterval(() => {
+    servers.forEach(server => {
+      if (server.ip) {
+        checkServerStatus(server.ip)
+      }
+    })
+  }, POLL_INTERVAL)
+
+  // 组件卸载时清除定时器
+  onUnmounted(() => {
+    clearInterval(pollInterval)
   })
 })
 </script>
@@ -228,6 +285,7 @@ const filteredServers = computed(() => {
   display: flex;
   gap: 8px;
   margin-bottom: 8px;
+  flex-wrap: wrap;
 }
 
 .tag {
@@ -244,6 +302,27 @@ const filteredServers = computed(() => {
 .version-tag {
   background-color: var(--vp-c-green-soft);
   color: var(--vp-c-green);
+}
+
+.status-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.status-tag.online {
+  background-color: var(--vp-c-green-soft);
+  color: var(--vp-c-green);
+}
+
+.status-tag.offline {
+  background-color: var(--vp-c-red-soft);
+  color: var(--vp-c-red);
+}
+
+.players-tag {
+  background-color: var(--vp-c-gray-soft);
+  color: var(--vp-c-gray);
 }
 
 .server-description {

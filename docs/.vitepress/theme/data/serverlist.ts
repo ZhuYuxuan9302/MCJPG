@@ -11,6 +11,7 @@ export interface MinecraftServer {
   }
   description: string
   link: string
+  ip?: string
 }
   
   export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
@@ -24,7 +25,8 @@ export interface MinecraftServer {
       version: '互通',
       icon: '/server_icons/MC生电服.jpg',
       description: '兼容JE1.9~1.21.1和最新BE 游戏内语音聊天 随意喷涂 趣味的生电 便捷的菜单操作 不限制传送 独家优化的整合包 无需正版',
-      link: 'https://qm.qq.com/q/QhfzwbV82Y'
+      link: 'https://qm.qq.com/q/QhfzwbV82Y',
+      ip: 'mc.zhuyuxuan.link'
     },
     {
       id: '2',
