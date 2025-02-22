@@ -25,7 +25,8 @@
     version: '服务器版本(参考最上面的版本分类)',
     icon: '/server_icons/服务器图标文件',
     description: '服务器描述',
-    link: '链接'
+    link: '链接',
+    ip: '服务器IP（可选），用于显示服务器状态信息'
   },
 ```
 
