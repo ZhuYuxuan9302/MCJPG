@@ -182,6 +182,7 @@ export interface MinecraftServer {
       description: '版本1.7-1.2X.X   3c3u(无规则/管理)互通 非周目制  探索未知，创造无限---欢迎来到自由之风服务器，一个充满创新与冒险的虚拟世界。 加入我们，释放您的创造力，与玩家一起，共同打造一个独一无二的游戏世界。自由之风，等待您的加入',
       link: 'https://qm.qq.com/q/q51dtS4Kty'
     },
+      ip: '3c3u.icu'
     {
       id: '19',
       name: 'NPL无界玩家',
