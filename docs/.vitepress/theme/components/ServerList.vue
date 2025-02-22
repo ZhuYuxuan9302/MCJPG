@@ -48,19 +48,31 @@
           <div class="server-info">
             <h3 class="server-name">{{ server.name }}</h3>
             <div class="server-tags">
-              <span class="tag type-tag">{{ server.type }}</span>
-              <span class="tag version-tag">{{ server.version }}</span>
-              <template v-if="server.ip">
-                <span 
-                  class="tag status-tag" 
-                  :class="{ 'online': serverStatus[server.ip]?.online, 'offline': !serverStatus[server.ip]?.online }"
-                >
-                  {{ serverStatus[server.ip]?.online ? '在线' : '离线' }}
-                </span>
-                <span v-if="serverStatus[server.ip]?.online" class="tag players-tag">
-                  {{ serverStatus[server.ip]?.players.online }}/{{ serverStatus[server.ip]?.players.max }}
-                </span>
-              </template>
+              <div class="tags-container">
+                <span class="tag type-tag">{{ server.type }}</span>
+                <span class="tag version-tag">{{ server.version }}</span>
+                <template v-if="server.ip">
+                  <span 
+                    class="tag status-tag" 
+                    :class="{ 'online': serverStatus[server.ip]?.online, 'offline': !serverStatus[server.ip]?.online }"
+                  >
+                    {{ serverStatus[server.ip]?.online ? '在线' : '离线' }}
+                  </span>
+                  <span 
+                    v-if="serverStatus[server.ip]?.online && serverStatus[server.ip]?.delay" 
+                    class="tag delay-tag"
+                    :class="getDelayClass(serverStatus[server.ip]?.delay)"
+                  >
+                    {{ Math.round(serverStatus[server.ip]?.delay) }}ms
+                  </span>
+                  <span 
+                    v-if="serverStatus[server.ip]?.online" 
+                    class="tag players-tag"
+                  >
+                    {{ serverStatus[server.ip]?.players.online }}/{{ serverStatus[server.ip]?.players.max }}
+                  </span>
+                </template>
+              </div>
             </div>
             <p class="server-description">{{ server.description }}</p>
           </div>
@@ -105,24 +117,46 @@ const processedIcon = (server) => {
   }
 }
 
+// 获取延迟等级的函数
+const getDelayClass = (delay) => {
+  if (delay <= 100) return 'good'
+  if (delay <= 300) return 'medium'
+  return 'poor'
+}
+
 // 检查服务器状态的函数
 const checkServerStatus = async (ip) => {
   try {
-    const response = await fetch(`http://proxy.mcjpg.org:30944/status/3/${ip}`, {
+    const encodedIp = encodeURIComponent(ip)
+    const response = await fetch(`https://serverstatus.mcjpg.org/?ip=${encodedIp}`, {
       headers: {
         'Accept': 'application/json'
       }
     })
     const data = await response.json()
-    serverStatus.value[ip] = {
-      online: data.online,
-      players: data.players || { online: 0, max: 0 }
+    
+    if (response.ok) {
+      serverStatus.value[ip] = {
+        online: data.online,
+        players: {
+          online: data.players?.online || 0,
+          max: data.players?.max || 0
+        },
+        delay: data.delay,
+        motd: data.motd?.plain || '',
+        version: data.version || ''
+      }
+    } else {
+      throw new Error('Server status check failed')
     }
   } catch (error) {
     console.error(`检查服务器 ${ip} 状态时出错:`, error)
     serverStatus.value[ip] = {
       online: false,
-      players: { online: 0, max: 0 }
+      players: { online: 0, max: 0 },
+      delay: null,
+      motd: '',
+      version: ''
     }
   }
 }
@@ -220,11 +254,12 @@ onMounted(() => {
 
 .server-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 20px;
   justify-content: center;
   margin: 0 auto;
   max-width: 1200px;
+  min-width: 350px;
 }
 
 .server-card {
@@ -282,16 +317,35 @@ onMounted(() => {
 }
 
 .server-tags {
-  display: flex;
-  gap: 8px;
   margin-bottom: 8px;
-  flex-wrap: wrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  min-height: 28px;
+  padding: 2px 0;
 }
 
 .tag {
-  padding: 4px 8px;
+  padding: 4px 6px;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 0.85em;
+  white-space: nowrap;
+  height: fit-content;
+  align-self: center;
+}
+
+.server-tags::-webkit-scrollbar {
+  display: none;
+}
+
+.server-tags {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .type-tag {
@@ -304,18 +358,27 @@ onMounted(() => {
   color: var(--vp-c-green);
 }
 
-.status-tag {
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.9em;
-}
-
 .status-tag.online {
   background-color: var(--vp-c-green-soft);
   color: var(--vp-c-green);
 }
 
 .status-tag.offline {
+  background-color: var(--vp-c-red-soft);
+  color: var(--vp-c-red);
+}
+
+.delay-tag.good {
+  background-color: var(--vp-c-green-soft);
+  color: var(--vp-c-green);
+}
+
+.delay-tag.medium {
+  background-color: var(--vp-c-yellow-soft);
+  color: var(--vp-c-yellow);
+}
+
+.delay-tag.poor {
   background-color: var(--vp-c-red-soft);
   color: var(--vp-c-red);
 }
@@ -351,7 +414,7 @@ onMounted(() => {
 
 @media (max-width: 640px) {
   .server-grid {
-    grid-template-columns: minmax(280px, 1fr);
+    grid-template-columns: minmax(350px, 1fr);
     padding: 0 16px;
   }
   
@@ -362,6 +425,7 @@ onMounted(() => {
   .server-card {
     margin: 0 auto;
     max-width: 100%;
+    min-width: 300px;
   }
 }
 </style>
