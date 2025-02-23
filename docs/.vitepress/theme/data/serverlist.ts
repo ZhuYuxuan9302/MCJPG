@@ -144,7 +144,8 @@ export interface MinecraftServer {
       version: '1.21.1',
       icon: '/server_icons/星梦桃源.png',
       description: '版本：JE1.12~1.21.1（基岩java互通） 专注于生存、生电、红石与建筑的原版插件服务器。 ps：需进入审核群审核成功方可进入。',
-      link: 'https://xingmengtaoyuan.zeabur.app/'
+      link: 'https://xingmengtaoyuan.zeabur.app/',
+      ip: 'fizmc.icu:25565'
     },
     {
       id: '15',
@@ -299,7 +300,8 @@ export interface MinecraftServer {
       version: '1.21.X',
       icon: '/server_icons/千禧年世界.jpeg',
       description: 'JE1.12.2-1.21.x 千禧年世界服务器＆MilleniumWorld 历经一年半，打造一个不错(?的小型群组服务器 服务器有生存服，小游戏，生电服(后续可能会增加玩法) 快来加入我们吧！',
-      link: 'https://qxn.world'
+      link: 'https://qxn.world',
+      ip: 'nosrv.qxn.world:56000'
     },
     {
       id: '32',
