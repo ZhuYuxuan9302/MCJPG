@@ -33,10 +33,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://sso.mcjpg.org/login/mcjpgorg/',
       },
       {
+        icon: '/icons/project/google-color.svg',
+        title: '元搜索',
+        desc: 'MCJPG部署的元搜索引擎',
+        link: 'https://search.mcjpg.org',
+      },
+      {
         icon: '/icons/project/openai.svg',
         title: 'AI 对话',
         desc: '免费使用国内外先进AI大模型',
         link: 'https://chat.mcjpg.org/',
+      },
+      {
+        icon: '/icons/project/openai.svg',
+        title: 'ChatAPI',
+        desc: '以更实惠的价格获取大模型API',
+        link: 'https://chatapi.mcjpg.org/',
       },
       {
         icon: '/icons/project/alist.svg',

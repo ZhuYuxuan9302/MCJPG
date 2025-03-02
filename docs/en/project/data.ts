@@ -33,10 +33,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://sso.mcjpg.org/login/mcjpgorg/',
       },
       {
+        icon: '/icons/project/google-color.svg',
+        title: 'Meta Search',
+        desc: 'MCJPG Meta Search Engine',
+        link: 'https://search.mcjpg.org',
+      },
+      {
         icon: '/icons/project/openai.svg',
         title: 'AI Dialogue',
         desc: 'Free access to advanced AI models from around the world',
         link: 'https://chat.mcjpg.org/',
+      },
+      {
+        icon: '/icons/project/openai.svg',
+        title: 'Chat API',
+        desc: 'Get LLM API for lower prices',
+        link: 'https://chatapi.mcjpg.org/',
       },
       {
         icon: '/icons/project/alist.svg',
