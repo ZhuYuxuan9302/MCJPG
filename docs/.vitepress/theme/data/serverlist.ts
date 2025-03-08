@@ -305,12 +305,12 @@ export interface MinecraftServer {
     },
     {
       id: '32',
-      name: 'Meka Servival',
+      name: 'FurCraft',
       type: '生存',
       version: '1.21.3',
-      icon: '/server_icons/Meka Servival.jpg',
-      description: '支持JE1.8-1.21.4 在Meka Servival，每个方块都有故事',
-      link: 'https://qm.qq.com/q/6Y3ABVnJ5e'
+      icon: '/server_icons/FurCraft.png',
+      description: '支持JE1.8-1.21.4 在方块世界中，与毛毛共绘未来',
+      link: 'https://furcraft.top'
     },
     {
       id: '33',
