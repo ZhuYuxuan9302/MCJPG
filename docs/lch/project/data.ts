@@ -45,6 +45,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.mcjpg.org/',
       },
       {
+        icon: '/icons/project/midjourney.svg',
+        title: 'AI 绘图',
+        desc: '使用Midjourney等图片生成模型进行AI图画创作',
+        link: 'https://mjchat.mcjpg.org/',
+      },
+      {
         icon: '/icons/project/openai.svg',
         title: 'ChatAPI',
         desc: '以更实惠的价格获取大模型API',
