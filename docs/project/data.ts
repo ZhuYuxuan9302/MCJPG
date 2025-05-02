@@ -94,6 +94,28 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: '服务器插件',
+    items: [
+      {
+        icon: '/icons/project/webhook.png',
+        title: 'Minecraft Webhook',
+        desc: '实现事件监听及Webhook发送',
+        link: 'https://github.com/MineJPGcraft/Minecraft-Webhook',
+      },
+    ],
+  },
+  {
+    title: '机器人插件',
+    items: [
+      {
+        icon: '/icons/project/bot.png',
+        title: 'MCTool',
+        desc: '实现群服互通（账号绑定、死亡记录查询）',
+        link: 'https://github.com/MineJPGcraft/koishi-plugin-mctool',
+      },
+    ],
+  },
+  {
     title: '状态监测',
     items: [
       {
