@@ -94,6 +94,28 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: 'Server Plugins',
+    items: [
+      {
+        icon: '/icons/project/webhook.jpg',
+        title: 'Minecraft Webhook',
+        desc: 'Listen events(login, logout and die) and send via webhook',
+        link: 'https://github.com/MineJPGcraft/Minecraft-Webhook',
+      },
+    ],
+  },
+  {
+    title: 'Bot Plugins',
+    items: [
+      {
+        icon: '/icons/project/bot.jpg',
+        title: 'MCTool',
+        desc: 'Connect QQ group and your server',
+        link: 'https://github.com/MineJPGcraft/koishi-plugin-mctool',
+      },
+    ],
+  },
+  {
     title: 'Status Monitoring',
     items: [
       {
