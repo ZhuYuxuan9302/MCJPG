@@ -43,7 +43,7 @@ const code = [
     desc: 'BugCraft 腐竹，目前还没做什么事情',
   },
   {
-    avatar: '/teammate/pingguomc.jpg',
+    avatar: '/teammate/pingguomc.png',
     name: 'pingguomc',
     title: 'Backend and plug-in technologists',
     desc: 'Current server owner of RedStarMC server | Do some miscellaneous work',

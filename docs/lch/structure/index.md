@@ -43,7 +43,7 @@ const code = [
     desc: 'BugCraft 伺服器之主，無所事事焉',
   },
   {
-    avatar: '/teammate/pingguomc.jpg',
+    avatar: '/teammate/pingguomc.png',
     name: 'pingguomc',
     title: '后端任数人',
     desc: '朕清歌天谴了阐胭脂饮务器之患，幸饮务器之关 | 及乱者遂至',

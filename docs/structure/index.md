@@ -43,7 +43,7 @@ const code = [
     desc: 'BugCraft 腐竹，目前还没做什么事情',
   },
   {
-    avatar: '/teammate/pingguomc.jpg',
+    avatar: '/teammate/pingguomc.png',
     name: 'pingguomc',
     title: '后端插件技术',
     desc: '红星我的世界服务器现任腐竹 | 一些杂活',
