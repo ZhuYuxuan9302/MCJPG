@@ -42,6 +42,12 @@ const code = [
     title: '后端技术开发',
     desc: 'BugCraft 腐竹，目前还没做什么事情',
   },
+  {
+    avatar: '/teammate/pingguomc.jpg',
+    name: 'pingguomc',
+    title: '后端插件技术',
+    desc: '红星我的世界服务器现任腐竹 | 一些杂活',
+  },
 ]
 
 const community = [
@@ -133,8 +139,8 @@ const publicise = [
 
 <center>帮助我们添加服务器的贡献者们：</center>
 
-<center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+<center><a href="https://github.com/MineJPGCraft/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MineJPGCraft/MCJPG" alt="Contributors"/>
 </a></center>
 
 <center>对以上参与者致以敬意！</center>
