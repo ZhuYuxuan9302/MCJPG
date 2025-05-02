@@ -42,6 +42,12 @@ const code = [
     title: '后端技术开发',
     desc: 'BugCraft 腐竹，目前还没做什么事情',
   },
+  {
+    avatar: '/teammate/pingguomc.png',
+    name: 'pingguomc',
+    title: 'Backend and plug-in technologists',
+    desc: 'Current server owner of RedStarMC server | Do some miscellaneous work',
+  },
 ]
 
 const community = [
@@ -133,8 +139,8 @@ const publicise = [
 
 <center>Contributors who helped us add servers：</center>
 
-<center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+<center><a href="https://github.com/MineJPGCraft/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MineJPGCraft/MCJPG" alt="Contributors"/>
 </a></center>
 
 <center>Tribute to the above participants!</center>

@@ -42,6 +42,12 @@ const code = [
     title: '后端技术开发',
     desc: 'BugCraft 伺服器之主，無所事事焉',
   },
+  {
+    avatar: '/teammate/pingguomc.png',
+    name: 'pingguomc',
+    title: '后端任数人',
+    desc: '朕清歌天谴了阐胭脂饮务器之患，幸饮务器之关 | 及乱者遂至',
+  },
 ]
 
 const community = [
@@ -133,8 +139,8 @@ const publicise = [
 
 <center>助吾等增益伺服之貢獻者們：</center>
 
-<center><a href="https://github.com/ZhuYuxuan9302/MCJPG/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ZhuYuxuan9302/MCJPG" alt="Contributors"/>
+<center><a href="https://github.com/MineJPGCraft/MCJPG/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MineJPGCraft/MCJPG" alt="Contributors"/>
 </a></center>
 
 <center>對上述諸位參與者，致以崇高之敬意！</center>
