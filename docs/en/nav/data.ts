@@ -388,6 +388,12 @@ export const NAV_DATA: NavData[] = [
     title: 'Functional website',
     items: [
       {
+        icon: '/icons/nav/功能性网站/MCICP.ico',
+        title: 'MCICP',
+        desc: 'MC世界的MCICP虚拟备案领航者！',
+        link: 'https://www.mcicp.com/',
+      },
+      {
         //icon: 'https://www.chunkbase.com/favicon.ico',
         icon: '/icons/nav/功能性网站/Chunk Base.ico',
         title: 'Chunk Base',
