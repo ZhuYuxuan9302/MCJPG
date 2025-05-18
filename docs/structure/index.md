@@ -15,7 +15,7 @@ const code = [
     avatar: '/teammate/SuiFeng.jpg',
     name: '随风潜入夜',
     title: '网络开发',
-    desc: 'MCJPG官网和社区导航维护 | MC生电服腐竹',
+    desc: 'MCJPG官网维护 | AI项目负责人 | MC生电服腐竹',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {

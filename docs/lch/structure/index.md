@@ -15,7 +15,7 @@ const code = [
     avatar: '/teammate/SuiFeng.jpg',
     name: '隨風潛入夜',
     title: '網路開發',
-    desc: 'MCJPG官方網站及社群導航維護者 | 礦藝生電服之主',
+    desc: 'MCJPG官网维护 | AI項目負責人 | MC生电服之主',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {
