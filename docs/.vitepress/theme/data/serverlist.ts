@@ -233,9 +233,9 @@ export interface MinecraftServer {
       id: '24',
       name: 'Craft233',
       type: '生存',
-      version: '1.21.x',
+      version: '互通',
       icon: '/server_icons/Craft233.png',
-      description: '版本：Java 1.20-1.21.5 Craft233，一个休闲养老摸鱼系的Minecraft小服务器，支持正版/LittleSkin/基岩版账号登录，Folia上的粘液科技，全新周目等待你的探索，欢迎加入我们，同我们一起成长！',
+      description: '支持JE 1.20-1.21.5 和最新基岩版。 Craft233，一个休闲养老摸鱼系的Minecraft小服务器，支持正版/LittleSkin/基岩版账号登录，Folia上的粘液科技，全新周目等待你的探索，欢迎加入我们，同我们一起成长！',
       link: 'https://www.craft233.top'
     },
     {
