@@ -97,6 +97,12 @@ const publicise = [
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
+    avatar: '/teammate/明镜台.jpg',
+    name: '明镜台',
+    title: '宣传兼设计',
+    desc: '镜羽工作室创始人',
+  },
+  {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
     title: '封面设计兼剪辑',

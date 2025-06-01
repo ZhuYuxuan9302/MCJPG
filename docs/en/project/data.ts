@@ -45,6 +45,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.mcjpg.org/',
       },
       {
+        icon: '/icons/project/deepresearch.png',
+        title: 'Deep Research',
+        desc: 'Use advanced AI models to make Deep Reseacch',
+        link: 'https://deepresearch.mcjpg.org/',
+      },
+      {
         icon: '/icons/project/midjourney.svg',
         title: 'AI Drawing',
         desc: 'AI drawings using image generation models like Midjourney',

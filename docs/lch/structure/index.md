@@ -97,6 +97,12 @@ const publicise = [
     desc: 'HappyDog伺服器之主，善Replay與Bcut之術。',
   },
   {
+    avatar: '/teammate/明镜台.jpg',
+    name: '明镜台',
+    title: '宣傳兼設計',
+    desc: '镜羽工作室之主',
+  },
+  {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
     title: '卷首設計兼剪輯',
