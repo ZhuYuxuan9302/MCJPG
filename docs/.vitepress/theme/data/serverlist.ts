@@ -309,7 +309,7 @@ export interface MinecraftServer {
       type: '群组服',
       version: '1.21.X',
       icon: '/server_icons/FurCraft.png',
-      description: '支持JE1.8-1.21.5 在方块世界中，与毛毛共绘未来',
+      description: '支持JE1.8-1.21.5 高版本生存&UHC 在方块世界中，与毛毛共绘未来',
       link: 'https://furcraft.top'
     },
     {
