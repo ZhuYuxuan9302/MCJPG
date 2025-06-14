@@ -375,4 +375,14 @@ export interface MinecraftServer {
       description: '支持JE 1.21～1.21.1版本，进服需要正版账号和定制整合包（参见群文件）。服务器内生电机器较完备，支持生存、生电、建筑、冒险等玩法，加入了No Chat Reports模组保证聊天安全，管理员能够保持活跃，服务器能够定期备份，欢迎加入到我们的旅途中！',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=IiJFvtzm_ypIaPTUOsN2fOX7YOfLnMnu&authKey=jm4pCfb0fcGrp%2F4K0e3s9pXbnID9Sp7gAco2bOq0upxlFnWtNhbfCgPj9gHnkhZ5&noverify=0&group_code=921363139'
     },
+    {
+      id: '40',
+      name: '星穹之境',
+      type: '生存',
+      version: '1.21',
+      icon: '/server_icons/星穹之境.png',
+      description: '如果你渴望在《我的世界》中结交志同道合的伙伴，这里就是你的家园；如果你想打造属于自己的梦幻建筑，这里将是你挥洒创意的画布；如果你热爱探索未知、挑战极限生存，这里有你想要的冒险与惊喜；如果你只想安安静静种田养老，享受原汁原味的MC乐趣，这里同样欢迎你！加入「星穹之境」，在1.21的全新世界中，与我们一起书写属于你的方块传奇！ 🌟',
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=yzMew-ub5mpr0immygvMImi2nSK-YxgG&jump_from=webapi&authKey=3nYe/MAfr6cEtGsYW1zyzBezWwIHRibQeUw6cQ5cRBS6wkjPvSygVtxsMcS9YvhF',
+      ip: 'cn-hz1.qwq0v0.fun:51025'
+    },
   ]
