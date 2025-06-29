@@ -235,8 +235,9 @@ export interface MinecraftServer {
       type: '生存',
       version: '互通',
       icon: '/server_icons/Craft233.png',
-      description: '支持JE 1.20-1.21.5 和最新基岩版。 Craft233，一个休闲养老摸鱼系的Minecraft小服务器，不限制红石与机器，拥有原版粘液生存和单方块生存，支持正版/LittleSkin/基岩版账号登录，Folia上的粘液科技，全新周目等待你的探索，欢迎加入我们，同我们一起成长！',
-      link: 'https://www.craft233.top'
+      description: '高版本生存服务器，不限制红石与机器，拥有原版粘液生存和单方块生存，支持正版/LittleSkin/基岩版登陆，不限制客户端原版可进。全新周目等待你的探索，欢迎加入我们！',
+      link: 'https://www.craft233.top',
+      ip: 'mc.craft233.top'
     },
     {
       id: '25',
