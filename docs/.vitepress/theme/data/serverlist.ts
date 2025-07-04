@@ -394,5 +394,5 @@ export interface MinecraftServer {
       icon: '/server_icons/LimitlessBlocks.png',
       description: '支持1.21.4及以上版本及基岩版最新，一个互通原版服务器，支持生存/创造模式自由切换，我们珍视玩家的劳动成果，承诺长期运营，并有备份机制保障玩家建筑成果安全。官方网站：lb.jscity.top QQ群：1027961947',
       link: 'lb.jscity.top',
-  },
-]
+    },
+   ]
