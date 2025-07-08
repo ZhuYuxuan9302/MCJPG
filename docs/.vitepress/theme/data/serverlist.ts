@@ -163,7 +163,7 @@ export interface MinecraftServer {
       version: '1.21.4',
       icon: '/server_icons/喵星乐园.jpg',
       description: '支持离线登录  插件半生存养老服  "探索梦幻宇宙，邂逅喵星奇缘！欢迎踏入喵星乐园服务器——一个插件生存世界。 喵星乐园，不仅是心灵的温馨港湾。与来自五湖四海的朋友相遇，共建和谐社区，分享喜乐与硕果。在这里，每一天都充满惊喜，每一次天都有奇妙的旅程。 加入我们，成为喵星乐园的成员，守护这份净土与美好，让爱与梦想在喵星乐园里绽放光彩！',
-      link: 'https://play.meowland.icu'
+      link: 'http://play.meowland.icu'
     },
     {
       id: '17',
