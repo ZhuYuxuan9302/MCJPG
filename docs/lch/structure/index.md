@@ -81,6 +81,12 @@ const community = [
     title: '社区管理',
     desc: '望海公社腐竹 MCJPG的社区管理',
   },
+{
+  avatar: '/teammate/北尘.png',
+  name: '北尘',
+  title: '审阅',
+  desc: 'FurCraft 司服，Amethyst 署理司服'
+}
 ]
 
 const publicise = [
