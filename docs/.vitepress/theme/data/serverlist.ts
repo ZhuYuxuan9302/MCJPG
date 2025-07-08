@@ -29,15 +29,6 @@ export interface MinecraftServer {
       ip: 'mc.zhuyuxuan.link'
     },
     {
-      id: '2',
-      name: '二氧化硅生存服务器',
-      type: '生存',
-      version: '互通',
-      icon: '/server_icons/SiO2 SMP.png',
-      description: '高版本互通群组服，QQ群902147486。一服为版本1.21-1.21.1的原版生电服，离线可进，规则完善，需要白名单。二服为版本1.21.4的原版生存服，不支持生电，有tpa,箱子锁，领地，商店等插件，无需白名单，欢迎加入！',
-      link: 'https://mcsio2.cn'
-    },
-    {
       id: '3',
       name: 'MCRW',
       type: '生电',
@@ -94,12 +85,12 @@ export interface MinecraftServer {
     },
     {
       id: '9',
-      name: '曙光生存',
+      name: 'Better on Bedrock',
       type: '生存',
-      version: '互通',
-      icon: '/server_icons/曙光生电.png',
-      description: '兼容BE和JE低版本 新生存服开荒中',
-      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=PQjqlHR75lBj-Ege3LpSy7rB_GyZS7TB&authKey=CTQAjo1DEExUVFdxeIQwVupwXoA8Mg27%2FBJiu2eu8WyjnSTNSI8XfsjwM9q88zTj&noverify=0&group_code=1006061457'
+      version: '基岩',
+      icon: '/server_icons/BetteronBedrock.png',
+      description: '兼容BE高版本 新生存服开荒中',
+      link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=TgLN3upBU0%2FnB6DP%2FQ25hzA%2BlpqB4tRGYjboc1Klnr18ZfVpPGvpkUJrEdDuhj8B&busi_data=eyJncm91cENvZGUiOiIxMDQxNzg3Njc5IiwidG9rZW4iOiJwbUp5eFY2dkhaYm9SSThQdThpN0tJQUh1bU54cVVhaEFMSHQrYmxjdnhSYmJaQlNIbGFiS0FHMkhTclZselJDIiwidWluIjoiMTY1MTE1NTMyOCJ9&data=4SbAn3ttzBBHunIG2YM4H249kTS3ZP0sZ_pqAhrH_6GV5GKTqNieeh_gtNGY4HqeUwnpX8OkKrA7SZuBtQmfCA&svctype=4&tempid=h5_group_info'
     },
     {
       id: '10',
@@ -163,7 +154,7 @@ export interface MinecraftServer {
       version: '1.21.4',
       icon: '/server_icons/喵星乐园.jpg',
       description: '支持离线登录  插件半生存养老服  "探索梦幻宇宙，邂逅喵星奇缘！欢迎踏入喵星乐园服务器——一个插件生存世界。 喵星乐园，不仅是心灵的温馨港湾。与来自五湖四海的朋友相遇，共建和谐社区，分享喜乐与硕果。在这里，每一天都充满惊喜，每一次天都有奇妙的旅程。 加入我们，成为喵星乐园的成员，守护这份净土与美好，让爱与梦想在喵星乐园里绽放光彩！',
-      link: 'https://play.meowland.icu'
+      link: 'http://play.meowland.icu'
     },
     {
       id: '17',
@@ -284,15 +275,6 @@ export interface MinecraftServer {
       description: '版本：JE1.8x-1.21.x | BE:最新 这是一个长期开放的原版纯净高版本生存服务器 保留了原汁原味的体验,仅有基础玩法经济等插件 我们保证不做影响平衡、破坏公平或偏袒其他玩家 无需担心服内出现OP滥用权限恶意破坏等恶劣行为',
       link: 'https://oceannetwork.top',
       ip: 'mc.oceannetwork.top'
-    },
-    {
-      id: '30',
-      name: '望海公社',
-      type: '生电',
-      version: '1.20.4',
-      icon: '/server_icons/望海公社.png',
-      description: '一个普通的生电服，有白名单和语音通话',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=e-ZW5B7qKoAzPlVHHOWUSlayWuwjkMe4&authKey=sXEs4UUkSnc39sresb2zDDVIbV89SIadGDnn85QBW41TDOsbl7hZXpdPXf1qyvBs&noverify=0&group_code=939672717'
     },
     {
       id: '31',
