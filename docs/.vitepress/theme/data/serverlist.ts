@@ -29,15 +29,6 @@ export interface MinecraftServer {
       ip: 'mc.zhuyuxuan.link'
     },
     {
-      id: '2',
-      name: '二氧化硅生存服务器',
-      type: '生存',
-      version: '互通',
-      icon: '/server_icons/SiO2 SMP.png',
-      description: '高版本互通群组服，QQ群902147486。一服为版本1.21-1.21.1的原版生电服，离线可进，规则完善，需要白名单。二服为版本1.21.4的原版生存服，不支持生电，有tpa,箱子锁，领地，商店等插件，无需白名单，欢迎加入！',
-      link: 'https://mcsio2.cn'
-    },
-    {
       id: '3',
       name: 'MCRW',
       type: '生电',
