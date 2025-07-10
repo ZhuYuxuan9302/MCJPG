@@ -31,7 +31,7 @@ const code = [
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
   {
-    avatar: '/teammate/gufan.png',
+    avatar: '/teammate/gufan.jpg',
     name: '孤帆',
     title: '后端技术开发',
     desc: '基础的python开发',
