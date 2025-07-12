@@ -25,16 +25,16 @@ const code = [
     ]
   },
   {
-    avatar: '/teammate/alazeprt.jpg',
-    name: 'alazeprt',
-    title: '后端技术开发',
-    desc: '星际穿越服务器腐竹 | MCJPG网站状态监测后端开发',
-  },
-  {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
     title: '技术支持',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
+  },
+  {
+    avatar: '/teammate/gufan.jpg',
+    name: '孤帆',
+    title: '后端技术开发',
+    desc: '基础的python开发',
   },
   {
     avatar: '/teammate/Ygbs.jpg',
@@ -60,13 +60,19 @@ const community = [
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: '审核兼宣传',
-    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
+    title: '社区部-审核兼宣传',
+    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）',
+  },
+  {
+    avatar: '/teammate/yubaozhi.jpg',
+    name: '鱼包纸',
+    title: '社区部-宣传',
+    desc: '宣传剪辑大手子',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老实-元气TaskMgr',
-    title: '社区管理',
+    title: '社区部-社区管理',
     desc: 'RBS生电服务器（暂未成为成员服）服主，国庆期间暂任见习社区管理。负责社区管理。啥都不会但啥都不精通（）',
     links: [
       { icon: {
@@ -74,12 +80,6 @@ const community = [
         },
          link: 'https://space.bilibili.com/1655020702' }
     ]
-  },
-  {
-    avatar: '/teammate/1410happy.jpg',
-    name: '1410happy1',
-    title: '社区管理',
-    desc: '望海公社腐竹 MCJPG的社区管理',
   },
   {
     avatar: '/teammate/北尘.png',
@@ -100,7 +100,13 @@ const publicise = [
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
     title: '审核兼宣传',
-    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
+    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）',
+  },
+  {
+    avatar: '/teammate/yubaozhi.jpg',
+    name: '鱼包纸',
+    title: '社区部-宣传',
+    desc: '宣传剪辑大手子',
   },
   {
     avatar: '/teammate/明镜台.jpg',
