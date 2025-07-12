@@ -209,7 +209,7 @@ export interface MinecraftServer {
       version: '基岩版',
       icon: '/server_icons/方块风云国战服.jpg',
       description: '这个星球上，有的地方“朱门酒肉臭，路有冻死骨”，有的地方“受命于天，既寿永昌”，有的地方“把生命献给人民解放的事业”，有的地方“以阶级斗争为纲”......但这些地方的人们都有一个共同的梦想:富强。 危机四伏的世界里，如何脱颖而出，成为世界之巅？ 诚邀广大国际版玩家加入《方块风云2》我的世界基岩版国战模拟服务器的大家庭。 听歌｜货币｜签到｜装备品质｜精英怪｜菜单｜反作弊｜头衔｜国战｜世界地图｜...',
-      link: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=iUbRw1cvX38Nmsee6JETCZzVGNSeDzC2&authKey=DIFPEi9ubzyma%2BeET59Du7cfc%2BSCnUZMlMxorEgH1MYtPwEkd1b%2BeKRBzSpij%2Fcp&noverify=0&group_code=979459083'
+      link: 'https://bdmc.framer.website/'
     },
     {
       id: '23',
