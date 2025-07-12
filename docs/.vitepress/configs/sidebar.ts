@@ -11,6 +11,7 @@ export const sidebar = {
             items: [
                 {text: '2024国庆特辑', link: '2024国庆特辑/'},
                 {text: '2025新年特辑', link: '2025新年特辑/'},
+                {text: 'MCJPG组织一周年特刊', link: 'MCJPG组织一周年特刊'}
             ]
           },
           {
