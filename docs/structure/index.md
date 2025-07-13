@@ -48,25 +48,25 @@ const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
-    title: '宣传',
+    title: '社区管理',
     desc: '曙光生电服务器腐竹，唯一开学后有很多时间的人',
   },
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: '社区部-审核兼宣传',
+    title: '审核',
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）',
   },
   {
     avatar: '/teammate/yubaozhi.jpg',
     name: '鱼包纸',
-    title: '社区部-宣传',
-    desc: '宣传剪辑大手子',
+    title: '宣传',
+    desc: '负责文书工作',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老实-元气TaskMgr',
-    title: '社区部-社区管理',
+    title: '社区管理',
     desc: 'RBS生电服务器（暂未成为成员服）服主，国庆期间暂任见习社区管理。负责社区管理。啥都不会但啥都不精通（）',
     links: [
       { icon: {
@@ -84,7 +84,7 @@ const community = [
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
-    title: '剪辑',
+    title: '社区管理',
     desc: 'MCIC服主',
   },
   {
@@ -96,7 +96,7 @@ const community = [
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '封面设计兼剪辑',
+    title: '宣传',
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 ]

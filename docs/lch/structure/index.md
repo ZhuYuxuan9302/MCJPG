@@ -48,25 +48,25 @@ const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
-    title: '宣傳',
+    title: '社區管理',
     desc: '曙光生電伺服器之主，惟此一人，開學之後閒暇甚多者也。',
   },
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: '審核兼宣傳',
+    title: '審核',
     desc: 'HappyDog伺服器之主，善Replay與Bcut之術。',
   },
   {
     avatar: '/teammate/yubaozhi.jpg',
     name: '鱼包纸',
-    title: '社区部-宣传',
-    desc: '宣传剪辑大手子',
+    title: '宣传',
+    desc: '负责文书工作',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老實-元氣TaskMgr',
-    title: '社區管理者',
+    title: '社區管理',
     desc: 'RBS生電伺服器（暫非成員伺服器也）之主，國慶之際，暫担任社群管理之職。負社區管理之责，亦博而不專也。',
     links: [
       { icon: {
@@ -78,13 +78,13 @@ const community = [
   {
   avatar: '/teammate/北尘.png',
   name: '北尘',
-  title: '审阅',
+  title: '審核',
   desc: 'FurCraft 司服，Amethyst 署理司服'
   },
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
-    title: '剪辑',
+    title: '社區管理',
     desc: 'MCIC服主',
   },
   {
@@ -96,7 +96,7 @@ const community = [
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '封面设计兼剪辑',
+    title: '宣传',
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 

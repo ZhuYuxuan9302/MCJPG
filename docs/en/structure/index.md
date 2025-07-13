@@ -54,14 +54,14 @@ const community = [
   {
     avatar: '/teammate/WERTYUS11.jpg',
     name: 'WERTYUS11',
-    title: 'Auditor and Publicist',
+    title: 'Auditor',
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
     avatar: '/teammate/yubaozhi.jpg',
     name: '鱼包纸',
     title: 'Publicist',
-    desc: '宣传剪辑大手子',
+    desc: '负责文书工作',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
@@ -78,25 +78,25 @@ const community = [
   {
     avatar: '/teammate/北尘.png',
     name: '北尘',
-    title: '审核',
+    title: 'Auditor',
     desc: 'FurCraft服主，Amethyst代理服主'
   },
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
-    title: '剪辑',
+    title: 'Community Admin',
     desc: 'MCIC服主',
   },
   {
     avatar: '/teammate/明镜台.jpg',
     name: '明镜台',
-    title: '宣传兼设计',
+    title: 'Publicist',
     desc: '镜羽工作室创始人',
   },
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '封面设计兼剪辑',
+    title: 'Publicist',
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 ]
