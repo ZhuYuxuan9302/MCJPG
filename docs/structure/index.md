@@ -33,14 +33,8 @@ const code = [
   {
     avatar: '/teammate/gufan.jpg',
     name: '孤帆',
-    title: '后端技术开发',
-    desc: '基础的python开发',
-  },
-  {
-    avatar: '/teammate/Ygbs.jpg',
-    name: 'Ygbs',
-    title: '后端技术开发',
-    desc: 'BugCraft 腐竹，目前还没做什么事情',
+    title: '技术支持',
+    desc: 'Python开发',
   },
   {
     avatar: '/teammate/pingguomc.png',
@@ -86,27 +80,12 @@ const community = [
     name: '北尘',
     title: '审核',
     desc: 'FurCraft服主，Amethyst代理服主'
-  }
-]
-
-const publicise = [
+  },
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
     title: '剪辑',
     desc: 'MCIC服主',
-  },
-  {
-    avatar: '/teammate/WERTYUS11.jpg',
-    name: 'WERTYUS11',
-    title: '审核兼宣传',
-    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）',
-  },
-  {
-    avatar: '/teammate/yubaozhi.jpg',
-    name: '鱼包纸',
-    title: '社区部-宣传',
-    desc: '宣传剪辑大手子',
   },
   {
     avatar: '/teammate/明镜台.jpg',
@@ -139,16 +118,9 @@ const publicise = [
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>社区部</template>
-    <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，以确保 MCJPG 拥有健康向上的生命力</template>
+    <template #lead>MCJPG 社区部门通过审核新加入的成员服，维护交流社区的秩序，对组织进行宣传，以确保 MCJPG 拥有健康向上的生命力</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>宣传部</template>
-    <template #lead>MCJPG 宣传部通过对组织和成员服的宣传，来让更多的人知道我们的行动</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="publicise" />
     </template>
   </VPTeamPageSection>
 

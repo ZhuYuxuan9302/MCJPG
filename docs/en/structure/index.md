@@ -25,22 +25,16 @@ const code = [
     ]
   },
   {
-    avatar: '/teammate/alazeprt.jpg',
-    name: 'alazeprt',
-    title: 'Technology development',
-    desc: '星际穿越服务器腐竹 | MCJPG网站状态监测后端开发',
-  },
-  {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
     title: 'Technical Support',
     desc: '基础的技术问题解决（雾），风梨团队创始人（），状态监测与机器人负责人',
   },
   {
-    avatar: '/teammate/Ygbs.jpg',
-    name: 'Ygbs',
-    title: '后端技术开发',
-    desc: 'BugCraft 腐竹，目前还没做什么事情',
+    avatar: '/teammate/gufan.jpg',
+    name: '孤帆',
+    title: 'Technical Support',
+    desc: 'Python开发',
   },
   {
     avatar: '/teammate/pingguomc.png',
@@ -64,6 +58,12 @@ const community = [
     desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
+    avatar: '/teammate/yubaozhi.jpg',
+    name: '鱼包纸',
+    title: 'Publicist',
+    desc: '宣传剪辑大手子',
+  },
+  {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老实-元气TaskMgr',
     title: 'Community Admin',
@@ -76,31 +76,16 @@ const community = [
     ]
   },
   {
-    avatar: '/teammate/1410happy.jpg',
-    name: '1410happy1',
-    title: '社区管理',
-    desc: '望海公社腐竹 MCJPG的社区管理',
-  },
-  {
     avatar: '/teammate/北尘.png',
     name: '北尘',
     title: '审核',
     desc: 'FurCraft服主，Amethyst代理服主'
-  }
-]
-
-const publicise = [
+  },
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
-    title: 'Editor',
+    title: '剪辑',
     desc: 'MCIC服主',
-  },
-  {
-    avatar: '/teammate/WERTYUS11.jpg',
-    name: 'WERTYUS11',
-    title: 'Auditor and Publicist',
-    desc: 'HappyDog服务器腐竹，啥都会但啥都不精通（）（）会Replay和Bcut',
   },
   {
     avatar: '/teammate/明镜台.jpg',
@@ -111,10 +96,11 @@ const publicise = [
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: 'Cover Designer and Editor',
+    title: '封面设计兼剪辑',
     desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
 ]
+
 
 </script>
 
@@ -133,16 +119,9 @@ const publicise = [
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>Community Department</template>
-    <template #lead>MCJPG Community Department maintains the order of the community by reviewing new memberships and ensuring that MCJPG remains a healthy and vibrant community.</template>
+    <template #lead>MCJPG Community Department maintains the order of the community by reviewing new memberships and publicizes the organization to ensure that MCJPG remains a healthy and vibrant community.</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>Propaganda Department</template>
-    <template #lead>MCJPG Publicity Department is working to get the word out about our actions by publicizing the organization and the members' uniforms.</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="publicise" />
     </template>
   </VPTeamPageSection>
 

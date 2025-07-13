@@ -25,22 +25,16 @@ const code = [
     ]
   },
   {
-    avatar: '/teammate/alazeprt.jpg',
-    name: 'alazeprt',
-    title: '後端技術開發',
-    desc: '星際穿越伺服器之主 | MCJPG網站狀態及監測開發者',
-  },
-  {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
     title: '技術支持',
     desc: '基礎技術問題解決，風梨團隊創始人，狀態監測與機器人項目負責人',
   },
   {
-    avatar: '/teammate/Ygbs.jpg',
-    name: 'Ygbs',
-    title: '后端技术开发',
-    desc: 'BugCraft 伺服器之主，無所事事焉',
+    avatar: '/teammate/gufan.jpg',
+    name: '孤帆',
+    title: '技術支持',
+    desc: 'Python开发',
   },
   {
     avatar: '/teammate/pingguomc.png',
@@ -64,6 +58,12 @@ const community = [
     desc: 'HappyDog伺服器之主，善Replay與Bcut之術。',
   },
   {
+    avatar: '/teammate/yubaozhi.jpg',
+    name: '鱼包纸',
+    title: '社区部-宣传',
+    desc: '宣传剪辑大手子',
+  },
+  {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老實-元氣TaskMgr',
     title: '社區管理者',
@@ -76,45 +76,32 @@ const community = [
     ]
   },
   {
-    avatar: '/teammate/1410happy.jpg',
-    name: '1410happy1',
-    title: '社区管理',
-    desc: '望海公社腐竹 MCJPG的社区管理',
-  },
-{
   avatar: '/teammate/北尘.png',
   name: '北尘',
   title: '审阅',
   desc: 'FurCraft 司服，Amethyst 署理司服'
-}
-]
-
-const publicise = [
+  },
   {
     avatar: '/teammate/二氧化钛.jpg',
     name: '二氧化钛',
     title: '剪辑',
-    desc: 'MCIC伺服器之主',
-  },
-  {
-    avatar: '/teammate/WERTYUS11.jpg',
-    name: 'WERTYUS11',
-    title: '審核兼宣傳',
-    desc: 'HappyDog伺服器之主，善Replay與Bcut之術。',
+    desc: 'MCIC服主',
   },
   {
     avatar: '/teammate/明镜台.jpg',
     name: '明镜台',
-    title: '宣傳兼設計',
-    desc: '镜羽工作室之主',
+    title: '宣传兼设计',
+    desc: '镜羽工作室创始人',
   },
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '卷首設計兼剪輯',
-    desc: 'TAC-Server伺服器之主, 略通剪輯之手法, 善达芬奇、PR、ReplayMod、FlashBack之術。',
+    title: '封面设计兼剪辑',
+    desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
   }
+
 ]
+
 
 </script>
 
@@ -133,16 +120,9 @@ const publicise = [
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>社區部</template>
-    <template #lead>MCJPG之社群部門，專司審核新入成員之伺服請求，維護交流社群之秩序，以保障MCJPG擁有康健向上之生命力。</template>
+    <template #lead>MCJPG之社群部門，專司審核新入成員之伺服請求，維護交流社群之秩序，行組織之宣傳，以保障MCJPG擁有康健向上之生命力。</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
-    </template>
-  </VPTeamPageSection>
-  <VPTeamPageSection>
-    <template #title>宣傳部</template>
-    <template #lead>MCJPG之宣傳部，專事對本組織及成員伺服之宣揚，以廣為人知吾輩之行動。</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="publicise" />
     </template>
   </VPTeamPageSection>
 
