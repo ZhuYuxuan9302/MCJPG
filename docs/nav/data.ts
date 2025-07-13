@@ -161,8 +161,8 @@ export const NAV_DATA: NavData[] = [
       },
       {
         //icon: 'https://wiki.bedrock.dev/assets/images/homepage/wikilogo.png',
-        icon: '/icons/nav/基岩版开发文档/Bedrock Wik.png',
-        title: 'Bedrock Wik',
+        icon: '/icons/nav/基岩版开发文档/Bedrock Wiki.png',
+        title: 'Bedrock Wiki',
         link: 'https://wiki.bedrock.dev',
       },
       {

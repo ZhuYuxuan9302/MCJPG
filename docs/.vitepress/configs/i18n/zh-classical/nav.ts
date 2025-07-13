@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '成員伺服器', link: '/lch/' },
   { text: '組織規則', link: '/lch/rules/' },
-  { text: "项目", link: '/lch/project/' },
+  { text: "項目", link: '/lch/project/' },
   {
     text: '團隊',
     link: '/lch/structure/',

@@ -1,40 +1,40 @@
 ---
 layout: doc
-title: 一周年特辑
-description: MCJPG组织一周年特辑
+title: First Anniversary Special
+description: MCJPG Organization's First Anniversary Special
 ---
-# MCJPG组织一周年特辑
+# MCJPG Organization's First Anniversary Special
 
-## 引言
+## Introduction
 
-本文撰写于 **MCJPG** 组织成立**一周年**之际。在这一年里，我们社区创新性地完成并完善了许多项目。我们的AI项目在社区中获得了一致好评，也在广大用户的不断反馈下不断完善。在此期特辑中，让我们回望这一年的路途，展望未来。
+This article is written on the occasion of the **first anniversary** of the **MCJPG** organization. Over the past year, our community has innovatively completed and refined many projects. Our AI projects have received unanimous praise within the community and have been continuously improved through constant feedback from our users. In this special feature, let's look back on our journey this past year and look forward to the future.
 
-## 回望历史
+## Looking Back at Our History
 
-### 社区活动
+### Community Activities
 
-在过去的一年里，**MCJPG** 组织一共开展了一次Minecraft**大型**活动，这标志着我们时刻牢记社区的属性，在技术项目蒸蒸日上的同时，坚持举办与社区文化息息相关的Minecraft**大型**活动。这次活动过程是曲折的坎坷的，非常遗憾的是，参与活动的成员没有获得所预料的友好体验，最终活动的结果也并没有预料中的完满。但是他们在其中获得了成长；**MCJPG** 组织也在这次活动中变得成熟，组织架构更加合理清晰。
+Over the past year, the **MCJPG** organization held one **large-scale** Minecraft event. This signifies that we always remember our community's identity, insisting on holding **large-scale** Minecraft events closely related to our community culture, even as our technical projects flourish. The process of this event was fraught with twists and turns. It is very regrettable that the participating members did not have the friendly experience they anticipated, and the final outcome was not as perfect as expected. However, they grew through the experience, and the **MCJPG** organization also matured through this event, developing a more rational and clear organizational structure.
 
-### 成员发展
+### Member Development
 
-在过去的一年里，部分开发者和组织重要成员因为各种原因离开了我们，这实属 **MCJPG** 组织的一大遗憾。然所谓辞旧迎新，他们的离去为新成员的登场创造了条件，在客观上也帮助 **MCJPG** 组织更好的发展下去。我们**永远尊重**这些为组织和社区做出了巨大贡献的人，珍视他们在岗期间为我们创造的果实和付出的汗水。没有他们，**MCJPG** 组织的今天不会如此灿烂。
+In the past year, some developers and key members of the organization have left us for various reasons, which is a great regret for the **MCJPG** organization. However, as the saying goes, "out with the old, in with the new." Their departure created opportunities for new members to step up and, objectively, helped the **MCJPG** organization to develop better. We will **always respect** these individuals who made significant contributions to the organization and the community, and we cherish the fruits of their labor and the effort they put in during their time with us. Without them, **MCJPG** would not be as vibrant as it is today.
 
-### 社区项目
+### Community Projects
 
-在过去的一年里， **MCJPG** 组织在各类技术项目中获得了巨大进步，与社区相关的各类服务、功能，以及与社区引以为傲的AI对话相结合的配套服务愈发完善。在**AI**方面，我们走在时代的潮头，张开怀抱欢迎各路强大的模型，也听取用户意见，根据用户的需求和愿望做出了量身订制的优质产品。同时， **MCJPG** 组织放弃了该项目上的利润，**一切为了用户**，在接近官方稳定性和速度的前提下，做到了比官方更低的**价格**。全新的网络架构和经过深思熟虑的系统配置、服务选择，为用户提供了更易用的服务，允许用户在较差的网络环境下，仍然正常使用。
+Over the past year, the **MCJPG** organization has made tremendous progress in various technical projects. Services, features, and supporting facilities related to the community, especially those integrated with our pride-and-joy conversational AI, have become increasingly sophisticated. In the field of **AI**, we are at the forefront of the times, embracing powerful models from all sources. We also listen to user feedback, creating high-quality, tailor-made products based on their needs and wishes. At the same time, the **MCJPG** organization has forgone profits on this project—**everything for the user**—achieving a lower **price** than official services while approaching their level of stability and speed. Our brand-new network architecture and carefully considered system configurations and service choices provide users with a more accessible service, allowing them to use it normally even in poor network conditions.
 
-## 展望未来
+## Looking to the Future
 
-**MCJPG** 组织正通过一系列精心布局的战略项目，清晰地勾勒出其发展的核心蓝图。**MCJPG** 以前瞻性的技术视野，致力于为所有玩家和服务器主打造一个集便捷、智能与高效于一体的综合服务生态，其发展的未来已经走入进行时。
+The **MCJPG** organization is clearly outlining its core development blueprint through a series of carefully planned strategic projects. With a forward-looking technological vision, **MCJPG** is dedicated to creating a comprehensive service ecosystem that is convenient, intelligent, and efficient for all players and server owners. Its future development is already underway.
 
-### 构建一体化数字基石，优化社区协作体验
+### Building an Integrated Digital Foundation, Optimizing Community Collaboration Experience
 
-**MCJPG** 组织深知，一个繁荣的社区离不开坚实的基础设施。为此，组织正倾力打造一个无缝衔接的数字工具集，旨在全面提升用户的操作效率与协作体验。从建立 [MCJPG 通行证](https://sso.mcjpg.org) 统一账户系统，到使用便捷的 [元搜索引擎](https://search.mcjpg.org)、[FDS文件分发服务](https://fds.mcjpg.org) 及 [社区图床](https://image.mcjpg.org)，再到提供专业的 [在线Markdown编辑器](https://editor.mcjpg.org) ，**MCJPG** 组织正将分散的需求整合，配合 **MCJPG** 专业的**AI**服务，为用户提供一站式的解决方案。这套不断完善的基础服务体系，将成为连接社区成员、激发创造活力的稳固基石，让知识分享与资源流转变得前所未有的高效与顺畅​。
+The **MCJPG** organization is well aware that a thriving community cannot exist without a solid infrastructure. To this end, the organization is dedicated to creating a seamless set of digital tools aimed at comprehensively enhancing user operational efficiency and collaborative experience. From establishing the unified [MCJPG Pass](https://sso.mcjpg.org) account system, to providing a convenient [Meta Search Engine](https://search.mcjpg.org), [FDS File Distribution Service](https://fds.mcjpg.org), and [Community Image Hosting](https://image.mcjpg.org), and even a professional [Online Markdown Editor](https://editor.mcjpg.org), the **MCJPG** organization is consolidating scattered needs. Combined with **MCJPG**'s professional **AI** services, it offers users a one-stop solution. This continuously improving system of basic services will become a solid foundation for connecting community members and stimulating creative vitality, making knowledge sharing and resource circulation more efficient and smooth than ever before.
 
-### 确保服务高效稳定，铸就社区信赖品牌
+### Ensuring Efficient and Stable Services, Forging a Trusted Community Brand
 
-面对有限的资源和部分不可抗力的影响，组织部署了 [状态监测](https://status.mcjpg.org)，对旗下所有项目及成员服的在线情况进行7x24小时的实时监控和故障告警。同时，**MCJPG** 组织提供了跨服同步功能，便于玩家在社区合作的服务器中汇总数据，感受快乐。这种对服务质量的极致追求和对用户公开透明的态度，不仅是服务到位的体现，更是对社区的一份郑重承诺。一个稳定可靠的服务环境是社区健康发展的根本保障，MCJPG正通过此举，努力将自身打造成为《我的世界》社区中值得信赖的标志性平台。
+Facing limited resources and some force majeure factors, the organization has deployed [Status Monitoring](https://status.mcjpg.org) to conduct 24/7 real-time monitoring and fault alerts for all its projects and member servers. Concurrently, the **MCJPG** organization provides a cross-server synchronization feature, making it easier for players to aggregate data and share enjoyment across collaborating community servers. This ultimate pursuit of service quality and a transparent attitude towards users is not only a reflection of excellent service but also a solemn commitment to the community. A stable and reliable service environment is the fundamental guarantee for the healthy development of the community, and through these actions, MCJPG is striving to build itself into a trustworthy and iconic platform within the Minecraft community.
 
-## 结语
+## Conclusion
 
-过去的一年，是 **MCJPG** 从无到有、由稚嫩迈向成熟的一年；未来的一年，将是我们凝聚力量、加速奔跑的一年。感谢每一位成员、开发者、玩家与朋友——是你们的激情、包容与信任，为 MCJPG 点亮了前进的灯塔。愿我们继续怀揣热爱，保持开源、开放、共享的初心，在方块世界与数字宇宙中携手拓荒，把每一次创意都变成现实，把每一次微小的贡献都汇聚成改变社区的洪流。周年只是里程碑，精彩永无终点。让我们相约下一段旅程，向着更自由、更智能、更温暖的 **MCJPG**，共赴征程！
+The past year was a year for **MCJPG** to grow from nothing, from fledgling to mature; the coming year will be one for us to gather our strength and accelerate our pace. We thank every member, developer, player, and friend—it is your passion, tolerance, and trust that have lit the beacon for MCJPG's path forward. May we continue to carry our passion, uphold our original commitment to being open-source, open, and sharing, and pioneer together in the block world and the digital universe. Let's turn every creative idea into reality and converge every small contribution into a torrent that transforms the community. An anniversary is just a milestone; the excitement never ends. Let's embark on the next leg of the journey together, towards a freer, smarter, and warmer **MCJPG**

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 吾輩之隊也
-description: MCJPG組織團隊成員名單
+description: MCJPG組織團隊名錄
 ---
 <script setup>
 import {
@@ -14,8 +14,8 @@ const code = [
     {
     avatar: '/teammate/SuiFeng.jpg',
     name: '隨風潛入夜',
-    title: '網路開發',
-    desc: 'MCJPG官网维护 | AI項目負責人 | MC生电服之主',
+    title: '網路營造',
+    desc: 'MCJPG官網護持｜AI計畫主事｜MC生電服之主',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {
@@ -27,20 +27,20 @@ const code = [
   {
     avatar: '/teammate/fireguo.png',
     name: 'FireGuo',
-    title: '技術支持',
-    desc: '基礎技術問題解決，風梨團隊創始人，狀態監測與機器人項目負責人',
+    title: '技術支援',
+    desc: '解基石之技難，風梨團隊創始人，狀况監察與役機計畫主事',
   },
   {
     avatar: '/teammate/gufan.jpg',
     name: '孤帆',
-    title: '技術支持',
-    desc: 'Python开发',
+    title: '技術支援',
+    desc: 'Python營造',
   },
   {
     avatar: '/teammate/pingguomc.png',
     name: 'pingguomc',
-    title: '后端任数人',
-    desc: '朕清歌天谴了阐胭脂饮务器之患，幸饮务器之关 | 及乱者遂至',
+    title: '後端職司',
+    desc: '朕清歌天譴了闡胭脂飲務器之患，幸飲務器之關｜及亂者遂至',
   },
 ]
 
@@ -48,7 +48,7 @@ const community = [
   {
     avatar: '/teammate/Xiaosan.jpg',
     name: 'Xiaosan',
-    title: '社區管理',
+    title: '社群司理',
     desc: '曙光生電伺服器之主，惟此一人，開學之後閒暇甚多者也。',
   },
   {
@@ -59,14 +59,14 @@ const community = [
   },
   {
     avatar: '/teammate/yubaozhi.jpg',
-    name: '鱼包纸',
-    title: '宣传',
-    desc: '负责文书工作',
+    name: '魚包紙',
+    title: '宣傳',
+    desc: '司文牘',
   },
   {
     avatar: '/teammate/叫我董老实-元气TaskMgr.jpg',
     name: '叫我董老實-元氣TaskMgr',
-    title: '社區管理',
+    title: '社群司理',
     desc: 'RBS生電伺服器（暫非成員伺服器也）之主，國慶之際，暫担任社群管理之職。負社區管理之责，亦博而不專也。',
     links: [
       { icon: {
@@ -77,31 +77,30 @@ const community = [
   },
   {
   avatar: '/teammate/北尘.png',
-  name: '北尘',
+  name: '北塵',
   title: '審核',
-  desc: 'FurCraft 司服，Amethyst 署理司服'
+  desc: 'FurCraft司服，Amethyst署理司服'
   },
   {
     avatar: '/teammate/二氧化钛.jpg',
-    name: '二氧化钛',
-    title: '社區管理',
-    desc: 'MCIC服主',
+    name: '二氧化鈦',
+    title: '社群司理',
+    desc: 'MCIC服之主',
   },
   {
     avatar: '/teammate/明镜台.jpg',
-    name: '明镜台',
-    title: '宣传兼设计',
-    desc: '镜羽工作室创始人',
+    name: '明鏡臺',
+    title: '宣傳兼設計',
+    desc: '鏡羽工坊創始人',
   },
   {
     avatar: '/teammate/Redapple_one.png',
     name: 'Redapple_one',
-    title: '宣传',
-    desc: 'TAC-Server服务器腐竹, 会那么一点的剪辑手法, 会用达芬奇,PR,ReplayMod,FlashBack.',
+    title: '宣傳',
+    desc: 'TAC-Server伺服器之主，略通剪輯之法，能用達芬奇、PR、ReplayMod、FlashBack諸器。',
   }
 
 ]
-
 
 </script>
 
@@ -119,7 +118,7 @@ const community = [
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>社區部</template>
+    <template #title>社群部</template>
     <template #lead>MCJPG之社群部門，專司審核新入成員之伺服請求，維護交流社群之秩序，行組織之宣傳，以保障MCJPG擁有康健向上之生命力。</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
@@ -128,11 +127,10 @@ const community = [
 
 </VPTeamPage>
 
-
-<center>助吾等增益伺服之貢獻者們：</center>
+<center>襄助吾等、增益伺服之諸君：</center>
 
 <center><a href="https://github.com/MineJPGCraft/MCJPG/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MineJPGCraft/MCJPG" alt="Contributors"/>
 </a></center>
 
-<center>對上述諸位參與者，致以崇高之敬意！</center>
+<center>上列諸賢，敬謝之至！</center>
