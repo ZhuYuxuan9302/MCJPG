@@ -75,10 +75,10 @@ export interface MinecraftServer {
     },
     {
       id: '8',
-      name: 'MCIC',
+      name: '穹界 Horizon Nexus',
       type: '生存',
       version: '1.21',
-      icon: '/server_icons/MCIC.jpg',
+      icon: '/server_icons/HorizonNexus.jpg',
       description: '版本：JE 1.16.x-1.20.2 *Unknown**无线电静默*成分复杂的服务器',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=-IlME68JyiIobA7kc0K1ZtYq4bYuyrUj&authKey=AfOWKLmhMS666hgDeOW0Su3Oecq7WAfzOgDHhH8Zkpi5Anq9qWiQm6Vq7C9mcCcY&noverify=0&group_code=821501867',
       ip: '9666.fun:10482'
