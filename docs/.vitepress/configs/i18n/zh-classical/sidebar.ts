@@ -11,7 +11,7 @@ export const sidebar = {
             items: [
                 {text: '2024國慶特輯', link: '2024国庆特辑/'},
                 {text: '2025新年特輯', link: '2025新年特辑/'},
-                {text: '一周年特辑', link: '一周年特辑/'},
+                {text: '週年特輯', link: '一周年特辑/'},
             ]
           },
           {
