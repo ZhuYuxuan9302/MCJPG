@@ -378,7 +378,7 @@ export interface MinecraftServer {
       link: 'https://www.mcdlc.top/',
       ip: 'mcdlc.top'
     },
-      {
+   {
       id: '43',
       name: 'MCUF',
       type: '互通',
@@ -387,5 +387,15 @@ export interface MinecraftServer {
       description: 'MCUF纯净生存互通服务器 二周年特别版',
       link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=fnJUATrQjoFVUgVpAGJZJM6Pr9OgtFb6GyNXAEzU4piXszetjiwigZSLpn%2FKiT3X&busi_data=eyJncm91cENvZGUiOiIxMDA3MDE3NjQyIiwidG9rZW4iOiJybzlNclVhM2dBdlY5cnBzZXJMbVlIU1AzSnJqRGZuSGdTeEJzZElZM1Z2aW9tdG1KRVU1ZmF5TGlQbnArSmZqIiwidWluIjoiMjc1Mzg2NjcyOCJ9&data=ZKDrStOL5I844uqhT0xq4AuLOk0bbKZKCFwW7GXqkiIm3XMeFeDl_-A4J2K0UMnBneYxyj5oA8eZQEpT4RXKZg&svctype=4&tempid=h5_group_info',
       ip: '43.248.77.159'
+    },
+   {
+      id: '44',
+      name: 'Starry Isles',
+      type: '基岩',
+      version: '1.21.X',
+      icon: '/server_icons/StarryIsles.jpg',
+      description: '这是一个开了一年的基岩版空岛服，拥有单方块空岛的玩法，玩家领取一个属于自己的空岛。使用方块刷新包，可以让空岛中心的方块刷出资源。服务器还有等级系统，玩家可以通过购买方块包获得经验，等级到达某些层次时，玩家的血量上限会得到提升。服务器还有技能系统与boss。本服务器将是您度过愉快游戏时光的绝佳选择。',
+      link: 'minecraft://?addExternalServer=starry-isles|starry-isles.play-mc.space:54875',
+      ip: 'starry-isles.play-mc.space:54875'
     },
    ]
