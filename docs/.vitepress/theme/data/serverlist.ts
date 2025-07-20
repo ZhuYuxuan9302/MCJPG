@@ -365,8 +365,8 @@ export interface MinecraftServer {
       type: '创造',
       version: '互通',
       icon: '/server_icons/LimitlessBlocks.png',
-      description: '支持Java1.21.4及以上版本及基岩版最新。这是一个自由的互通原版服务器，支持生存/创造模式自由切换，我们珍视玩家的劳动成果，承诺长期运营。官方网站：lb.jscity.top QQ群：1027961947',
-      link: 'https://lb.jscity.top',
+      description: '支持Java1.21.4及以上版本及基岩版最新。这是一个自由的互通原版服务器，支持生存/创造模式自由切换，我们珍视玩家的劳动成果，承诺长期运营。 官方网站：limitlessblocks.org QQ群：1027961947',
+      link: 'https://limitlessblocks.org',
     },
     {
       id: '42',
