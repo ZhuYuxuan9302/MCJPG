@@ -15,7 +15,7 @@ export interface MinecraftServer {
 }
   
   export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
-  export const serverVersions = ['互通','基岩版','1.21.X','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
+  export const serverVersions = ['中国版','互通','基岩版','1.21.X','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
 
   export const servers: MinecraftServer[] = [
     {
@@ -234,9 +234,9 @@ export interface MinecraftServer {
       id: '25',
       name: '🍵TACS/茶水晶服务器🍵',
       type: '生电',
-      version: '1.21.3',
+      version: '1.21.4',
       icon: '/server_icons/TACS_茶水晶服务器.svg',
-      description: '无须审核 支持正版/皮肤站登录 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为i5-13600KF+32G运存 加群后您方可加入服务器',
+      description: '无须审核 支持正版/皮肤站登录 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为14600K+32G运存 加群后您方可加入服务器',
       link: 'https://tacserver.cn/'
     },
     {
@@ -396,6 +396,16 @@ export interface MinecraftServer {
       icon: '/server_icons/StarryIsles.jpg',
       description: '这是一个开了一年的基岩版空岛服，拥有单方块空岛的玩法，玩家领取一个属于自己的空岛。使用方块刷新包，可以让空岛中心的方块刷出资源。服务器还有等级系统，玩家可以通过购买方块包获得经验，等级到达某些层次时，玩家的血量上限会得到提升。服务器还有技能系统与boss。本服务器将是您度过愉快游戏时光的绝佳选择。',
       link: 'minecraft://?addExternalServer=starry-isles|starry-isles.play-mc.space:54875',
+      ip: ''
+    },
+    {
+      id: '45',
+      name: '青霭Haze',
+      type: '中国版',
+      version: '1.21.X',
+      icon: '/server_icons/青霭Haze.jpeg',
+      description: '以11种元素类型为核心内容，在世界各地徘徊着各式各样的元素造物与精英、领主。 除了热血沸腾的战斗玩法，你也可以在主城里找到各种游玩场所，购买属于自己的地皮，搭建宏伟的建筑，参与各种各样的活动，感受纷争外的宁静。',
+      link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=KzS3LqLEmiPgOLTjSmiRaMru3stjKjSf3JGvS67jMT2fr4p9ZSrZBYwJwhgcav%2BO&busi_data=eyJncm91cENvZGUiOiI1MzI1MDczOTQiLCJ0b2tlbiI6IndzZlNMWnE1VWg3cXVHWmtBZzVMSlNrOGZDbkpwM2l6NUt0QzRpQlhBZElaQU4rdDR3ZjVpU01GRVk2OU1nS3IiLCJ1aW4iOiIzNTI4MzUyMTQ0In0%3D&data=W48oZy3IP6NKUAV6u2tF4trnDxGcIbUCiKokjx0i6Ig7X_9_yKmRnNg5yAClxHuzPcbizL4HYL61Pi6Dzc1kzQ&svctype=4&tempid=h5_group_info',
       ip: ''
     },
    ]
