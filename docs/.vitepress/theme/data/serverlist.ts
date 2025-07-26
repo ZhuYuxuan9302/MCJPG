@@ -401,8 +401,8 @@ export interface MinecraftServer {
     {
       id: '45',
       name: '青霭Haze',
-      type: '中国版',
-      version: '1.21.X',
+      type: '生存',
+      version: '中国版',
       icon: '/server_icons/青霭Haze.jpeg',
       description: '以11种元素类型为核心内容，在世界各地徘徊着各式各样的元素造物与精英、领主。 除了热血沸腾的战斗玩法，你也可以在主城里找到各种游玩场所，购买属于自己的地皮，搭建宏伟的建筑，参与各种各样的活动，感受纷争外的宁静。',
       link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=KzS3LqLEmiPgOLTjSmiRaMru3stjKjSf3JGvS67jMT2fr4p9ZSrZBYwJwhgcav%2BO&busi_data=eyJncm91cENvZGUiOiI1MzI1MDczOTQiLCJ0b2tlbiI6IndzZlNMWnE1VWg3cXVHWmtBZzVMSlNrOGZDbkpwM2l6NUt0QzRpQlhBZElaQU4rdDR3ZjVpU01GRVk2OU1nS3IiLCJ1aW4iOiIzNTI4MzUyMTQ0In0%3D&data=W48oZy3IP6NKUAV6u2tF4trnDxGcIbUCiKokjx0i6Ig7X_9_yKmRnNg5yAClxHuzPcbizL4HYL61Pi6Dzc1kzQ&svctype=4&tempid=h5_group_info',
