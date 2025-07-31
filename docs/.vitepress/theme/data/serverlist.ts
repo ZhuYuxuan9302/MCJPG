@@ -409,12 +409,13 @@ export interface MinecraftServer {
       ip: ''
     },
     {
-      id: '45',
+      id: '46',
       name: 'MCLUME',
-      type: '生存',
-      version: '1.21.4',
+      type: '群组服',
+      version: '互通',
       icon: '/server_icons/mclume.png',
-      description: '纯公益服务器',
-      link: 'www.unimc.homes'
+      description: '一个可以：生存生电养老粘液科技的 jvav基岩互通服，权限开放(免费飞行，🐍不完的...家，无传送冷却)，微社会模拟(真的就一点点)。在保证其他玩家权利的基本下，服务器不限制外挂',
+      link: 'https://www.unimc.homes',
+      ip: 'mclume.unimc.homes'
     },
    ]
