@@ -58,11 +58,11 @@ export interface MinecraftServer {
     {
       id: '6',
       name: 'RedStarMC',
-      type: '生存',
-      version: '1.21',
+      type: '群组服',
+      version: '1.21.1',
       icon: '/server_icons/Unknown.png',
-      description: '版本：JAVA 1.7-1.21 粘液科技与插件生存',
-      link: 'https://www.redstarmc.top'
+      description: '版本：JAVA 1.7-1.21.4 粘液科技生存服与生电服',
+      link: 'https://wiki.redstarmc.top'
     },
     {
       id: '7',
@@ -408,4 +408,25 @@ export interface MinecraftServer {
       link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=KzS3LqLEmiPgOLTjSmiRaMru3stjKjSf3JGvS67jMT2fr4p9ZSrZBYwJwhgcav%2BO&busi_data=eyJncm91cENvZGUiOiI1MzI1MDczOTQiLCJ0b2tlbiI6IndzZlNMWnE1VWg3cXVHWmtBZzVMSlNrOGZDbkpwM2l6NUt0QzRpQlhBZElaQU4rdDR3ZjVpU01GRVk2OU1nS3IiLCJ1aW4iOiIzNTI4MzUyMTQ0In0%3D&data=W48oZy3IP6NKUAV6u2tF4trnDxGcIbUCiKokjx0i6Ig7X_9_yKmRnNg5yAClxHuzPcbizL4HYL61Pi6Dzc1kzQ&svctype=4&tempid=h5_group_info',
       ip: ''
     },
+    {
+      id: '46',
+      name: 'MCLUME',
+      type: '群组服',
+      version: '互通',
+      icon: '/server_icons/mclume.png',
+      description: '一个可以：生存生电养老粘液科技的 jvav基岩互通服，权限开放(免费飞行，🐍不完的...家，无传送冷却)，微社会模拟(真的就一点点)。在保证其他玩家权利的基本下，服务器不限制外挂',
+      link: 'https://www.unimc.homes',
+      ip: 'mclume.unimc.homes'
+    },
+    {
+      id: '47',
+      name: 'ATCraftMC',
+      type: '生存',
+      version: '互通',
+      icon: '/server_icons/AT.png',
+      description: 'ATCraftMC 由一群志同道合的腐竹和玩家联合组成。 秉持着开放、包容、共享的理念，我们持续添加新的游戏玩法， 以及激动人心的活动，为玩家提供新鲜刺激的游戏体验。',
+      link: 'https://atcraftmc.cn/'
+    },
    ]
+
+
