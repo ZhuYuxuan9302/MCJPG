@@ -58,11 +58,11 @@ export interface MinecraftServer {
     {
       id: '6',
       name: 'RedStarMC',
-      type: '生存',
-      version: '1.21',
+      type: '群组服',
+      version: '1.21.1',
       icon: '/server_icons/Unknown.png',
-      description: '版本：JAVA 1.7-1.21 粘液科技与插件生存',
-      link: 'https://www.redstarmc.top'
+      description: '版本：JAVA 1.7-1.21.4 粘液科技生存服与生电服',
+      link: 'https://wiki.redstarmc.top'
     },
     {
       id: '7',
@@ -428,4 +428,5 @@ export interface MinecraftServer {
       link: 'https://atcraftmc.cn/'
     },
    ]
+
 
