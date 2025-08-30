@@ -39,7 +39,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://search.mcjpg.org',
       },
       {
-        icon: '/icons/project/openai.svg',
+        icon: '/logo_AI.png',
         title: 'AI 对话',
         desc: '免费使用国内外先进AI大模型',
         link: 'https://chat.mcjpg.org/',
