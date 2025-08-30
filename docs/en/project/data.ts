@@ -39,7 +39,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://search.mcjpg.org',
       },
       {
-        icon: '/icons/project/openai.svg',
+        icon: '/logo_AI.png',
         title: 'AI Dialogue',
         desc: 'Free access to advanced AI models from around the world',
         link: 'https://chat.mcjpg.org/',
@@ -63,13 +63,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chatapi.mcjpg.org/',
       },
       {
-        icon: '/icons/project/alist.svg',
+        icon: '/icons/project/Openlist.svg',
         title: 'FDS',
         desc: 'File distribution service for easy sharing',
         link: 'https://fds.mcjpg.org/',
       },
       {
-        icon: '/icons/project/alist.svg',
+        icon: '/icons/project/Openlist.svg',
         title: 'FDS Plus',
         desc: 'Accelerated routes consistent with main routes',
         link: 'https://proxy.mcjpg.org:45595/',

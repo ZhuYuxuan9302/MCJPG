@@ -82,6 +82,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.himcbbs.com/',
       },
       {
+        icon: '/icons/nav/非官方论坛/小僵尸论坛.png',
+        title: '小僵尸论坛',
+        desc: '国内的我的世界中文论坛',
+        link: 'https://www.zitbbs.com/',
+      },
+      {
         //icon: 'https://www.bangbang93.com/favicon.ico',
         icon: '/icons/nav/非官方论坛/Bangbang93论坛.ico',
         title: 'Bangbang93论坛',
