@@ -15,7 +15,7 @@ export interface MinecraftServer {
 }
   
   export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
-  export const serverVersions = ['中国版','互通','基岩版','1.21.X','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
+  export const serverVersions = ['中国版','互通','基岩版','1.21.X','1.21.7','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
 
   export const servers: MinecraftServer[] = [
     {
@@ -438,6 +438,7 @@ export interface MinecraftServer {
       ip: '2b2t.best'
     }
    ]
+
 
 
 
