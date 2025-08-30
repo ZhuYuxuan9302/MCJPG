@@ -63,7 +63,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chatapi.mcjpg.org/',
       },
       {
-        icon: '/icons/project/alist.svg',
+        icon: '/icons/project/Openlist.svg',
         title: 'FDS',
         desc: '文件分发服务，快捷分享你的文件',
         link: 'https://fds.mcjpg.org/',
