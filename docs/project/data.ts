@@ -69,7 +69,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://fds.mcjpg.org/',
       },
       {
-        icon: '/icons/project/alist.svg',
+        icon: '/icons/project/Openlist.svg',
         title: 'FDS Plus',
         desc: '加速线路，服务与主线路一致',
         link: 'https://proxy.mcjpg.org:45595/',
