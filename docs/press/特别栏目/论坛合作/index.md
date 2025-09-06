@@ -6,7 +6,7 @@ description: MCJPG组织和HiMCBBS、小僵尸论坛合作宣传的要求
 您好，各位服主！
 
 我们很高兴地宣布，MCJPG社区与HiMCBBS和小僵尸论坛达成合作，旨在为各位符合条件的服主提供一个更广阔的宣传平台。我们将在论坛的相应版块，为您的服务器提供宣传机会，希望能帮助您吸引更多玩家，扩大服务器的影响力。
-在投稿您的服务器前，请您先仔细阅读[HiMCBBS论坛](https://www.himcbbs.com/threads/94)和[小僵尸论坛](https:///www.zitbbs.com/forum.php?mod=viewthread&tid=1454&extra=page%3D1)有关服务器宣传的要求和这份[指导文件]([https://](https://www.minebbs.com/threads/minebbs.4448/))。
+在投稿您的服务器前，请您先仔细阅读[HiMCBBS论坛](https://www.himcbbs.com/threads/94)和[小僵尸论坛](https:///www.zitbbs.com/forum.php?mod=viewthread&tid=1454&extra=page%3D1)有关服务器宣传的要求和这份[指导文件](https://www.minebbs.com/threads/minebbs.4448/)。
 
 以下是对于这些要求的简单总结，是通过MCJPG宣传需达到的要求。
 对于不符合要求的内容，MCJPG可能**进行修改或退回**。
