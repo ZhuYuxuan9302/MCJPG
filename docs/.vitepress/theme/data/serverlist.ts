@@ -236,8 +236,8 @@ export interface MinecraftServer {
       type: '生电',
       version: '1.21.4',
       icon: '/server_icons/TACS_茶水晶服务器.svg',
-      description: '无须审核 支持正版/皮肤站登录 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为14600K+32G运存 加群后您方可加入服务器',
-      link: 'https://tacserver.cn/'
+      description: '无须审核 支持正版/离线登录 不管你是摸鱼的 搞生电的 搞建筑的 来交流的 来学习的 都可以加入我们 服务器为14600K+32G运存 加群后您方可加入服务器',
+      link: 'https://tacs.top/'
     },
     {
       id: '26',
@@ -438,6 +438,7 @@ export interface MinecraftServer {
       ip: '2b2t.best'
     }
    ]
+
 
 
 
