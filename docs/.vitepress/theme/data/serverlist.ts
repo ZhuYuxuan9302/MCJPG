@@ -436,8 +436,19 @@ export interface MinecraftServer {
       description: '🔥「2B2T.BEST」🎮 经典漏洞复刻 × 水晶PVP × 极致优化！致力于打造最好的无规则服务器！这里只有最硬核的自由，最经典的混沌，以及永不妥协的优化体验！',
       link: 'https://qm.qq.com/q/MJtHBEM4cC',
       ip: '2b2t.best'
+    },
+    {
+      id: '49',
+      name: 'PixelMine',
+      type: '生存',
+      version: '互通',
+      icon: '/server_icons/PixelMine.jpg',
+      description: '1.21.8互通服 离线可进 粘液科技 语音聊天 公会 领地 欢迎新玩家加入',
+      link: 'https://qm.qq.com/q/YcVqH0waMk',
+      ip: 'shamizo.top'
     }
    ]
+
 
 
 
