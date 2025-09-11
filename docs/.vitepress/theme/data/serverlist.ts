@@ -282,9 +282,9 @@ export interface MinecraftServer {
       type: '群组服',
       version: '1.21.X',
       icon: '/server_icons/千禧年世界.jpeg',
-      description: 'JE1.12.2-1.21.x 千禧年世界服务器＆MilleniumWorld 历经一年半，打造一个不错(?的小型群组服务器 服务器有生存服，小游戏，生电服(后续可能会增加玩法) 快来加入我们吧！',
+      description: 'JE1.12.2-1.21.x 千禧年世界服务器＆MilleniumWorld 这里是...千禧年世界! 拥有多种玩法的公益服务器 目前有生存大区,小游戏区,PVP区 快来加入我们吧!',
       link: 'https://qxn.world',
-      ip: 'nosrv.qxn.world:56000'
+      ip: 'play.qxn.world'
     },
     {
       id: '32',
@@ -448,6 +448,7 @@ export interface MinecraftServer {
       ip: 'shamizo.top'
     }
    ]
+
 
 
 
