@@ -14,8 +14,8 @@ export interface MinecraftServer {
   ip?: string
 }
   
-  export const serverTypes = ['生存', '生电','创造', '模组', '小游戏','群组服','无政府']
-  export const serverVersions = ['中国版','互通','基岩版','1.21.X','1.21.7','1.21.4','1.21.3','1.21.1','1.21','1.20.4','1.20.1', '1.18.2', '1.16.5']
+  export const serverTypes = ['生存', '生电','创造', '模组', '小游戏', '群组服', '无政府', '其他']
+  export const serverVersions = ['中国版', '互通', '基岩版', '其他', '1.21.X', '1.21.7', '1.21.4', '1.21.3', '1.21.1', '1.21', '1.20.4', '1.20.1', '1.18.2', '1.16.5']
 
   export const servers: MinecraftServer[] = [
     {
@@ -41,10 +41,11 @@ export interface MinecraftServer {
       id: '4',
       name: 'BugCraft',
       type: '生存',
-      version: '互通',
+      version: '1.21.X',
       icon: '/server_icons/BugCraft.png',
-      description: '一个 Java 和基岩互通生存服务器（基于 1.21.1），推荐 Java 版本 1.18.2 - 1.21.1，基岩版 1.21.30 无需正版登录，仅基本粘液科技插件。',
-      link: 'https://bugcraft.org/docs/bugcraft/mcjpg'
+      description: '紧跟最新版本的生存服，提供有趣好玩的特性，目前是1.21.8！',
+      link: 'https://b2t.xin',
+      ip: '2.b2t.xin:40128'
     },
     {
       id: '5',
@@ -446,13 +447,15 @@ export interface MinecraftServer {
       description: '1.21.8互通服 离线可进 粘液科技 语音聊天 公会 领地 欢迎新玩家加入',
       link: 'https://qm.qq.com/q/YcVqH0waMk',
       ip: 'shamizo.top'
+    },
+    {
+      id: '50',
+      name: '月石',
+      type: '生存',
+      version: '其他',
+      icon: 'server_icons/ys.png',
+      description: '1.12.2网页版服务器，支持手机与电脑玩家，致力于最简单易得的游戏体验！',
+      link: 'http://b2t.3dky.cn',
+      ip: 'mcbtc.cn:21820'
     }
    ]
-
-
-
-
-
-
-
-
