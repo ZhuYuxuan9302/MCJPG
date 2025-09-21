@@ -446,8 +446,19 @@ export interface MinecraftServer {
       description: '1.21.8互通服 离线可进 粘液科技 语音聊天 公会 领地 欢迎新玩家加入',
       link: 'https://qm.qq.com/q/YcVqH0waMk',
       ip: 'shamizo.top'
-    }
+    },
+    {
+      id: '50',
+      name: '无名小服',
+      type: '生存',
+      version: '1.21.7',
+      icon: '/server_icons/WumingServer.png',
+      description: '1.21.7公益原版生存RPG服务器',
+      link: 'https://wumingserver.online/',
+      ip: 'mc.wumingserver.online'
+    },
    ]
+
 
 
 
