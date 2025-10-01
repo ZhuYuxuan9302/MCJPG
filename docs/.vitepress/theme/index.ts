@@ -130,8 +130,8 @@ const playlist = [
     file: '/music/otherside.mp3',
   },
   {
-    name: 'maimai DX',
+    name: 'maimai DX CiRCLE',
     author: 'SEGA',
-    file: '/music/maimai-DX-prism.mp3',
+    file: '/music/maimai_dx_circle.mp3',
   }
 ]
