@@ -61,6 +61,12 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.minecraftforum.net/',
       },
       {
+        icon: '/MCFlare.ico',
+        title: 'MCFlare',
+        desc: 'A new Minecraft Technology Exchange Community',
+        link: 'https://forum.mcflare.com/',
+      },
+      {
         //icon: 'https://www.minebbs.com/favicon.ico',
         icon: '/icons/nav/非官方论坛/MineBBS.png',
         title: 'MineBBS',
