@@ -1,4 +1,3 @@
-<!-- components/ServerList.vue -->
 <template>
   <div class="server-list">
     <div class="filters">
@@ -25,6 +24,7 @@
         </select>
       </div>
     </div>
+
     <div class="server-grid">
       <a
         v-for="server in filteredServers"
@@ -49,21 +49,21 @@
                 <span class="tag type-tag">{{ server.type }}</span>
                 <span class="tag version-tag">{{ server.version }}</span>
                 <template v-if="server.ip">
-                  <span
-                    class="tag status-tag"
+                  <span 
+                    class="tag status-tag" 
                     :class="{ 'online': serverStatus[server.ip]?.online, 'offline': !serverStatus[server.ip]?.online }"
                   >
                     {{ serverStatus[server.ip]?.online ? '在线' : '离线' }}
                   </span>
-                  <span
-                    v-if="serverStatus[server.ip]?.online && serverStatus[server.ip]?.delay"
+                  <span 
+                    v-if="serverStatus[server.ip]?.online && serverStatus[server.ip]?.delay" 
                     class="tag delay-tag"
                     :class="getDelayClass(serverStatus[server.ip]?.delay)"
                   >
                     {{ Math.round(serverStatus[server.ip]?.delay) }}ms
                   </span>
-                  <span
-                    v-if="serverStatus[server.ip]?.online"
+                  <span 
+                    v-if="serverStatus[server.ip]?.online" 
                     class="tag players-tag"
                   >
                     {{ serverStatus[server.ip]?.players.online }}/{{ serverStatus[server.ip]?.players.max }}
@@ -189,6 +189,10 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+:global(body) {
+  overflow-x: hidden;
+}
+
 .server-list, .server-list * {
   box-sizing: border-box;
 }
@@ -197,7 +201,6 @@ onUnmounted(() => {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  overflow-x: clip;
 }
 
 .filters {
@@ -255,6 +258,7 @@ onUnmounted(() => {
   color: inherit;
   transition: all 0.3s ease;
   background: var(--vp-c-bg);
+  min-width: 0;
 }
 
 .server-card:hover {
@@ -265,6 +269,7 @@ onUnmounted(() => {
 .card-content {
   display: flex;
   gap: 16px;
+  min-width: 0;
 }
 
 .server-icon-wrapper {
@@ -306,6 +311,7 @@ onUnmounted(() => {
   margin-bottom: 8px;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  max-width: 100%;
 }
 
 .tags-container {
@@ -380,7 +386,8 @@ onUnmounted(() => {
   margin: 0;
   font-size: 0.9em;
   color: var(--vp-c-text-2);
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 @media (min-width: 640px) {
