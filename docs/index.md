@@ -18,6 +18,9 @@ hero:
     - theme: sponsor
       text: 组织专栏
       link: /press/
+    - theme: sponsor
+      text: MCFlare社区
+      link: https://forum.mcflare.com
 
 
 ---
