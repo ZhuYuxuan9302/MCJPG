@@ -73,10 +73,10 @@
                   </span>  
                 </template>  
               </div>  
-            </div>  
-            <p class="server-description">{{ server.description }}</p>  
-          </div>  
-        </div>  
+            </div>
+          </div>
+        </div>
+        <p class="server-description">{{ server.description }}</p>
       </a>  
     </div>
   </div>  
@@ -282,6 +282,9 @@ onMounted(() => {
   background: var(--vp-c-bg);
   box-sizing: border-box;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }  
   
 .server-card:hover {  
@@ -324,10 +327,13 @@ onMounted(() => {
   min-width: 0;  
   width: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }  
   
 .server-name {  
-  margin: 0 0 8px 0;  
+  margin: 0;  
   font-size: 1.2em;  
   font-weight: 600;
   overflow: hidden;
@@ -336,7 +342,6 @@ onMounted(() => {
 }  
   
 .server-tags {  
-  margin-bottom: 8px;  
   overflow-x: auto;  
   -webkit-overflow-scrolling: touch;
   width: 100%;
@@ -355,7 +360,6 @@ onMounted(() => {
   min-height: 22px;  
   align-items: center;
   width: max-content;
-  max-width: 100%;
 }  
   
 .tag {  
@@ -414,6 +418,7 @@ onMounted(() => {
   color: var(--vp-c-text-2);  
   overflow-wrap: break-word;
   word-break: break-word;
+  line-height: 1.5;
 }  
   
 /* 响应式布局 */  
@@ -435,7 +440,7 @@ onMounted(() => {
   
 @media (max-width: 640px) {  
   .server-list {  
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
   }  
   
@@ -450,15 +455,20 @@ onMounted(() => {
     margin: 0;  
     min-width: unset;
     max-width: 100%;
+    padding: 12px;
   }  
+  
+  .card-content {
+    gap: 12px;
+  }
   
   .tags-container {  
     gap: 4px;  
   }  
   
   .tag {  
-    padding: 4px 6px;  
-    font-size: 0.8em;  
+    padding: 4px 8px;  
+    font-size: 0.75em;
   }
 
   .select-wrapper {
@@ -467,6 +477,10 @@ onMounted(() => {
 
   .filter-select {
     min-width: calc(50% - 4px);
+  }
+  
+  .server-description {
+    font-size: 0.85em;
   }
 }  
 </style>
