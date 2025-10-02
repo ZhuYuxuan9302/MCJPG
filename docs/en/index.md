@@ -18,6 +18,9 @@ hero:
     - theme: sponsor
       text: Columns
       link: /en/press/
+    - theme: sponsor
+      text: MCFlare Forum
+      link: https://forum.mcflare.com
 
 features:
   - icon:
