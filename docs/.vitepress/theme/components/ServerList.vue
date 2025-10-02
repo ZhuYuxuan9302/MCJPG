@@ -467,7 +467,7 @@ onMounted(() => {
   }  
   
   .tag {  
-    padding: 4px 8px;  
+    padding: 2px 4px;  
     font-size: 0.75em;
   }
 
