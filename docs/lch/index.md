@@ -18,6 +18,9 @@ hero:
     - theme: sponsor
       text: 組織專欄
       link: /lch/press/
+    - theme: sponsor
+      text: MCFlare社區
+      link: https://forum.mcflare.com
 
 features:
   - icon:
