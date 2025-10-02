@@ -1,7 +1,6 @@
 <!-- components/ServerList.vue -->
 <template>
   <div class="server-list">
-    <!-- 搜索和筛选部分 -->
     <div class="filters">
       <div class="search-wrapper">
         <input
@@ -26,8 +25,6 @@
         </select>
       </div>
     </div>
-
-    <!-- 服务器卡片列表 -->
     <div class="server-grid">
       <a
         v-for="server in filteredServers"
@@ -52,21 +49,21 @@
                 <span class="tag type-tag">{{ server.type }}</span>
                 <span class="tag version-tag">{{ server.version }}</span>
                 <template v-if="server.ip">
-                  <span 
-                    class="tag status-tag" 
+                  <span
+                    class="tag status-tag"
                     :class="{ 'online': serverStatus[server.ip]?.online, 'offline': !serverStatus[server.ip]?.online }"
                   >
                     {{ serverStatus[server.ip]?.online ? '在线' : '离线' }}
                   </span>
-                  <span 
-                    v-if="serverStatus[server.ip]?.online && serverStatus[server.ip]?.delay" 
+                  <span
+                    v-if="serverStatus[server.ip]?.online && serverStatus[server.ip]?.delay"
                     class="tag delay-tag"
                     :class="getDelayClass(serverStatus[server.ip]?.delay)"
                   >
                     {{ Math.round(serverStatus[server.ip]?.delay) }}ms
                   </span>
-                  <span 
-                    v-if="serverStatus[server.ip]?.online" 
+                  <span
+                    v-if="serverStatus[server.ip]?.online"
                     class="tag players-tag"
                   >
                     {{ serverStatus[server.ip]?.players.online }}/{{ serverStatus[server.ip]?.players.max }}
@@ -92,11 +89,9 @@ const selectedType = ref('')
 const selectedVersion = ref('')
 const shuffledServers = ref([...servers])
 const serverStatus = ref({})
-
-// 轮询间隔（60秒）
 const POLL_INTERVAL = 60000
+let pollIntervalId = null
 
-// 处理图标数据的函数
 const processedIcon = (server) => {
   if (typeof server.icon === 'string') {
     return {
@@ -117,24 +112,19 @@ const processedIcon = (server) => {
   }
 }
 
-// 获取延迟等级的函数
 const getDelayClass = (delay) => {
   if (delay <= 100) return 'good'
   if (delay <= 300) return 'medium'
   return 'poor'
 }
 
-// 检查服务器状态的函数
 const checkServerStatus = async (ip) => {
   try {
     const encodedIp = encodeURIComponent(ip)
     const response = await fetch(`https://serverstatus.mcjpg.org/?ip=${encodedIp}`, {
-      headers: {
-        'Accept': 'application/json'
-      }
+      headers: { 'Accept': 'application/json' }
     })
     const data = await response.json()
-    
     if (response.ok) {
       serverStatus.value[ip] = {
         online: data.online,
@@ -149,8 +139,7 @@ const checkServerStatus = async (ip) => {
     } else {
       throw new Error('Server status check failed')
     }
-  } catch (error) {
-    console.error(`检查服务器 ${ip} 状态时出错:`, error)
+  } catch {
     serverStatus.value[ip] = {
       online: false,
       players: { online: 0, max: 0 },
@@ -161,58 +150,54 @@ const checkServerStatus = async (ip) => {
   }
 }
 
-// 随机排序函数
 const shuffleServers = () => {
   const array = [...servers]
   for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]]
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[array[i], array[j]] = [array[j], array[i]]
   }
   shuffledServers.value = array
 }
 
-// 过滤后的服务器列表
 const filteredServers = computed(() => {
   return shuffledServers.value.filter(server => {
-    const matchesSearch = server.name.toLowerCase().includes(searchQuery.value.toLowerCase()) ||
-      server.description.toLowerCase().includes(searchQuery.value.toLowerCase())
+    const q = searchQuery.value.toLowerCase()
+    const matchesSearch =
+      server.name.toLowerCase().includes(q) ||
+      server.description.toLowerCase().includes(q)
     const matchesType = !selectedType.value || server.type === selectedType.value
     const matchesVersion = !selectedVersion.value || server.version === selectedVersion.value
     return matchesSearch && matchesType && matchesVersion
   })
 })
 
-// 初始化和轮询
 onMounted(() => {
   shuffleServers()
-  // 初始检查所有服务器状态
   servers.forEach(server => {
-    if (server.ip) {
-      checkServerStatus(server.ip)
-    }
+    if (server.ip) checkServerStatus(server.ip)
   })
-  
-  // 设置定期检查
-  const pollInterval = setInterval(() => {
+  pollIntervalId = setInterval(() => {
     servers.forEach(server => {
-      if (server.ip) {
-        checkServerStatus(server.ip)
-      }
+      if (server.ip) checkServerStatus(server.ip)
     })
   }, POLL_INTERVAL)
+})
 
-  // 组件卸载时清除定时器
-  onUnmounted(() => {
-    clearInterval(pollInterval)
-  })
+onUnmounted(() => {
+  if (pollIntervalId) clearInterval(pollIntervalId)
 })
 </script>
 
 <style scoped>
+.server-list, .server-list * {
+  box-sizing: border-box;
+}
+
 .server-list {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x: clip;
 }
 
 .filters {
@@ -230,7 +215,7 @@ onMounted(() => {
 .select-wrapper {
   display: flex;
   gap: 8px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .search-input {
@@ -248,13 +233,13 @@ onMounted(() => {
   border-radius: 4px;
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
-  flex: 1;
-  min-width: 120px;
+  flex: 1 1 160px;
+  min-width: 0;
 }
 
 .server-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
   gap: 20px;
   justify-content: center;
   margin: 0 auto;
@@ -398,17 +383,14 @@ onMounted(() => {
   overflow-wrap: break-word;
 }
 
-/* 响应式布局 */
 @media (min-width: 640px) {
   .filters {
     flex-direction: row;
     align-items: center;
   }
-  
   .search-wrapper {
     max-width: 450px;
   }
-  
   .select-wrapper {
     flex: 1;
     justify-content: flex-start;
@@ -419,25 +401,27 @@ onMounted(() => {
   .server-list {
     padding: 10px;
   }
-
   .server-grid {
     grid-template-columns: 1fr;
     gap: 16px;
     padding: 0;
   }
-  
   .server-card {
     margin: 0;
     min-width: unset;
   }
-
   .tags-container {
     gap: 4px;
   }
-
   .tag {
     padding: 4px 6px;
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 360px) {
+  .filter-select {
+    flex: 1 1 100%;
   }
 }
 </style>
