@@ -12,6 +12,7 @@ export const sidebar = {
                 {text: '2024 National Day Special', link: '2024国庆特辑/'},
                 {text: '2025 New Year Special', link: '2025新年特辑/'},
                 {text: 'First Anniversary Special', link: '一周年特辑/'},
+                {text: '2025 National Day Special', link: '2025国庆特辑/'},
                 {text: 'Publicity Guidelines', link: '论坛合作/'},
             ]
           },
