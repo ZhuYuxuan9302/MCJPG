@@ -31,7 +31,7 @@ export const announcements: AnnouncementConfig[] = [
     priority: 100,
     showIcon: true,
     closable: true,
-    duration: 8000,
+    duration: 5000,
     position: 'top',
     target: ['/']
   },
@@ -45,7 +45,7 @@ export const announcements: AnnouncementConfig[] = [
     endTime: '2025-12-01',
     showIcon: true,
     closable: true,
-    duration: 6000,
+    duration: 5000,
     position: 'top',
     target: ['/'] // 仅首页显示
     }
