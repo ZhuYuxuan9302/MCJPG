@@ -33,16 +33,16 @@ export const announcements: AnnouncementConfig[] = [
     closable: true,
     duration: 8000,
     position: 'top',
-    target: [] // 全局显示
+    target: [/]
   },
   {
     id: 'new-feature',
-    title: 'MCFLARE上线',
+    title: 'MCFlare上线',
     content: '✨ 一个新兴的MC社区！',
     type: 'success',
     priority: 80,
     startTime: '2025-10-01',
-    endTime: '2025-11-01',
+    endTime: '2025-12-01',
     showIcon: true,
     closable: true,
     duration: 6000,
