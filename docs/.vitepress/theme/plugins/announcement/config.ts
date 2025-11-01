@@ -33,7 +33,7 @@ export const announcements: AnnouncementConfig[] = [
     closable: true,
     duration: 8000,
     position: 'top',
-    target: [/]
+    target: ['/']
   },
   {
     id: 'new-feature',
