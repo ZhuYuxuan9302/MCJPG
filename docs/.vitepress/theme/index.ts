@@ -9,6 +9,7 @@ import vitepressMusic from 'vitepress-plugin-music'
 import 'vitepress-plugin-music/lib/css/index.css'
 import confetti from "./components/confetti.vue"
 import ArticleMetadata from "./components/ArticleMetadata.vue"
+import DifyChatbot from './components/DifyChatbot.vue'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 import ServerList from './components/ServerList.vue'
 import { NProgress } from 'nprogress-v2/dist/index.js'
@@ -70,6 +71,7 @@ export default {
     app.component('MNavLinks', MNavLinks)
     app.component('ArticleMetadata' , ArticleMetadata)
     app.component('ServerList' , ServerList)
+    app.component('DifyChatbot', DifyChatbot)
     // 安装公告插件
     installAnnouncementPlugin(app)
 
