@@ -87,15 +87,13 @@ export default {
       )
     }
     if (typeof window !== 'undefined') {
-      // 开始加载
-      router.on('routeChangeStart', () => {
+      router.onBeforeRouteChange = () => {
         NProgress.start()
-      })
-  // 路由切换完成
-      router.on('routeChanged', () => {
+      }
+      router.onAfterRouteChanged = () => {
         NProgress.done()
-      })
-}
+      }
+    }
   },
 }
 
