@@ -83,6 +83,9 @@ export default defineConfig({
           ...lzhSearch,
 
         },
+        askAi: {
+    assistantId: '3Qom2fOfl9eY'
+        },
       },
     },
   },
