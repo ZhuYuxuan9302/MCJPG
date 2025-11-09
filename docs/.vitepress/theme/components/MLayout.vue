@@ -67,9 +67,12 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
     <template #layout-bottom>
       <backtotop />
+      <DifyChatbot />
+    </template>
+
+    <template #layout-top>
       <MouseFollower />
       <MouseClick />
-      <DifyChatbot />
     </template>
 
   </DefaultTheme.Layout>
