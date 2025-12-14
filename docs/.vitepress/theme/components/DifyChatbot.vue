@@ -3,9 +3,16 @@
 </template>
 
 <script setup>
-import { onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 
-onMounted(() => {
+const isLoaded = ref(false)
+
+// 加载 Dify 聊天机器人
+function loadDifyChatbot() {
+  if (isLoaded.value) return
+  
+  console.log('页面加载完成，立即加载 Dify 聊天机器人...')
+  
   // 配置 Dify
   window.difyChatbotConfig = {
     token: '8phrRoAeEh9HDhOc',
@@ -20,6 +27,7 @@ onMounted(() => {
   script.src = 'https://dify.mcjpg.org/embed.min.js'
   script.id = '8phrRoAeEh9HDhOc'
   script.defer = true
+  script.async = true
   document.body.appendChild(script)
 
   // 添加样式
@@ -29,9 +37,9 @@ onMounted(() => {
     #dify-chatbot-bubble-button {
       background-color: #1C64F2 !important;
       position: fixed !important;
-      bottom: 20px !important;        /* 距离底部距离 */
-      left: 20px !important;          /* 距离左侧距离 */
-      right: auto !important;         /* 覆盖默认的 right 定位 */
+      bottom: 20px !important;
+      left: 20px !important;
+      right: auto !important;
       z-index: 9999 !important;
       width: 60px !important;
       height: 60px !important;
@@ -46,8 +54,8 @@ onMounted(() => {
       max-height: calc(100vh - 120px) !important;
       position: fixed !important;
       bottom: 90px !important;
-      left: 20px !important;          /* 距离左侧距离 */
-      right: auto !important;         /* 覆盖默认的 right 定位 */
+      left: 20px !important;
+      right: auto !important;
       z-index: 9999 !important;
       border-radius: 12px !important;
       box-shadow: 0 12px 48px rgba(0, 0, 0, 0.2) !important;
@@ -72,6 +80,19 @@ onMounted(() => {
     }
   `
   document.head.appendChild(style)
+  
+  isLoaded.value = true
+}
+
+onMounted(() => {
+  // 页面加载完成后立即加载
+  if (document.readyState === 'complete') {
+    // 页面已经加载完成，立即加载
+    loadDifyChatbot()
+  } else {
+    // 等待页面加载完成后立即加载
+    window.addEventListener('load', loadDifyChatbot, { once: true })
+  }
 })
 
 onUnmounted(() => {
@@ -79,7 +100,23 @@ onUnmounted(() => {
   const script = document.getElementById('8phrRoAeEh9HDhOc')
   if (script) script.remove()
   
+  // 清理样式
+  const styles = document.querySelectorAll('style')
+  styles.forEach(style => {
+    if (style.textContent.includes('#dify-chatbot-bubble-button')) {
+      style.remove()
+    }
+  })
+  
   // 清理配置
   delete window.difyChatbotConfig
+  
+  isLoaded.value = false
 })
 </script>
+
+<style scoped>
+.dify-chatbot-container {
+  /* 占位容器 */
+}
+</style>
