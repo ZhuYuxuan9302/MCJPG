@@ -453,7 +453,7 @@ export interface MinecraftServer {
     type: '群组服',
     version: '1.21.X',
     icon: '/server_icons/ColdMouse.png',
-    description: '一站式满足你和朋友想玩MC的需求，我们有RPG生存、创造模式建筑、小游戏…… 或者你想玩玩原版生存，我们也有。来了就和管理搞好关系，我们的管理都是非常平易近人的。你可以看到一只白狐，一个白毛小女孩，一只猫猫…… 还有老鼠？！',
+    description: 'Cold Mouse 是一站式MC群组服，提供RPG生存、创造、小游戏及原版生存等多种玩法。本服自2022年起稳定运营，专注于高版本休闲体验与和谐社区建设。欢迎来到这个更快、更稳、更有氛围的方块世界。点击此卡片进入官网，查看文档或加群了解更多~',
     link: 'https://coldmouse.cn/',
     ip: 'coldmouse.cn'
     }
