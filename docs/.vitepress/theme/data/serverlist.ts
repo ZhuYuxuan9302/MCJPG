@@ -446,6 +446,16 @@ export interface MinecraftServer {
       description: '1.21.8互通服 离线可进 粘液科技 语音聊天 公会 领地 欢迎新玩家加入',
       link: 'https://qm.qq.com/q/YcVqH0waMk',
       ip: 'shamizo.top'
+    },
+    {
+    id: '50',
+    name: 'Cold Mouse',
+    type: '群组服',
+    version: '1.21.X',
+    icon: '/server_icons/ColdMouse.png',
+    description: 'Cold Mouse 是一站式MC群组服，提供RPG生存、创造、小游戏及原版生存等多种玩法。本服自2022年起稳定运营，专注于高版本休闲体验与和谐社区建设。欢迎来到这个更快、更稳、更有氛围的方块世界。点击此卡片进入官网，查看文档或加群了解更多~',
+    link: 'https://coldmouse.cn/',
+    ip: 'coldmouse.cn'
     }
    ]
 
