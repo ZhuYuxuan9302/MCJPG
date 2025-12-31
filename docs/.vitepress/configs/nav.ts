@@ -14,10 +14,10 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: "友情链接",
               items: [
                 { text: "MCFlare", link: "https://forum.mcflare.com" },
+                { text: "HuggingAI", link: "https://huggingai.org" },
                 { text: "MSCPO", link: "https://mscpo.top/" },
                 { text: "随风的个人网站", link: "https://zhuyuxuan.link/" },
                 { text: "风梨网", link: "https://www.flweb.cn/" },
-                { text: "BugCraft", link: "https://bugcraft.org/" },
               ]
   }
 ]

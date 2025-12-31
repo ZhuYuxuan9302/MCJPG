@@ -45,24 +45,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.mcjpg.org/',
       },
       {
-        icon: '/icons/project/deepresearch.png',
-        title: 'Deep Research',
-        desc: 'Use advanced AI models to make Deep Reseacch',
-        link: 'https://deepresearch.mcjpg.org/',
-      },
-      {
-        icon: '/icons/project/midjourney.svg',
-        title: 'AI Drawing',
-        desc: 'AI drawings using image generation models like Midjourney',
-        link: 'https://mjchat.mcjpg.org/',
-      },
-      {
-        icon: '/icons/project/openai.svg',
-        title: 'Chat API',
-        desc: 'Get LLM API for lower prices',
-        link: 'https://chatapi.mcjpg.org/',
-      },
-      {
         icon: '/icons/project/Openlist.svg',
         title: 'FDS',
         desc: 'File distribution service for easy sharing',

@@ -15,7 +15,7 @@ const code = [
     avatar: '/teammate/SuiFeng.jpg',
     name: '随风潜入夜',
     title: 'Web Developer',
-    desc: 'MCJPG official website maintenance | AI Project Lead | Admin of the MC生电服 server',
+    desc: 'MCJPG web developer | HuggingAI Founder',
     links: [
       { icon: 'github', link: 'https://github.com/ZhuYuxuan9302' },
       { icon: {
@@ -101,6 +101,33 @@ const community = [
   }
 ]
 
+const collaboration = [
+  {
+    avatar: '/MCFlare.png',
+    name: 'MCFlare',
+    title: 'MCFlare Community',
+    desc: 'An emerging Minecraft technical exchange community',
+    links: [
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M415.9 344L225 344C227.9 408.5 242.2 467.9 262.5 511.4C273.9 535.9 286.2 553.2 297.6 563.8C308.8 574.3 316.5 576 320.5 576C324.5 576 332.2 574.3 343.4 563.8C354.8 553.2 367.1 535.8 378.5 511.4C398.8 467.9 413.1 408.5 416 344zM224.9 296L415.8 296C413 231.5 398.7 172.1 378.4 128.6C367 104.2 354.7 86.8 343.3 76.2C332.1 65.7 324.4 64 320.4 64C316.4 64 308.7 65.7 297.5 76.2C286.1 86.8 273.8 104.2 262.4 128.6C242.1 172.1 227.8 231.5 224.9 296zM176.9 296C180.4 210.4 202.5 130.9 234.8 78.7C142.7 111.3 74.9 195.2 65.5 296L176.9 296zM65.5 344C74.9 444.8 142.7 528.7 234.8 561.3C202.5 509.1 180.4 429.6 176.9 344L65.5 344zM463.9 344C460.4 429.6 438.3 509.1 406 561.3C498.1 528.6 565.9 444.8 575.3 344L463.9 344zM575.3 296C565.9 195.2 498.1 111.3 406 78.7C438.3 130.9 460.4 210.4 463.9 296L575.3 296z"/></svg>'
+        },
+         link: 'https://forum.mcflare.com' }
+    ]
+  },
+  {
+    avatar: '/HuggingAI.png',
+    name: 'HuggingAI',
+    title: 'AI Innovation Platform',
+    desc: 'An AI innovation platform dedicated to advancing the AI ecosystem, providing foundational AI services for MCJPG.',
+    links: [
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M415.9 344L225 344C227.9 408.5 242.2 467.9 262.5 511.4C273.9 535.9 286.2 553.2 297.6 563.8C308.8 574.3 316.5 576 320.5 576C324.5 576 332.2 574.3 343.4 563.8C354.8 553.2 367.1 535.8 378.5 511.4C398.8 467.9 413.1 408.5 416 344zM224.9 296L415.8 296C413 231.5 398.7 172.1 378.4 128.6C367 104.2 354.7 86.8 343.3 76.2C332.1 65.7 324.4 64 320.4 64C316.4 64 308.7 65.7 297.5 76.2C286.1 86.8 273.8 104.2 262.4 128.6C242.1 172.1 227.8 231.5 224.9 296zM176.9 296C180.4 210.4 202.5 130.9 234.8 78.7C142.7 111.3 74.9 195.2 65.5 296L176.9 296zM65.5 344C74.9 444.8 142.7 528.7 234.8 561.3C202.5 509.1 180.4 429.6 176.9 344L65.5 344zM463.9 344C460.4 429.6 438.3 509.1 406 561.3C498.1 528.6 565.9 444.8 575.3 344L463.9 344zM575.3 296C565.9 195.2 498.1 111.3 406 78.7C438.3 130.9 460.4 210.4 463.9 296L575.3 296z"/></svg>'
+        },
+         link: 'https://huggingai.org' }
+    ]
+  },
+]
+
 </script>
 
 <VPTeamPage>
@@ -109,6 +136,7 @@ const community = [
     <template #title>Our team</template>
     <template #lead>Meet the members behind MCJPG, an MC server technical communication and advocacy organization dedicated to improving the server ecosystem through faster, safer software and better advocacy.</template>
   </VPTeamPageTitle>
+
   <VPTeamPageSection>
     <template #title>Development Department</template>
     <template #lead>MCJPG developers help write code, review member service requests, and keep the project alive. They keep MCJPG running by contributing new community services and helping to improve old ones!</template>
@@ -116,11 +144,20 @@ const community = [
       <VPTeamMembers size="small" :members="code" />
     </template>
   </VPTeamPageSection>
+
   <VPTeamPageSection>
     <template #title>Community Department</template>
     <template #lead>MCJPG Community Department maintains the order of the community by reviewing new memberships and publicizes the organization to ensure that MCJPG remains a healthy and vibrant community.</template>
     <template #members>
       <VPTeamMembers size="small" :members="community" />
+    </template>
+  </VPTeamPageSection>
+
+  <VPTeamPageSection>
+    <template #title>Partners</template>
+    <template #lead>MCJPG collaborates closely with like-minded partners, adhering to the principle of mutual benefit and win-win outcomes to jointly achieve innovative development.</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="collaboration" />
     </template>
   </VPTeamPageSection>
 
