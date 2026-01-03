@@ -40,9 +40,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo_AI.png',
-        title: '智械交談',
-        desc: '免費與華夏及西洋之智械交談',
-        link: 'https://chat.mcjpg.org/',
+        title: '人工智識代理',
+        desc: '無償假借海內外卓犖人工智識巨範之代理',
+        link: 'https://aiagent.mcjpg.org/',
       },
       {
         icon: '/icons/project/Openlist.svg',

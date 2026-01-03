@@ -40,9 +40,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo_AI.png',
-        title: 'AI 对话',
-        desc: '免费使用国内外先进AI大模型',
-        link: 'https://chat.mcjpg.org/',
+        title: 'AI 代理',
+        desc: '免费使用基于国内外先进AI大模型的代理',
+        link: 'https://aiagent.mcjpg.org/',
       },
       {
         icon: '/icons/project/Openlist.svg',

@@ -40,9 +40,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '/logo_AI.png',
-        title: 'AI Dialogue',
-        desc: 'Free access to advanced AI models from around the world',
-        link: 'https://chat.mcjpg.org/',
+        title: 'AI Agent',
+        desc: 'Free access to agents powered by cutting-edge AI large models from both domestic and international sources',
+        link: 'https://aiagent.mcjpg.org/',
       },
       {
         icon: '/icons/project/Openlist.svg',
